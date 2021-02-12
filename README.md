@@ -1,5 +1,5 @@
 # maxandroid.github.io
-ps4 link github
+ps4 link github 6.72
 * [Leeful](https://github.com/Leeful)
 * [thewolfgames](https://github.com/thewolfgames)
 * [theheroGAC](https://github.com/theheroGAC/ps4jb)
