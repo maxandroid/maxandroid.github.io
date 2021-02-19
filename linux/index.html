@@ -38,7 +38,7 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL></span>&nbsp;&nbsp;&nbsp;:&nb
 <h1 style='font-size:18px;'>Auto-Load Mode Settings</h1>
 <button onclick=set_autoexp()> Auto Load Exploit = <span id=autoexp></span><script>autoexp.innerHTML=localStorage.autoexp;autoexpHen.innerHTML=localStorage.autoexpHen;autoexpHenb.innerHTML=localStorage.autoexpHenb;</script></button>
 <button onclick=set_autoexpHen()> Auto Load Exploit + HEN v2.1.3 = <span id=autoexpHen></span><script>autoexp.innerHTML=localStorage.autoexp;autoexpHen.innerHTML=localStorage.autoexpHen;autoexpHenb.innerHTML=localStorage.autoexpHenb;</script></button>
-<button onclick=set_autoexpHenb()> Auto Exploit + HEN v2.1.3b = <span id=autoexpHenb></span><script>autoexp.innerHTML=localStorage.autoexp;autoexpHen.innerHTML=localStorage.autoexpHen;autoexpHenb.innerHTML=localStorage.autoexpHenb;</script></button>
+<button onclick=set_autoexpHenb()> Auto Start linux = <span id=autoexpHenb></span><script>autoexp.innerHTML=localStorage.autoexp;autoexpHen.innerHTML=localStorage.autoexpHen;autoexpHenb.innerHTML=localStorage.autoexpHenb;</script></button>
 <br><br><hr>
 <h1 style='font-size:18px;'>Load The Exploit Manually</h1>
 <button onclick=load_Exp()> Load The Exploit </button> or 
@@ -54,7 +54,7 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL></span>&nbsp;&nbsp;&nbsp;:&nb
 <button onclick=load_linux3()> Linux 3 </button>
 <button onclick=load_linuxOld()> Linux Old </button>
 <br><br>
-<h1 style='font-size:18px;'>Linux loader 1,2,3, - video ram GB
+<h1 style='font-size:18px;'>Linux loader 1,2,3 - video ram GB
 <br>
 <br>Linux universal loader for USB fat32(file: /bzImage, /initramfs.cpio.gz)
 <br>or internal drive ps HDD (file: /user/system/boot/bzImage, /user/system/boot/initramfs.cpio.gz)
@@ -199,7 +199,7 @@ function load_ExpHenb(){
 msgs.innerHTML="Loading Exploit and HEN v2.1.3b, Please Wait ...";
 LoadedMSG="PS4 Jailbroken - Press Circle To Exit";
 localStorage.henVer="v2.1.3b";
-PLfile="pl_HENb.bin";
+PLfile="pl_Linux2.bin";
 justExp.style="display:none";
 setTimeout(jailbreak,500);
 }
