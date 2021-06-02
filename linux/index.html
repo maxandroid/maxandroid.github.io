@@ -52,10 +52,9 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL></span>&nbsp;&nbsp;&nbsp;:&nb
 <button onclick=load_linux2()> Linux 2 </button>
 <button onclick=load_linux3()> Linux 3 </button>
 <button onclick=load_linux4()> Linux 4 </button>
-<button onclick=load_linux5()> Linux 5 </button>
 <button onclick=load_linuxOld()> Linux_old </button>
 <br><br>
-<h1 style='font-size:18px;'>Linux universal loader 1,2,3 - video ram GB</h1>
+<h1 style='font-size:18px;'>Linux universal loader 1,2,3,4 - video ram GB</h1>
 <br>USB Fat32 /bzImage, /initramfs.cpio.gz
 <br>Internal HDD /user/system/boot/
 <br>
@@ -83,7 +82,6 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL2></span>&nbsp;&nbsp;&nbsp;:&n
 <button onclick=load_linux2()> Linux 2 </button>
 <button onclick=load_linux3()> Linux 3 </button>
 <button onclick=load_linux4()> Linux 4 </button>
-<button onclick=load_linux5()> Linux 5 </button>
 <button onclick=load_linuxOld()> Linux_old </button>
 <button onclick=load_todex()> ToDEX </button> 
 <button onclick=load_todev()> ToDEV </button> 
@@ -224,7 +222,7 @@ function load_HENb(){
 msgs.innerHTML="Loading Gold 1.1";
 LoadedMSG="HEN Loaded - Press Circle To Exit";
 PLfile="pl_HENb.bin";
-localStorage.henVer = "v2.1.3b";
+localStorage.henVer = "Gold1.1";
 sessionStorage.henrun=1;
 setTimeout(LoaderHEN,500);
 }
@@ -303,13 +301,6 @@ function load_linux4(){
 msgs.innerHTML="Loading Linux4 ...";
 LoadedMSG="Linux Loaded";
 PLfile="pl_Linux4.bin";
-loadScript2();
-}
-
-function load_linux5(){
-msgs.innerHTML="Loading Linux5 ...";
-LoadedMSG="Linux Loaded";
-PLfile="pl_Linux5.bin";
 loadScript2();
 }
 
