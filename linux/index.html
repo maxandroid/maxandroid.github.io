@@ -53,7 +53,7 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL></span>&nbsp;&nbsp;&nbsp;:&nb
 <button onclick=load_linux3()> Linux 3 </button>
 <button onclick=load_linux4()> Linux 4 </button>
 <button onclick=load_linuxOld()> Linux_old </button>
-<button onclick=load_DumderKey()> Key Dumper </button>
+<button onclick=load_DumperKey()> Key Dumper </button>
 <br><br>
 <h1 style='font-size:18px;'>Linux universal loader 1,2,3,4 - video ram GB</h1>
 <br>USB Fat32 /bzImage, /initramfs.cpio.gz
@@ -73,7 +73,7 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL2></span>&nbsp;&nbsp;&nbsp;:&n
 <button onclick=load_binloader()> Bin Loader </button> 
 <button onclick=load_ftp()> FTP </button> 
 <button onclick=load_app2usb()> App2USB </button> 
-<button onclick=load_DumderKey()> Key Dumper </button>
+<button onclick=load_DumperKey()> Key Dumper </button>
 <button onclick=load_kerneldump()> Kernel Dumper </button> 
 <button onclick=load_historyblock()> History Blocker </button> 
 <button onclick=load_webrte()> WebRTE </button> 
@@ -257,10 +257,10 @@ PLfile="pl_KernelDumper.bin";
 loadScript2();
 }
 
-function load_DumderKey(){
+function load_dumperkey(){
 msgs.innerHTML="Loading Key Dumper ...";
 LoadedMSG="Key Dumper Loaded";
-PLfile="pl_DumderKey.bin";
+PLfile="pl_DumperKey.bin";
 loadScript2();
 }
 

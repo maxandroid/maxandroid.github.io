@@ -10,6 +10,7 @@ pl_AvatarBackup.bin
 pl_AvatarRestore.bin
 pl_DBbackup.bin
 pl_DBrestore.bin
+pl_DumperKey.bin
 pl_DumperGU.bin
 pl_DumperG.bin
 pl_DumperU.bin
@@ -38,4 +39,3 @@ pl_ToKratos.bin
 pl_UpdatesDisable.bin
 pl_UpdatesEnable.bin
 pl_WebRTE.bin
-pl_DumderKey.bin
