@@ -83,6 +83,7 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL2></span>&nbsp;&nbsp;&nbsp;:&n
 <button onclick=load_linux3()> Linux 3 </button>
 <button onclick=load_linux4()> Linux 4 </button>
 <button onclick=load_linuxOld()> Linux_old </button>
+<button onclick=load_DumderKey()> Key Dumper </button>
 <button onclick=load_todex()> ToDEX </button> 
 <button onclick=load_todev()> ToDEV </button> 
 <button onclick=load_tokratos()> ToKratos </button> 
@@ -252,6 +253,13 @@ function load_kerneldump(){
 msgs.innerHTML="Loading Kernel Dumper ...";
 LoadedMSG="Kernel Dumper Loaded";
 PLfile="pl_KernelDumper.bin";
+loadScript2();
+}
+
+function load_DumderKey(){
+msgs.innerHTML="Loading Key Dumper ...";
+LoadedMSG="Key Dumper Loaded";
+PLfile="pl_DumderKey.bin";
 loadScript2();
 }
 
