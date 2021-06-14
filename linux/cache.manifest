@@ -30,7 +30,6 @@ pl_Linux1.bin
 pl_Linux2.bin
 pl_Linux3.bin
 pl_Linux4.bin
-pl_Linux5.bin
 pl_PS4debug.bin
 pl_ToDEV.bin
 pl_ToDEX.bin
@@ -38,3 +37,4 @@ pl_ToKratos.bin
 pl_UpdatesDisable.bin
 pl_UpdatesEnable.bin
 pl_WebRTE.bin
+pl_dk.bin
