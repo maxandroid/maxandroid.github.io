@@ -71,6 +71,7 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL2></span>&nbsp;&nbsp;&nbsp;:&n
 <h1 style='font-size:16px;margin-bottom:1px;'>TOOLS</h1>
 <button onclick=load_binloader()> Bin Loader </button> 
 <button onclick=load_ftp()> FTP </button> 
+<button onclick=load_otb()> Orbis Toolbox </button> 
 <button onclick=load_app2usb()> App2USB </button> 
 <button onclick=load_dumperkey()>HDD Key Dumper </button>
 <button onclick=load_kerneldump()> Kernel Dumper </button> 
@@ -239,6 +240,13 @@ function load_ftp(){
 msgs.innerHTML="Loading FTP ...";
 LoadedMSG="FTP Loaded";
 PLfile="pl_FTP.bin";
+loadScript2();
+}
+
+function load_otb(){
+msgs.innerHTML="Loading Orbis Toolbox ...";
+LoadedMSG="Orbis Toolbox Loaded";
+PLfile="pl_otb.bin";
 loadScript2();
 }
 
