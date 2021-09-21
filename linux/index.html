@@ -120,7 +120,8 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL2></span>&nbsp;&nbsp;&nbsp;:&n
 <button onclick=load_rdr2V113()> RDR2 V1.13</button>
 <button onclick=load_rdr2V119()> RDR2 V1.19</button>
 <button onclick=load_rdr2V124()> RDR2 V1.24</button>
-<div style=font-size:16px>*For GTA Mods Use (R1+L1) or (=>+[]), RDR2 (R1+Square).</div>
+<button onclick=load_tlou2()> tlou2</button>
+<div style=font-size:16px>*For GTA Mods Use (R1+L1) or (=>+[]), RDR2 (R1+Square), tlou2 (L3+Left / L3+Right)</div>
 <br>
 <h1 style='font-size:16px;margin-bottom:1px;'>AUTO-LOAD MODE SETTINGS</h1>
 <button onclick=set_autoexp()> Auto Load Exploit = <span id=autoexp2 style="color:black"></span><script>autoexp2.innerHTML=localStorage.autoexp;autoexpHen2.innerHTML=localStorage.autoexpHen;autoexpHenb2.innerHTML=localStorage.autoexpHenb;</script></button>
@@ -512,10 +513,17 @@ PLfile="Oysters-Free-1.19.bin";
 loadScript2();
 }
 
-function load_rdr2V124(){//by RF0oDxM0Dz
+function lload_rdr2V124(){//by RF0oDxM0Dz
 msgs.innerHTML="Loading Red dead redemption 2 Mod Menu ...";
 LoadedMSG="Red dead redemption 2 mod  menu V1.24 (R1 + Square)";
 PLfile="Oysters-Free-1.24.bin";
+loadScript2();
+}
+
+function load_tlou2(){//by x3shakir
+msgs.innerHTML="Loading tlou2 Mod Menu ...";
+LoadedMSG="tlou2 mod menu (L3+Left / L3+Right) ";
+PLfile="tlou2_100.bin";
 loadScript2();
 }
 
