@@ -110,12 +110,17 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL2></span>&nbsp;&nbsp;&nbsp;:&n
 <button onclick=load_trophyrestore()> Trophy Restore </button> 
 <button onclick=load_cache()> Cache Restore </button> 
 <br>
-<h1 style='font-size:16px;margin-bottom:1px;margin-top:30px;'>GTA V MOD MENUS</h1>
-<button onclick=load_gtaV100()> ArabicGuy For v1.00</button>
-<button onclick=load_gtaV127()> ArabicGuy For v1.27</button> 
-<button onclick=load_gtaV132()> ArabicGuy For v1.32</button>
-<button onclick=load_gtaVL132()> Lamance For v1.32</button>
-<div style=font-size:16px>*For GTA Mods Use The PS Button To Exit The Browser.</div>
+<h1 style='font-size:16px;margin-bottom:1px;margin-top:30px;'>GAME MOD</h1>
+<button onclick=load_gtaV100()> GTAV Ar.1.00</button>
+<button onclick=load_gtaV127()> GTAV.Ar.1.27</button> 
+<button onclick=load_gtaV132()> GTAV.Ar.1.32</button>
+<button onclick=load_gtaVL132()> GTAV.Lam.1.32</button>
+<button onclick=load_gtaVB132()> GTAV.BQ.1.32</button>
+<button onclick=load_gtaVB133()> GTAV.BQ.1.33</button>
+<button onclick=load_rdr2V113()> RDR2 V1.13</button>
+<button onclick=load_rdr2V119()> RDR2 V1.19</button>
+<button onclick=load_rdr2V124()> RDR2 V1.24</button>
+<div style=font-size:16px>*For GTA Mods Use (R1+L1) or (=>+[]), RDR2 (R1+Square).</div>
 <br>
 <h1 style='font-size:16px;margin-bottom:1px;'>AUTO-LOAD MODE SETTINGS</h1>
 <button onclick=set_autoexp()> Auto Load Exploit = <span id=autoexp2 style="color:black"></span><script>autoexp2.innerHTML=localStorage.autoexp;autoexpHen2.innerHTML=localStorage.autoexpHen;autoexpHenb2.innerHTML=localStorage.autoexpHenb;</script></button>
@@ -476,6 +481,41 @@ function load_gtaVL132(){//by david1337hax
 msgs.innerHTML="Loading GTAV Lamance Mod Menu ...";
 LoadedMSG="GTAV Mod Menu Loaded Use DPAD Right+Square To Activate";
 PLfile="pl_GTA_Lamance132.bin";
+loadScript2();
+}
+
+function load_gtaVB132(){//by david1337hax
+msgs.innerHTML="Loading GTAV BeefQueef Mod Menu ...";
+LoadedMSG="GTAV Mod Menu Loaded Use DPAD Right+Square To Activate";
+PLfile="BeefQueefMod672-132.bin";
+loadScript2();
+}
+
+function load_gtaVB133(){//by david1337hax
+msgs.innerHTML="Loading GTAV BeefQueef Mod Menu ...";
+LoadedMSG="GTAV Mod Menu Loaded Use DPAD Right+Square To Activate";
+PLfile="BeefQueefMod672-133.bin";
+loadScript2();
+}
+
+function load_rdr2V113(){//by RF0oDxM0Dz
+msgs.innerHTML="Loading Red dead redemption 2 Mod Menu ...";
+LoadedMSG="Red dead redemption 2 mod  menu V1.13 (R1 + Square)";
+PLfile="Oysters-Free-1.13.bin";
+loadScript2();
+}
+
+function load_rdr2V119(){//by RF0oDxM0Dz
+msgs.innerHTML="Loading Red dead redemption 2 Mod Menu ...";
+LoadedMSG="Red dead redemption 2 mod  menu V1.19 (R1 + Square)";
+PLfile="Oysters-Free-1.19.bin";
+loadScript2();
+}
+
+function load_rdr2V124(){//by RF0oDxM0Dz
+msgs.innerHTML="Loading Red dead redemption 2 Mod Menu ...";
+LoadedMSG="Red dead redemption 2 mod  menu V1.24 (R1 + Square)";
+PLfile="Oysters-Free-1.24.bin";
 loadScript2();
 }
 
