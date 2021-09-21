@@ -40,3 +40,6 @@ pl_UpdatesEnable.bin
 pl_WebRTE.bin
 pl_EAPKey.bin
 pl_clock.bin
+pl_Trophy_Backup.bin
+pl_Trophy_Restore.bin
+pl_cache.bin
