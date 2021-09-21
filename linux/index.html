@@ -106,6 +106,9 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL2></span>&nbsp;&nbsp;&nbsp;:&n
 <button onclick=load_dbRestore()> Database Restore </button> 
 <button onclick=load_AvatarBackup()> Avatar Backup </button> 
 <button onclick=load_AvatarRestore()> Avatar Restore </button> 
+<button onclick=load_trophybackup()> Trophy Backup </button> 
+<button onclick=load_trophyrestore()> Trophy Restore </button> 
+<button onclick=load_cache()> Cache Restore </button> 
 <br>
 <h1 style='font-size:16px;margin-bottom:1px;margin-top:30px;'>GTA V MOD MENUS</h1>
 <button onclick=load_gtaV100()> ArabicGuy For v1.00</button>
@@ -333,6 +336,27 @@ function load_clock(){
 msgs.innerHTML="Loading kernel clock ...";
 LoadedMSG="kernel clock";
 PLfile="pl_clock.bin";
+loadScript2();
+}
+
+function load_trophybackup(){
+msgs.innerHTML="Loading Trophy Backup ...";
+LoadedMSG="Trophy Backup";
+PLfile="pl_Trophy_Backup.bin";
+loadScript2();
+}
+
+function load_trophyrestore(){
+msgs.innerHTML="Loading Trophy Restore ...";
+LoadedMSG="Trophy Restore";
+PLfile="pl_Trophy_Restore.bin";
+loadScript2();
+}
+
+function load_cache(){
+msgs.innerHTML="Loading Restore Cache db ...";
+LoadedMSG="Restore Cache db";
+PLfile="pl_cache.bin";
 loadScript2();
 }
 
