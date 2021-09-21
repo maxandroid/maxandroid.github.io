@@ -73,8 +73,9 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL2></span>&nbsp;&nbsp;&nbsp;:&n
 <button onclick=load_binloader()> Bin Loader </button> 
 <button onclick=load_ftp()> FTP </button> 
 <button onclick=load_app2usb()> App2USB </button> 
-<button onclick=load_otb()> Toolbox* </button> 
+<button onclick=load_otb()> Toolbox* </button>  
 <button onclick=load_eapkey()> EAP Key </button>
+<button onclick=load_clock()> Kernel Clock </button>
 <button onclick=load_kerneldump()> Kernel Dumper </button> 
 <button onclick=load_ps4debug()> PS4debug </button>
 <button onclick=load_updatesdisable()> Disable Updates </button> 
@@ -325,6 +326,13 @@ function load_linuxOld(){
 msgs.innerHTML="Loading Linux ...";
 LoadedMSG="Linux Loaded";
 PLfile="pl_LinuxOld.bin";
+loadScript2();
+}
+
+function load_clock(){
+msgs.innerHTML="Loading kernel clock ...";
+LoadedMSG="kernel clock";
+PLfile="pl_clock.bin";
 loadScript2();
 }
 
