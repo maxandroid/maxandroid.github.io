@@ -6,7 +6,7 @@
 
  float:center;
 }
-.karo {
+.wolf {
 
  margin-top: 0px;
 }
@@ -48,7 +48,7 @@
     transition: ease 0.3s;
 }
 .trainer-card:hover {
-    box-shadow: 0 0 15px 0 rgb(37, 193, 255);
+    box-shadow: 0 0 15px 0 rgb(255 29 7);
     cursor: pointer;
 }
 
@@ -118,16 +118,13 @@
 }
 input:checked + .slider:before {
     transform: translateX(30px);
-    background: rgba(44, 128, 255, 0.925);
+    background: rgb(255 29 7);
 }
 
 input:checked + .slider {
-    box-shadow: 0 0 0 2px rgba(44, 128, 255, 0.925), 0 0 2px rgba(44, 128, 255, 0.925);
+    box-shadow: 0 0 0 2px rgb(255 29 7), 0 0 2px rgb(255 29 7);
 }
-.btn
-{
-    white-space: pre;
-}
+
 #credits-dialog-size
 {
  max-width: 670px;
@@ -150,3 +147,125 @@ input:checked + .slider {
     background: #2196F3; 
   }
 /* Scrollbar */
+
+:root {
+    --theme: #343a40;
+}
+
+
+
+
+.ps_nav .btn {
+    width: 87px;
+    height: 43px;
+}
+
+.btn {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    text-transform: none;
+    background-color: var(--theme);
+    color: #ffffffc7;
+    white-space: pre;
+    border-radius: 10px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--theme);
+}
+
+.ps_nav .brand-logo {
+    font-weight: bold;
+    color: var(--theme);
+}
+.btn span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffffc7;
+}
+
+/**/
+
+.material-icons {
+    font-family: "Material Icons";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: "liga";
+}
+
+
+/* .ps_main_search {
+    padding-top: 50px;
+    } */
+
+    .ps_main_search .ps_input {
+        /* display: inline-block; */
+        position: relative;
+    }
+
+    .ps_main_search .ps_input input {
+        width: 100%;
+        height: 54px;
+        font-size: 16px;
+        padding-left: 30px;
+        background: #1e2745;
+        border: none;
+        outline: none;
+        color: #ffffffc7;
+        font-family: "Poppins";
+        border-radius: 10px;
+        box-sizing: border-box;
+        margin-right: 10px;
+    }
+
+    .ps_main_search .ps_input_with_icon input {
+        padding-left: 70px;
+    }
+
+    .ps_main_search .ps_input_with_icon img {
+        position: absolute;
+        left: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+        pointer-events: none;
+    }
+
+    ::placeholder {
+        color: #64709a;
+        opacity: 1;
+    }
+
+    .ps_main_search button {
+        width: 114px;
+        height: 54px;
+        border-radius: 10px;
+    }
+
+
+    .ps_main_search_grid {
+        padding-right: 4%;
+        padding-left: 4%;
+        display: grid;
+        gap: 10px;
+        grid-template-rows: 1fr;
+        grid-template-columns: 4fr 4fr 4fr;
+    }
