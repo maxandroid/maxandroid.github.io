@@ -296,7 +296,7 @@ function CreateCard(trainer)
         '<div class="trainer-card d-flex flex-wrap rounded m-1 bg-transparent" style="height :128px;" source="',
         trainer.url,
         '" >',
-        '<div style="width :130px"><img class="coverholder m-1 rounded lazy" onerror="if (this.src !== \'./error.png\') this.src = \'./error.png\';" data-src="./',
+        '<div style="width :130px"><img class="coverholder m-1 rounded lazy" onerror="if (this.src !== \'http://karo218.ir/TRAlNER/error.png\') this.src = \'http://karo218.ir/TRAlNER/error.png\';" data-src="http://karo218.ir/TRAlNER/',
         trainer.title,
         '.jpg" style="width :118px; height :118px;"></div>',
         ' <div class="GInfo m-1 text-white" style="width :220px">',
@@ -317,10 +317,10 @@ function CreateCard(trainer)
 var observer;
 $(document).ready(function()
 {
-    var listUrl = "./list.json";
+    var listUrl = "http://karo218.ir/TRAlNER/list.json";
 
     $.LoadingOverlay("show", {
-        image: "main_loader.gif",
+        image: "http://karo218.ir/TRAlNER/main_loader.gif",
         imageAnimation: "0.8s fadein"
     });
 
@@ -342,8 +342,8 @@ function ListCallback(data)
     {
 		    var item1 = a.name.toUpperCase();
     var item2 = b.name.toUpperCase();
-        if(item1 < item2) { return -1; }
-        if(item1 > item2) { return 1; }
+        if(item1.name < item2.name) { return -1; }
+        if(item1.name > item2.name) { return 1; }
         return 0;
     });
     $.each(data.games, function(i, trainer)
@@ -450,10 +450,10 @@ function TrainerClickCallback()
     var trainerUrl = $(this).attr('source');
     PS4 = new PS4RTE($("#ip").val());
     var cusa = $(this).find(".cusa").text();
-    $("#cover").attr('data-src', "./" + cusa + ".jpg");
+    $("#cover").attr('data-src', "http://karo218.ir/TRAlNER/" + cusa + ".jpg");
     observer.load($("#cover").get(0), true);
     $.LoadingOverlay("show", {
-        image: "main_loader.gif",
+        image: "http://karo218.ir/TRAlNER/main_loader.gif",
         imageAnimation: "0.8s fadein"
     });
 
@@ -494,3 +494,5 @@ function TrainerClickCallback()
     });
 
 }
+
+

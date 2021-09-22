@@ -1,0 +1,26 @@
+CACHE MANIFEST 
+# v1.0.1 Self-Host 
+
+main_loader.gif
+main.js
+list.json
+error.png
+font.woff2
+index.html
+jquery.min.js
+font.css
+lazyload.min.js
+BigInteger.min.js
+search-icon.png
+loadingoverlay.min.js
+main.css
+bootstrap.js
+bootstrap.min.css
+
+NETWORK:
+*
+
+SETTINGS:
+prefer-online:
+
+# Date: 2021-09-12T19:31:00Z:
