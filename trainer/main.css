@@ -6,7 +6,7 @@
 
  float:center;
 }
-.wolf {
+.karo {
 
  margin-top: 0px;
 }
@@ -48,7 +48,7 @@
     transition: ease 0.3s;
 }
 .trainer-card:hover {
-    box-shadow: 0 0 15px 0 rgb(255 29 7);
+    box-shadow: 0 0 15px 0 rgb(37, 193, 255);
     cursor: pointer;
 }
 
@@ -118,11 +118,11 @@
 }
 input:checked + .slider:before {
     transform: translateX(30px);
-    background: rgb(255 29 7);
+    background: rgba(44, 128, 255, 0.925);
 }
 
 input:checked + .slider {
-    box-shadow: 0 0 0 2px rgb(255 29 7), 0 0 2px rgb(255 29 7);
+    box-shadow: 0 0 0 2px rgba(44, 128, 255, 0.925), 0 0 2px rgba(44, 128, 255, 0.925);
 }
 
 #credits-dialog-size
@@ -149,7 +149,7 @@ input:checked + .slider {
 /* Scrollbar */
 
 :root {
-    --theme: #343a40;
+    --theme: #377dff;
 }
 
 
