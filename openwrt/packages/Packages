@@ -1,0 +1,85 @@
+Package: glib2
+Version: 2.41.1-2
+Depends: libc, zlib, libpthread, libffi, libattr
+Source: feeds/packages/libs/glib2
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: realtek
+Installed-Size: 865314
+Filename: glib2_2.41.1-2_realtek.ipk
+Size: 857630
+MD5Sum: e70f3beda0d751c9e04a08becd112719
+SHA256sum: 78e1603ae7b15d62271c68c8e24bb7d4945603aad5524646a84da9b219c9186c
+Description:  The GLib library of C routines
+
+Package: libattr
+Version: 20140610-1
+Depends: libc
+Source: feeds/packages/utils/attr
+Section: libs
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: realtek
+Installed-Size: 5124
+Filename: libattr_20140610-1_realtek.ipk
+Size: 5669
+MD5Sum: 0ff26f35db07cc6323bf188d5146f1f3
+SHA256sum: c9a58b1b3c8b6a2c4a0fdd5d656f41bdaca4cae223c6f95db754c463edced728
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libffi
+Version: 3.0.13-1
+Depends: libc
+Source: feeds/packages/libs/libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: realtek
+Installed-Size: 5194
+Filename: libffi_3.0.13-1_realtek.ipk
+Size: 6040
+MD5Sum: e40d9d212f098e5db8f01db0bcf2f2d5
+SHA256sum: 4b54482c5a09da0d8660b43de58c1f85664431a1de9af1e98e9b20d2d3769d55
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libwrap
+Version: 7.6-1
+Depends: libc
+Source: feeds/packages/libs/tcp_wrappers
+License: BSD
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: realtek
+Installed-Size: 10786
+Filename: libwrap_7.6-1_realtek.ipk
+Size: 11344
+MD5Sum: d76f442f0bc06c0666f5bfa2d4efc0fc
+SHA256sum: 778cdb9df95dc7b62ee4f1b9909a8d5cee890d29968f413d0c17c8f51ae3c667
+Description:  Security wrapper library for TCP services
+
+Package: xl2tpd
+Version: 1.3.6-5619e1771048e74b729804e8602f409af0f3faea
+Depends: libc, ppp-mod-pppol2tp, ip, resolveip
+Source: feeds/packages/net/xl2tpd
+Section: net
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: realtek
+Installed-Size: 44434
+Filename: xl2tpd_1.3.6-5619e1771048e74b729804e8602f409af0f3faea_realtek.ipk
+Size: 45189
+MD5Sum: 7b410703db0203a95739a286342255e6
+SHA256sum: 55ff87c56ea67e717cdb87e335a8ff8a2c0f173f7e639f8e45c7e7fefb7252bb
+Description:  l2tpd is the open source implementation of the L2TP tunneling protocol (RFC2661).
+ It does implement both LAC and LNS role in a L2TP networking architecture. The
+ main goal of this protocol is to tunnel PPP frame trough an IP network.
+
