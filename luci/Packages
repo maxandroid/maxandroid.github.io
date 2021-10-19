@@ -1,0 +1,224 @@
+Package: luci-app-firewall
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc, firewall
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: realtek
+Installed-Size: 62764
+Filename: luci-app-firewall_0.12+git-16.038.38474-0d510b2-1_realtek.ipk
+Size: 63447
+MD5Sum: 1816a61edfa5e0de351e274b7709d61d
+SHA256sum: ec05850a94d1d5fe113bb6f0e4aec54f3f04509bd2d3e2d3f9a5aa4632e42011
+Description:  Firewall and Portforwarding application
+
+Package: luci-app-qos
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc, qos-scripts
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: realtek
+Installed-Size: 10852
+Filename: luci-app-qos_0.12+git-16.038.38474-0d510b2-1_realtek.ipk
+Size: 11442
+MD5Sum: e4708a446556a2c1ca4b1f4f6e2d4196
+SHA256sum: 4ed3fa636bf895dac4b9a94b9b14e8d4768f292aea8dbffc75db694ff69680e8
+Description:  Quality of Service configuration module
+
+Package: luci-app-samba
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc, samba36-server
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: realtek
+Installed-Size: 12343
+Filename: luci-app-samba_0.12+git-16.038.38474-0d510b2-1_realtek.ipk
+Size: 12973
+MD5Sum: 3afd0bf3d25bccce2443375e1d57710a
+SHA256sum: 668f5537a50ddeb7d9b6f80c21fb8659cb1b700e162509ad3b9ae1bccddb576f
+Description:  Network Shares - Samba SMB/CIFS module
+
+Package: luci-base
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc, lua, libuci-lua, libubus-lua
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: realtek
+Installed-Size: 140606
+Filename: luci-base_0.12+git-16.038.38474-0d510b2-1_realtek.ipk
+Size: 141358
+MD5Sum: 1b0163003f4f3e7b05c9c3d978e65500
+SHA256sum: 0d0ea3b90eada0d466c859ee72f3a3e0b830f04666126479fe7e30b719269e33
+Description:  LuCI core libraries
+
+Package: luci-i18n-english
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: realtek
+Installed-Size: 770
+Filename: luci-i18n-english_0.12+git-16.038.38474-0d510b2-1_realtek.ipk
+Size: 1475
+MD5Sum: 8825e4933744f8e554881838601d3545
+SHA256sum: e2498877094c07ab23ea74d9656bff40f3b43031ddfed7aba8c19bac09d79ee0
+Description:  English
+
+Package: luci-i18n-russian
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: realtek
+Installed-Size: 24431
+Filename: luci-i18n-russian_0.12+git-16.038.38474-0d510b2-1_realtek.ipk
+Size: 25166
+MD5Sum: f2475ad9ce3e55cd96322c981b138530
+SHA256sum: d822881c1b37b5abb090e0af4befa08b2c07ce384d4f557eac712bb8541fc5a1
+Description:  Russian (by Skryabin Dmitry)
+
+Package: luci-i18n-ukrainian
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: realtek
+Installed-Size: 24921
+Filename: luci-i18n-ukrainian_0.12+git-16.038.38474-0d510b2-1_realtek.ipk
+Size: 25642
+MD5Sum: 50342ac38525723bce8f7031597079fc
+SHA256sum: 0b5f2305af3c4dd0b989d2c8f792c001853c1d61ef3628a8340a179df33fc837
+Description:  Ukrainian
+
+Package: luci-lib-nixio
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc, luci-base
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: realtek
+Installed-Size: 29169
+Filename: luci-lib-nixio_0.12+git-16.038.38474-0d510b2-1_realtek.ipk
+Size: 29506
+MD5Sum: f573a044cc89b1c6a086aa4d549cc475
+SHA256sum: 65a86b5d3c1c88156b0b04c3e5bb9f95e7861099fad4d0f24b1248511e94775c
+Description:  NIXIO POSIX library
+
+Package: luci-mod-admin-full
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc, luci-base
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: realtek
+Installed-Size: 68043
+Filename: luci-mod-admin-full_0.12+git-16.038.38474-0d510b2-1_realtek.ipk
+Size: 68732
+MD5Sum: 739d83de59e2e7ac9ece9f94985259ba
+SHA256sum: 4b4866083d5b185a3ce7bcf90ff1f47cdb467423d8b07c8c4f5e1bf9d7edd54b
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-proto-3g
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc, comgt
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: realtek
+Installed-Size: 1842
+Filename: luci-proto-3g_0.12+git-16.038.38474-0d510b2-1_realtek.ipk
+Size: 2418
+MD5Sum: b87493668d775d09e8f9466eae5837ce
+SHA256sum: c75a664067d5b37edc4718749222f0750f031e55eff0a4d946b6fc3f2c51c241
+Description:  Support for 3G
+
+Package: luci-proto-ipv6
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: realtek
+Installed-Size: 3477
+Filename: luci-proto-ipv6_0.12+git-16.038.38474-0d510b2-1_realtek.ipk
+Size: 4093
+MD5Sum: d7ad8877b18636de0d85b3d235679263
+SHA256sum: 11ceddaad3a0687806f8778193ef0f42c1e2ef1504047da8c8077746de8db32e
+Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite
+
+Package: luci-proto-ppp
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: realtek
+Installed-Size: 3003
+Filename: luci-proto-ppp_0.12+git-16.038.38474-0d510b2-1_realtek.ipk
+Size: 3603
+MD5Sum: 373ac9b252a25552e13110b03a97795c
+SHA256sum: e80a74718d0d494f304ce3b2a9d49fd4efdfd87ab7feb452233e05b067638d68
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-ssl
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc, luci, libustream-polarssl, px5g
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: realtek
+Installed-Size: 105
+Filename: luci-ssl_0.12+git-16.038.38474-0d510b2-1_realtek.ipk
+Size: 704
+MD5Sum: 07e5e633ce7e95cfdaf03b54e9dd5b3e
+SHA256sum: 0ea671effc4aa6368eed141e50872c3ec484eb7e6800557a8a94fb1ab6953738
+Description:  Standard OpenWrt set with HTTPS support
+
+Package: luci-theme-bootstrap
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: realtek
+Installed-Size: 13074
+Filename: luci-theme-bootstrap_0.12+git-16.038.38474-0d510b2-1_realtek.ipk
+Size: 13777
+MD5Sum: 443b730b7ff376a46eae90326179d6dc
+SHA256sum: c0ae633840d30027cfdcf10677fb53b4487fa7d1eeabb7ffc1f46d32ffaf328d
+Description:  Bootstrap Theme (default)
+
+Package: luci-theme-openwrt
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: realtek
+Installed-Size: 7036
+Filename: luci-theme-openwrt_0.12+git-16.038.38474-0d510b2-1_realtek.ipk
+Size: 7778
+MD5Sum: b18c38d2e3b9229935df8162f76f89f8
+SHA256sum: 9b90b25a021caed6130f4d6fd2f99c867f375c62f2ec0b8f36a9009ddec9e16c
+Description:  OpenWrt.org
+
+Package: luci
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-proto-ppp, libiwinfo-lua, luci-lib-nixio
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: realtek
+Installed-Size: 105
+Filename: luci_0.12+git-16.038.38474-0d510b2-1_realtek.ipk
+Size: 783
+MD5Sum: 368a614e47adf141c98b9121ea125a54
+SHA256sum: 6e257690a062fc8ac70f75c650d9a0825f6a9eff01ebf3b684ce8f599134941f
+Description:  Standard OpenWrt set including full admin with ppp support and the default OpenWrt theme
+
