@@ -1,4 +1,4 @@
-Firmware Beeline SmartBox ONE / МТС S1010 OpenWRT [Github](https://github.com/maxandroid/maxandroid.github.io/tree/main/openwrt)
+Firmware Beeline SmartBox ONE S1010 OpenWRT [Github](https://github.com/maxandroid/maxandroid.github.io/tree/main/openwrt)
 
 packages:
 * https://maxandroid.github.io/openwrt/base/
