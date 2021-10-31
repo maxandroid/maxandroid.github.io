@@ -44,6 +44,8 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL></span>&nbsp;&nbsp;&nbsp;:&nb
 <button onclick=load_Exp()> Load Exploit </button>&nbsp; or &nbsp;
 <button onclick=load_ExpHen()> Load HEN 2.1.3 </button>&nbsp; or &nbsp;
 <button onclick=load_ExpHenb()> Load Linux </button>
+<button onclick=next()> next </button>
+<button onclick=next2()> next2 </button>
 </span>
 <span id=henSection style=display:none>
 <button onclick=load_HEN()> HEN 2.1.3 </button>&nbsp; or &nbsp;
@@ -54,6 +56,8 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL></span>&nbsp;&nbsp;&nbsp;:&nb
 <button onclick=load_linux4()> Linux 4/4 </button>
 <button onclick=load_linuxOld()> Linux_old </button>&nbsp; or &nbsp;
 <button onclick=load_binloader()> Bin File </button>
+<button onclick=next()> next </button>
+<button onclick=next2()> next2 </button>
 <br><br>
 <h1 style='font-size:18px;'>Universal Loader Linux Ram/Video - total 8GB</h1>
 <br>USB (Fat32) :/bzImage, :/initramfs.cpio.gz
@@ -70,6 +74,8 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL></span>&nbsp;&nbsp;&nbsp;:&nb
 Exploit Stats:&nbsp; Pass = <span id=passCounterSL2></span>&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;Fail = <span id=failCounterSL2></span><hr>
 </div>
 <h1 style='font-size:16px;margin-bottom:1px;'>TOOLS</h1>
+<button onclick=next()> next </button>
+<button onclick=next2()> next2 </button>
 <button onclick=load_binloader()> Bin Loader </button> 
 <button onclick=load_ftp()> FTP </button> 
 <button onclick=load_app2usb()> App2USB </button> 
@@ -220,6 +226,14 @@ setTimeout(jailbreak,500);
 function load_autoHEN(){
 sessionStorage.henrun=1;
 LoaderHEN();
+}
+
+function next(){
+sessionStorage.henrun=1;
+}
+
+function next2(){
+sessionStorage.exprun=1;
 }
 
 function load_HEN(){
