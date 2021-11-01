@@ -27,17 +27,19 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL></span>&nbsp;&nbsp;&nbsp;:&nb
 <h1 style='font-size:18px;'>Load The Exploit Manually</h1>
 <button onclick=load_Exp()> Load Exploit </button>&nbsp; or &nbsp;
 <button onclick=load_ExpHen()> Load HEN 2.1.3 </button>&nbsp; or &nbsp;
+<button onclick=load_ExpGold()> Load Gold HEN 1.1 </button>&nbsp; or &nbsp;
 <button onclick=load_ExpHenb()> Load Linux </button>
 </span>
 <span id=henSection style=display:none>
 <button onclick=load_HEN()> HEN 2.1.3 </button>&nbsp; or &nbsp;
 <button onclick=load_HENb()> HEN Gold 1.1 </button>&nbsp; or &nbsp;
+<button onclick=load_binloader()> Bin File </button>
+<br><br>
 <button onclick=load_linux1()> Linux 1/7 </button>
 <button onclick=load_linux2()> Linux 2/6 </button>
 <button onclick=load_linux3()> Linux 3/5 </button>
 <button onclick=load_linux4()> Linux 4/4 </button>
-<button onclick=load_linuxOld()> Linux_old </button>&nbsp; or &nbsp;
-<button onclick=load_binloader()> Bin File </button>
+<button onclick=load_linuxOld()> Linux_old </button>
 <br><br>
 <h1 style='font-size:18px;'>Universal Loader Linux Ram/Video - total 8GB</h1>
 <br>USB (Fat32) :/bzImage, :/initramfs.cpio.gz
@@ -113,7 +115,7 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL2></span>&nbsp;&nbsp;&nbsp;:&n
 <button onclick=justExp.style="display:block";plSection.style="display:none";henSection.style="display:none";jbSection.style="display:block";statsMsgSection.style="display:block"> 1 </button>
 <button onclick=henSection.style="display:block";plSection.style="display:none";justExp.style="display:none";jbSection.style="display:block";statsMsgSection.style="display:block";> 2 </button>
 <button onclick=plSection.style="display:block";henSection.style="display:none";justExp.style="display:none";statsMsgSection.style="display:none"> 3 </button>
-*Exploit Version from 01.11.21 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*PS4 Firmware <span id="PS4fw"></span><hr>
+*Exploit Version from 02.11.21 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*PS4 Firmware <span id="PS4fw"></span><hr>
 </div>
 <script>
 for(var i=40; i<=79; i++){var select = document.getElementById("tempC"); var option = document.createElement("OPTION"); select.options.add(option); option.text = i; option.value = i;}
@@ -191,6 +193,14 @@ PLfile="pl_HEN.bin";
 justExp.style="display:none";
 setTimeout(jailbreak,500);
 }
+function load_ExpGold(){
+msgs.innerHTML="Loading Exploit and Gold HEN 1.1, Please Wait ...";
+LoadedMSG="PS4 Jailbroken - Press Circle To Exit";
+localStorage.henVer="Gold1.1";
+PLfile="pl_HENb.bin";
+justExp.style="display:none";
+setTimeout(jailbreak,500);
+}
 function load_ExpHenb(){
 msgs.innerHTML="Loading Exploit and Linux 1 vram, Please Wait ...";
 LoadedMSG="PS4 Jailbroken - Press Circle To Exit";
@@ -214,7 +224,7 @@ setTimeout(LoaderHEN,500);
 }
 
 function load_HENb(){
-msgs.innerHTML="Loading Gold 1.1";
+msgs.innerHTML="Loading Gold HEN 1.1";
 LoadedMSG="HEN Loaded - Press Circle To Exit";
 PLfile="pl_HENb.bin";
 localStorage.henVer = "Gold1.1";
