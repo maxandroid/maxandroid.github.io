@@ -111,7 +111,7 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL2></span>&nbsp;&nbsp;&nbsp;:&n
 </div>
 <hr>
 <button onclick=justExp.style="display:block";plSection.style="display:none";henSection.style="display:none"> 1 </button>
-<button onclick=henSection.style="display:block";plSection.style="display:none";justExp.style="display:none"> 2 </button>
+<button onclick=henSection.style="display:block";plSection.style="display:none";justExp.style="display:none";jbSection.style="display:block"> 2 </button>
 <button onclick=plSection.style="display:block";henSection.style="display:none";justExp.style="display:none";plstats.style="display:none"> 3 </button>
 *Sleirsgoevy Exploit Version from 9th Oct 2020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*PS4 Firmware <span id="PS4fw"></span><hr>
 </div>
@@ -128,7 +128,7 @@ fws2.value=00;
 <script>
 henVer.innerHTML=localStorage.henVer; UA = navigator.userAgent.substring(navigator.userAgent.indexOf("6.72 (") + 28, navigator.userAgent.indexOf(") Apple"));
 PS4fw.innerHTML="v"+UA+" Detected";
-if (UA != "6.72") {plSection.style="display:block";PS4fw.innerHTML="Currently Spoofed To v"+UA;};
+if (UA != "6.72") {jbSection.style="display:none";plSection.style="display:block";PS4fw.innerHTML="Currently Spoofed To v"+UA;};
 if (localStorage.autoexp == null) {localStorage.autoexp="OFF";}
 if (localStorage.autoexpHen == null) {localStorage.autoexpHen="OFF";}
 if (localStorage.autoexpHenb == null) {localStorage.autoexpHenb="OFF";}
