@@ -3,6 +3,8 @@ CACHE MANIFEST
 # 31/10/2020-01:55:57 
 
 index.html
+exp_jailbreak.js
+exp_common.js
 exp_loaderBL.js
 exp_loaderPL.js
 pl_App2usb.bin
