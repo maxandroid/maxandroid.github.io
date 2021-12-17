@@ -2,7 +2,7 @@
 ps4 link github 6.72 [web](https://maxandroid.github.io/linux/)
 * [Leeful](https://github.com/Leeful)
 * [Hakkuraifu](https://github.com/Hakkuraifu/PS4xploit)
-* [Nazky](https://github.com/Nazky/PS4Linux-Payloads) Payloads [Releases](https://github.com/Nazky/PS4Linux-Payloads/releases/)
+* [Nazky](https://github.com/Nazky/PS4Linux-Payloads/releases/)
 * [wolf-5](https://github.com/wolf-5)
 * [theheroGAC](https://github.com/theheroGAC/ps4jb)
 * [Al-Azif](https://github.com/Al-Azif)
