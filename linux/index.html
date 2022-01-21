@@ -32,7 +32,7 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL></span>&nbsp;&nbsp;&nbsp;:&nb
 <span id=henSection style=display:none>
 <button onclick=load_HEN()> HEN 2.1.3 </button>&nbsp; or &nbsp;
 <button onclick=load_HENbb()> HEN 2.1.3b </button>&nbsp; or &nbsp;
-<button onclick=load_HENb()> HEN Gold 2.0b </button>&nbsp; or &nbsp;
+<button onclick=load_HENb()> HEN Gold 2.0b2 </button>&nbsp; or &nbsp;
 <button onclick=load_binloader()> Bin File </button>
 <br><br>
 <button onclick=load_linux1()> Linux 1/7 </button>
@@ -227,10 +227,10 @@ setTimeout(LoaderHEN,500);
 }
  
 function load_HENb(){
-msgs.innerHTML="Loading Gold HEN 2.0b ...";
+msgs.innerHTML="Loading Gold HEN 2.0b2 ...";
 LoadedMSG="HEN Loaded - Press Circle To Exit";
 PLfile="pl_HENb.bin";
-localStorage.henVer = "Gold2.0b";
+localStorage.henVer = "Gold2.0b2";
 sessionStorage.henrun=1;
 setTimeout(LoaderHEN,500);
 }
