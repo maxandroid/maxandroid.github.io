@@ -49,16 +49,6 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL2></span>&nbsp;&nbsp;&nbsp;:&n
 <hr>*Exploit Version from 22.01.22 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*PS4 Firmware <span id="PS4fw"></span><hr>
 </div>
 <script>
-for(var i=40; i<=79; i++){var select = document.getElementById("tempC"); var option = document.createElement("OPTION"); select.options.add(option); option.text = i; option.value = i;}
-tempC.value=79;
-</script>
-<script>
-for(var i=1; i<=99; i++){var select1 = document.getElementById("fws1"); var option1 = document.createElement("OPTION"); select1.options.add(option1); option1.text = i; option1.value = i;}
-fws1.value=9;
-for(var i=00; i<=99; i++){var select2 = document.getElementById("fws2"); var option2 = document.createElement("OPTION"); select2.options.add(option2); option2.text = ("0" + i).slice(-2); option2.value = i;}
-fws2.value=00;
-</script>
-<script>
 henVer.innerHTML=localStorage.henVer; UA = navigator.userAgent.substring(navigator.userAgent.indexOf("6.72 (") + 28, navigator.userAgent.indexOf(") Apple"));
 PS4fw.innerHTML="v"+UA+" Detected";
 if (UA != "6.72") {jbSection.style="display:none";plSection.style="display:block";PS4fw.innerHTML="Currently Spoofed To v"+UA;};
