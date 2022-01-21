@@ -1,6 +1,6 @@
 <html manifest="cache.manifest"><!--  -->
 <head>
-<title>6.72 Menu Linux loader</title>
+<title>6.72 light loader</title>
 <style>button{margin-bottom:5px;}
 </style>
 <script src="exp_cashfun.js"></script>
@@ -63,7 +63,7 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL2></span>&nbsp;&nbsp;&nbsp;:&n
 <button onclick=justExp.style="display:block";plSection.style="display:none";henSection.style="display:none";jbSection.style="display:block";statsMsgSection.style="display:block"> 1 </button>
 <button onclick=henSection.style="display:block";plSection.style="display:none";justExp.style="display:none";jbSection.style="display:block";statsMsgSection.style="display:block";> 2 </button>
 <button onclick=plSection.style="display:block";henSection.style="display:none";justExp.style="display:none";statsMsgSection.style="display:none"> 3 </button>
-*Exploit Version from 02.11.21 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*PS4 Firmware <span id="PS4fw"></span><hr>
+*Exploit Version from 22.01.22 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*PS4 Firmware <span id="PS4fw"></span><hr>
 </div>
 <script>
 for(var i=40; i<=79; i++){var select = document.getElementById("tempC"); var option = document.createElement("OPTION"); select.options.add(option); option.text = i; option.value = i;}
@@ -127,20 +127,6 @@ else if(UA == "6.72" && sessionStorage.exprun == null && sessionStorage.henrun =
 else if(UA == "6.72" && sessionStorage.exprun == null && sessionStorage.henrun == null && localStorage.autoexpHenb == "ON"){load_ExpHenb();}
 }
 
-function load_Exp(){
-msgs.innerHTML="Loading Exploit, Please Wait ...";
-justExp.style="display:none";
-sessionStorage.justExp=1;
-setTimeout(jailbreak,500);
-}
-function load_ExpHen(){
-msgs.innerHTML="Loading Exploit and HEN v2.1.3, Please Wait ...";
-LoadedMSG="PS4 Jailbroken - Press Circle To Exit";
-localStorage.henVer="v2.1.3";
-PLfile="pl_HEN.bin";
-justExp.style="display:none";
-setTimeout(jailbreak,500);
-}
 function load_ExpGold(){
 msgs.innerHTML="Loading Exploit and Gold HEN 2.0b2, Please Wait ...";
 LoadedMSG="PS4 Jailbroken - Press Circle To Exit";
@@ -162,70 +148,10 @@ sessionStorage.henrun=1;
 LoaderHEN();
 }
 
-function load_HEN(){
-msgs.innerHTML="Loading HEN v2.1.3 ...";
-LoadedMSG="HEN Loaded - Press Circle To Exit";
-PLfile="pl_HEN.bin";
-localStorage.henVer = "v2.1.3";
-sessionStorage.henrun=1;
-setTimeout(LoaderHEN,500);
-}
-
-function load_HENb(){
-msgs.innerHTML="Loading Gold HEN 1.1";
-LoadedMSG="HEN Loaded - Press Circle To Exit";
-PLfile="pl_HENb.bin";
-localStorage.henVer = "Gold1.1";
-sessionStorage.henrun=1;
-setTimeout(LoaderHEN,500);
-}
-
-function load_binloader(){
-msgs.innerHTML="Loading Bin Loader ...";
-LoadedMSG="Send Payload To Port 9021";
-function loadScript(){getScript("exp_loaderBL.js",function(){});}
-loadScript();
-}
-
-function load_ftp(){
-msgs.innerHTML="Loading FTP ...";
-LoadedMSG="FTP Loaded";
-PLfile="pl_FTP.bin";
-loadScript2();
-}
-
 function load_otb(){
 msgs.innerHTML="Loading Orbis Toolbox ...";
 LoadedMSG="Orbis Toolbox Loaded";
 PLfile="pl_otb.bin";
-loadScript2();
-}
-
-function load_app2usb(){
-msgs.innerHTML="Loading App2USB ...";
-LoadedMSG="App2USB Loaded";
-PLfile="pl_App2usb.bin";
-loadScript2();
-}
-
-function load_kerneldump(){
-msgs.innerHTML="Loading Kernel Dumper ...";
-LoadedMSG="Kernel Dumper Loaded";
-PLfile="pl_KernelDumper.bin";
-loadScript2();
-}
-
-function load_eapkey(){
-msgs.innerHTML="Loading EAP Key Dumper ...";
-LoadedMSG="EAP Key Dumper Loaded";
-PLfile="pl_EAPKey.bin";
-loadScript2();
-}
-
-function load_historyblock(){
-msgs.innerHTML="Loading History Blocker ...";
-LoadedMSG="History Blocker Loaded";
-PLfile="pl_HistoryBlocker.bin";
 loadScript2();
 }
 
@@ -236,251 +162,6 @@ PLfile="pl_WebRTE.bin";
 loadScript2();
 }
 
-function load_ps4debug(){
-msgs.innerHTML="Loading PS4Debug ...";
-LoadedMSG="PS4Debug Loaded";
-PLfile="pl_PS4debug.bin";
-loadScript2();
-}
-
-function load_linux1(){
-msgs.innerHTML="Loading Linux1 ...";
-LoadedMSG="Linux Loaded";
-PLfile="pl_Linux1.bin";
-loadScript2();
-}
-
-function load_linux2(){
-msgs.innerHTML="Loading Linux2 ...";
-LoadedMSG="Linux Loaded";
-PLfile="pl_Linux2.bin";
-loadScript2();
-}
-
-function load_linux3(){
-msgs.innerHTML="Loading Linux3 ...";
-LoadedMSG="Linux Loaded";
-PLfile="pl_Linux3.bin";
-loadScript2();
-}
-
-function load_linux4(){
-msgs.innerHTML="Loading Linux4 ...";
-LoadedMSG="Linux Loaded";
-PLfile="pl_Linux4.bin";
-loadScript2();
-}
-
-function load_linuxOld(){
-msgs.innerHTML="Loading Linux ...";
-LoadedMSG="Linux Loaded";
-PLfile="pl_LinuxOld.bin";
-loadScript2();
-}
-
-function load_clock(){
-msgs.innerHTML="Loading kernel clock ...";
-LoadedMSG="kernel clock";
-PLfile="pl_clock.bin";
-loadScript2();
-}
-
-function load_trophybackup(){
-msgs.innerHTML="Loading Trophy Backup ...";
-LoadedMSG="Trophy Backup";
-PLfile="pl_Trophy_Backup.bin";
-loadScript2();
-}
-
-function load_trophyrestore(){
-msgs.innerHTML="Loading Trophy Restore ...";
-LoadedMSG="Trophy Restore";
-PLfile="pl_Trophy_Restore.bin";
-loadScript2();
-}
-
-function load_cache(){
-msgs.innerHTML="Loading Restore Cache db ...";
-LoadedMSG="Restore Cache db";
-PLfile="pl_cache.bin";
-loadScript2();
-}
-
-function load_todex(){
-msgs.innerHTML="Loading ToDEX ...";
-LoadedMSG="ToDEX Loaded";
-PLfile="pl_ToDEX.bin";
-loadScript2();
-}
-
-function load_todev(){
-msgs.innerHTML="Loading ToDEV ...";
-LoadedMSG="ToDEV Loaded";
-PLfile="pl_ToDEV.bin";
-loadScript2();
-}
-
-function load_tokratos(){
-msgs.innerHTML="Loading ToKratos ...";
-LoadedMSG="ToKratos Loaded";
-PLfile="pl_ToKratos.bin";
-loadScript2();
-}
-
-function load_updatesdisable(){
-msgs.innerHTML="Loading Disable Updates ...";
-LoadedMSG="Disable Updates Loaded";
-PLfile="pl_UpdatesDisable.bin";
-loadScript2();
-}
-
-function load_updatesenable(){
-msgs.innerHTML="Loading Enable Updates ...";
-LoadedMSG="Enable Updates Loaded";
-PLfile="pl_UpdatesEnable.bin";
-loadScript2();
-}
-
-function load_dumperGU(){//by xVortex - 672 port and MOD by Leeful
-msgs.innerHTML="Loading Game & Update Dumper ...";
-LoadedMSG="Game & Update Dumper Loaded";
-PLfile="pl_DumperGU.bin";
-loadScript2();
-}
-
-function load_dumperG(){//by xVortex - 672 port and MOD by Leeful
-msgs.innerHTML="Loading Game Dumper ...";
-LoadedMSG="Game Dumper Loaded";
-PLfile="pl_DumperG.bin";
-loadScript2();
-}
-
-function load_dumperU(){//by xVortex - 672 port and MOD by Leeful
-msgs.innerHTML="Loading Game Update Dumper ...";
-LoadedMSG="Game Update Dumper Loaded";
-PLfile="pl_DumperU.bin";
-loadScript2();
-}
-
-function load_dumperM(){//by xVortex - 672 port and MOD by Leeful
-msgs.innerHTML="Loading Merged Game+Update Dumper ...";
-LoadedMSG="Merged Game+Update Dumper Loaded";
-PLfile="pl_DumperM.bin";
-loadScript2();
-}
-
-function load_dbBackup(){//by Stooged - 672 port and MOD by Leeful
-msgs.innerHTML="Loading Database Backup ...";
-LoadedMSG="Database Backup Loaded";
-PLfile="pl_DBbackup.bin";
-loadScript2();
-}
-
-function load_dbRestore(){//by Stooged - 672 port and MOD by Leeful
-msgs.innerHTML="Loading Database Restore ...";
-LoadedMSG="Database Restore Loaded";
-PLfile="pl_DBrestore.bin";
-loadScript2();
-}
-
-function load_AvatarBackup(){
-msgs.innerHTML="Loading Avatar Backup ...";
-LoadedMSG="Avatar Backup Loaded";
-PLfile="pl_AvatarBackup.bin";
-loadScript2();
-}
-
-function load_AvatarRestore(){
-msgs.innerHTML="Loading Avatar Restore ...";
-LoadedMSG="Avatar Restore Loaded";
-PLfile="pl_AvatarRestore.bin";
-loadScript2();
-}
-
-function load_gtaV100(){//Mod of Mustafa0436 - NO fuck rockstar message
-msgs.innerHTML="Loading GTAV ArabicGuy Mod Menu ...";
-LoadedMSG="GTAV Mod Menu Loaded Use L1+R1 To Activate";
-PLfile="pl_GTA_ArabicGuy100.bin";
-loadScript2();
-}
-
-function load_gtaV127(){//by GraFfiX420 
-msgs.innerHTML="Loading GTAV ArabicGuy Mod Menu ...";
-LoadedMSG="GTAV Mod Menu Loaded Use DPAD Right+Square To Activate";
-PLfile="pl_GTA_ArabicGuy127.bin";
-loadScript2();
-}
-
-function load_gtaV132(){//by GraFfiX420
-msgs.innerHTML="Loading GTAV ArabicGuy Mod Menu ...";
-LoadedMSG="GTAV Mod Menu Loaded Use DPAD Right+Square To Activate";
-PLfile="pl_GTA_ArabicGuy132.bin";
-loadScript2();
-}
-
-function load_gtaVL132(){//by david1337hax
-msgs.innerHTML="Loading GTAV Lamance Mod Menu ...";
-LoadedMSG="GTAV Mod Menu Loaded Use DPAD Right+Square To Activate";
-PLfile="pl_GTA_Lamance132.bin";
-loadScript2();
-}
-
-function load_gtaVB132(){//by david1337hax
-msgs.innerHTML="Loading GTAV BeefQueef Mod Menu ...";
-LoadedMSG="GTAV Mod Menu Loaded Use DPAD Right+Square To Activate";
-PLfile="pl_BeefQueefMod672-132.bin";
-loadScript2();
-}
-
-function load_gtaVB133(){//by david1337hax
-msgs.innerHTML="Loading GTAV BeefQueef Mod Menu ...";
-LoadedMSG="GTAV Mod Menu Loaded Use DPAD Right+Square To Activate";
-PLfile="pl_BeefQueefMod672-133.bin";
-loadScript2();
-}
-
-function load_rdr2V113(){//by RF0oDxM0Dz
-msgs.innerHTML="Loading Red dead redemption 2 Mod Menu ...";
-LoadedMSG="Red dead redemption 2 mod  menu V1.13 (R1 + Square)";
-PLfile="pl_Oysters-Free-1.13.bin";
-loadScript2();
-}
-
-function load_rdr2V119(){//by RF0oDxM0Dz
-msgs.innerHTML="Loading Red dead redemption 2 Mod Menu ...";
-LoadedMSG="Red dead redemption 2 mod  menu V1.19 (R1 + Square)";
-PLfile="pl_Oysters-Free-1.19.bin";
-loadScript2();
-}
-
-function load_rdr2V124(){//by RF0oDxM0Dz
-msgs.innerHTML="Loading Red dead redemption 2 Mod Menu ...";
-LoadedMSG="Red dead redemption 2 mod  menu V1.24 (R1 + Square)";
-PLfile="pl_Oysters-Free-1.24.bin";
-loadScript2();
-}
-
-function load_tlou2(){//by x3shakir
-msgs.innerHTML="Loading tlou2 Mod Menu ...";
-LoadedMSG="tlou2 mod menu (L3+Left / L3+Right) ";
-PLfile="pl_tlou2_100.bin";
-loadScript2();
-}
-
-function load_fanthresh(){//by Leeful
-msgs.innerHTML="Loading Fan Threshold ...";
-LoadedMSG="Fan Threshold Loaded";fanTemp=tempC.value;
-PLfile="pl_FanThresh.js";
-loadScript1();
-}
-
-function load_FWspoof(){//by Leeful (based on EnableVR for 5.05 by Stooged)
-msgs.innerHTML="Loading Firmware Spoof ...";
-LoadedMSG="Firmware Spoof Loaded";fw1=parseInt(fws1.value,16);fw2=parseInt(fws2.value,16);
-PLfile="pl_FWspoof.js";
-loadScript1();
-setTimeout(function(){PS4fw.innerHTML="Currently Spoofed To v"+fws1.value+"."+("0" + fws2.value).slice(-2)},4000);
-}
 </script>
 </body>
 </html>
