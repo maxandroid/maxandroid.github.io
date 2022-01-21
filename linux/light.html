@@ -68,14 +68,6 @@ autoexpHenb.innerHTML=localStorage.autoexpHenb;
 autoexp2.innerHTML=localStorage.autoexp;
 autoexpHen2.innerHTML=localStorage.autoexpHen;
 autoexpHenb2.innerHTML=localStorage.autoexpHenb;
-AutoColourChange();
-}
-function AutoColourChange(){
-if (localStorage.autoexp=="ON"){autoexp.style="color:green;";autoexp2.style="color:green;"}else{autoexp.style="color:black";autoexp2.style="color:black"}
-if (localStorage.autoexpHen=="ON"){autoexpHen.style="color:green;";autoexpHen2.style="color:green;"}else{autoexpHen.style="color:black";autoexpHen2.style="color:black"}
-if (localStorage.autoexpHenb=="ON"){autoexpHenb.style="color:green;";autoexpHenb2.style="color:green;"}else{autoexpHenb.style="color:black";autoexpHenb2.style="color:black"}
-}
-AutoColourChange();
 
 function set_autoexp(){
 if (localStorage.autoexp == "ON") {localStorage.autoexp="OFF";}
