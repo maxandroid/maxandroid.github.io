@@ -65,7 +65,26 @@ autoexp2.innerHTML=localStorage.autoexp;
 autoexpHen2.innerHTML=localStorage.autoexpHen;
 autoexpHenb2.innerHTML=localStorage.autoexpHenb;
 }
-
+function set_autoexp(){
+if (localStorage.autoexp == "ON") {localStorage.autoexp="OFF";}
+else if (localStorage.autoexp == "OFF") {localStorage.autoexp="ON";localStorage.autoexpHen="OFF";localStorage.autoexpHenb="OFF";}
+updateAutoSettingsDisp();
+}
+function set_autoexpHen(){
+if (localStorage.autoexpHen == "ON") {localStorage.autoexpHen="OFF";}
+else if (localStorage.autoexpHen == "OFF") {localStorage.autoexpHen="ON";localStorage.autoexp="OFF";localStorage.autoexpHenb="OFF";}
+updateAutoSettingsDisp();
+}
+function set_autoexpHenb(){
+if (localStorage.autoexpHenb == "ON") {localStorage.autoexpHenb="OFF";}
+else if (localStorage.autoexpHenb == "OFF") {localStorage.autoexpHenb="ON";localStorage.autoexp="OFF";localStorage.autoexpHen="OFF";}
+updateAutoSettingsDisp();
+}
+function autoload(){
+if (UA == "6.72" && sessionStorage.exprun == null && sessionStorage.henrun == null && localStorage.autoexp == "ON"){load_Exp();}
+else if(UA == "6.72" && sessionStorage.exprun == null && sessionStorage.henrun == null && localStorage.autoexpHen == "ON"){load_ExpHen();}
+else if(UA == "6.72" && sessionStorage.exprun == null && sessionStorage.henrun == null && localStorage.autoexpHenb == "ON"){load_ExpHenb();}
+}
 
 function load_ExpGold(){
 msgs.innerHTML="Loading Exploit and Gold HEN 2.0b2, Please Wait ...";
