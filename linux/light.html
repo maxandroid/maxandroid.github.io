@@ -1,4 +1,4 @@
-<html manifest="cache.manifest"><!--  -->
+<html manifest="cach.manifest"><!--  -->
 <head>
 <title>6.72 light loader</title>
 <style>button{margin-bottom:5px;}
@@ -37,8 +37,7 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL2></span>&nbsp;&nbsp;&nbsp;:&n
 <br>
 <h1 style='font-size:16px;margin-bottom:1px;'>TOOLS</h1> 
 <button onclick=load_otb()> Toolbox </button>
-<button onclick=load_webrte()> WebRTE </button> 
-<button onclick="document.location='http://85.214.115.33/lndex.html'"> Trainer </button>
+<button onclick=load_webrte()> WebRTE</button><button onclick="document.location='http://85.214.115.33/lndex.html'">Trainer </button>
 </div>
 <div style="position:fixed;left:0;bottom:-8px;width:100%;font-size:16px;">
 <div>
@@ -50,9 +49,7 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL2></span>&nbsp;&nbsp;&nbsp;:&n
 henVer.innerHTML=localStorage.henVer; UA = navigator.userAgent.substring(navigator.userAgent.indexOf("6.72 (") + 28, navigator.userAgent.indexOf(") Apple"));
 PS4fw.innerHTML="v"+UA+" Detected";
 if (UA != "6.72") {jbSection.style="display:none";plSection.style="display:block";PS4fw.innerHTML="Currently Spoofed To v"+UA;};
-if (localStorage.autoexp == null) {localStorage.autoexp="OFF";}
-if (localStorage.autoexpHen == null) {localStorage.autoexpHen="OFF";}
-if (localStorage.autoexpHenb == null) {localStorage.autoexpHenb="OFF";}
+
 if (localStorage.passcountSL == null) {localStorage.passcountSL=0;} passCounterSL.innerHTML=localStorage.passcountSL; passCounterSL2.innerHTML=localStorage.passcountSL;
 if (localStorage.failcountSL == null) {localStorage.failcountSL=0;} failCounterSL.innerHTML=localStorage.failcountSL; failCounterSL2.innerHTML=localStorage.failcountSL;
 if (sessionStorage.exprun != null && sessionStorage.henrun == null) {msgs.innerHTML="Exploit Loaded Now Load HEN";justExp.style="display:none";henSection.style="display:block";localStorage.passcountSL = ++localStorage.passcountSL;passCounterSL.innerHTML=localStorage.passcountSL;}
@@ -60,7 +57,6 @@ if (sessionStorage.henrun != null) {msgs.innerHTML="Exploit Loaded Now Load HEN"
 function getScript(source,callback){var gs=document.createElement('script');gs.src=source;gs.onload=callback;gs.async=false;document.body.appendChild(gs);}
 function loadScript2(){getScript("exp_loaderPL.js",function(){});}
 function loadScript1(){getScript(PLfile,function(){setTimeout(loadScript2,500);});}
-
 function updateAutoSettingsDisp(){
 autoexp.innerHTML=localStorage.autoexp;
 autoexpHen.innerHTML=localStorage.autoexpHen;
@@ -68,36 +64,8 @@ autoexpHenb.innerHTML=localStorage.autoexpHenb;
 autoexp2.innerHTML=localStorage.autoexp;
 autoexpHen2.innerHTML=localStorage.autoexpHen;
 autoexpHenb2.innerHTML=localStorage.autoexpHenb;
+}
 
-AutoColourChange();
-}
-function AutoColourChange(){
-if (localStorage.autoexp=="ON"){autoexp.style="color:green;";autoexp2.style="color:green;"}else{autoexp.style="color:black";autoexp2.style="color:black"}
-if (localStorage.autoexpHen=="ON"){autoexpHen.style="color:green;";autoexpHen2.style="color:green;"}else{autoexpHen.style="color:black";autoexpHen2.style="color:black"}
-if (localStorage.autoexpHenb=="ON"){autoexpHenb.style="color:green;";autoexpHenb2.style="color:green;"}else{autoexpHenb.style="color:black";autoexpHenb2.style="color:black"}
-}
-AutoColourChange();
-
-function set_autoexp(){
-if (localStorage.autoexp == "ON") {localStorage.autoexp="OFF";}
-else if (localStorage.autoexp == "OFF") {localStorage.autoexp="ON";localStorage.autoexpHen="OFF";localStorage.autoexpHenb="OFF";}
-updateAutoSettingsDisp();
-}
-function set_autoexpHen(){
-if (localStorage.autoexpHen == "ON") {localStorage.autoexpHen="OFF";}
-else if (localStorage.autoexpHen == "OFF") {localStorage.autoexpHen="ON";localStorage.autoexp="OFF";localStorage.autoexpHenb="OFF";}
-updateAutoSettingsDisp();
-}
-function set_autoexpHenb(){
-if (localStorage.autoexpHenb == "ON") {localStorage.autoexpHenb="OFF";}
-else if (localStorage.autoexpHenb == "OFF") {localStorage.autoexpHenb="ON";localStorage.autoexp="OFF";localStorage.autoexpHen="OFF";}
-updateAutoSettingsDisp();
-}
-function autoload(){
-if (UA == "6.72" && sessionStorage.exprun == null && sessionStorage.henrun == null && localStorage.autoexp == "ON"){load_Exp();}
-else if(UA == "6.72" && sessionStorage.exprun == null && sessionStorage.henrun == null && localStorage.autoexpHen == "ON"){load_ExpHen();}
-else if(UA == "6.72" && sessionStorage.exprun == null && sessionStorage.henrun == null && localStorage.autoexpHenb == "ON"){load_ExpHenb();}
-}
 
 function load_ExpGold(){
 msgs.innerHTML="Loading Exploit and Gold HEN 2.0b2, Please Wait ...";
@@ -119,21 +87,18 @@ function load_autoHEN(){
 sessionStorage.henrun=1;
 LoaderHEN();
 }
-
 function load_otb(){
 msgs.innerHTML="Loading Orbis Toolbox ...";
 LoadedMSG="Orbis Toolbox Loaded";
 PLfile="pl_otb.bin";
 loadScript2();
 }
-
 function load_webrte(){
 msgs.innerHTML="Loading WebRTE ...";
 LoadedMSG="WebRTE Loaded";
 PLfile="pl_WebRTE.bin";
 loadScript2();
 }
-
 </script>
 </body>
 </html>
