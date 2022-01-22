@@ -57,14 +57,7 @@ if (sessionStorage.henrun != null) {msgs.innerHTML="Exploit Loaded Now Load HEN"
 function getScript(source,callback){var gs=document.createElement('script');gs.src=source;gs.onload=callback;gs.async=false;document.body.appendChild(gs);}
 function loadScript2(){getScript("exp_loaderPL.js",function(){});}
 function loadScript1(){getScript(PLfile,function(){setTimeout(loadScript2,500);});}
-function updateAutoSettingsDisp(){
-autoexp.innerHTML=localStorage.autoexp;
-autoexpHen.innerHTML=localStorage.autoexpHen;
-autoexpHenb.innerHTML=localStorage.autoexpHenb;
-autoexp2.innerHTML=localStorage.autoexp;
-autoexpHen2.innerHTML=localStorage.autoexpHen;
-autoexpHenb2.innerHTML=localStorage.autoexpHenb;
-}
+
 
 function load_ExpGold(){
 msgs.innerHTML="Loading Exploit and Gold HEN 2.0b2, Please Wait ...";
