@@ -80,11 +80,6 @@ if (localStorage.autoexpHenb == "ON") {localStorage.autoexpHenb="OFF";}
 else if (localStorage.autoexpHenb == "OFF") {localStorage.autoexpHenb="ON";localStorage.autoexp="OFF";localStorage.autoexpHen="OFF";}
 updateAutoSettingsDisp();
 }
-function autoload(){
-if (UA == "6.72" && sessionStorage.exprun == null && sessionStorage.henrun == null && localStorage.autoexp == "ON"){load_Exp();}
-else if(UA == "6.72" && sessionStorage.exprun == null && sessionStorage.henrun == null && localStorage.autoexpHen == "ON"){load_ExpHen();}
-else if(UA == "6.72" && sessionStorage.exprun == null && sessionStorage.henrun == null && localStorage.autoexpHenb == "ON"){load_ExpHenb();}
-}
 
 function load_ExpGold(){
 msgs.innerHTML="Loading Exploit and Gold HEN 2.0b2, Please Wait ...";
