@@ -49,7 +49,6 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL2></span>&nbsp;&nbsp;&nbsp;:&n
 henVer.innerHTML=localStorage.henVer; UA = navigator.userAgent.substring(navigator.userAgent.indexOf("6.72 (") + 28, navigator.userAgent.indexOf(") Apple"));
 PS4fw.innerHTML="v"+UA+" Detected";
 if (UA != "6.72") {jbSection.style="display:none";plSection.style="display:block";PS4fw.innerHTML="Currently Spoofed To v"+UA;};
-
 if (localStorage.passcountSL == null) {localStorage.passcountSL=0;} passCounterSL.innerHTML=localStorage.passcountSL; passCounterSL2.innerHTML=localStorage.passcountSL;
 if (localStorage.failcountSL == null) {localStorage.failcountSL=0;} failCounterSL.innerHTML=localStorage.failcountSL; failCounterSL2.innerHTML=localStorage.failcountSL;
 if (sessionStorage.exprun != null && sessionStorage.henrun == null) {msgs.innerHTML="Exploit Loaded Now Load HEN";justExp.style="display:none";henSection.style="display:block";localStorage.passcountSL = ++localStorage.passcountSL;passCounterSL.innerHTML=localStorage.passcountSL;}
@@ -57,8 +56,6 @@ if (sessionStorage.henrun != null) {msgs.innerHTML="Exploit Loaded Now Load HEN"
 function getScript(source,callback){var gs=document.createElement('script');gs.src=source;gs.onload=callback;gs.async=false;document.body.appendChild(gs);}
 function loadScript2(){getScript("exp_loaderPL.js",function(){});}
 function loadScript1(){getScript(PLfile,function(){setTimeout(loadScript2,500);});}
-
-
 function load_ExpGold(){
 msgs.innerHTML="Loading Exploit and Gold HEN 2.0b2, Please Wait ...";
 LoadedMSG="PS4 Jailbroken - Press Circle To Exit";
@@ -74,10 +71,6 @@ localStorage.henVer="Linux";
 PLfile="pl_Linux1.bin";
 justExp.style="display:none";
 setTimeout(jailbreak,500);
-}
-function load_autoHEN(){
-sessionStorage.henrun=1;
-LoaderHEN();
 }
 function load_otb(){
 msgs.innerHTML="Loading Orbis Toolbox ...";
