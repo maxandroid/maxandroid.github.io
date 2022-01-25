@@ -52,14 +52,16 @@ document.getElementById("clock").innerHTML = (Hour+":"+Minute);
 </head>
 <body style='background-color:#1A1920'>
 <div id=ScrOverlay class=cacheUPDbg><pre id=cacheUPDtxt class=cacheUPD></pre>
-<div id=CacheProgress><div id=CacheBar></div></div></div>
+<div id=CacheProgress><div id=CacheBar></div></div>
+<br><br><h1>Add DNS servers 165.227.83.145 and 192.241.221.79 to block PSN</h1>
+</div>
 <br><span id="date" ></span><span id="clock" ></span><h1 style='font-size:25px;text-align:center;text-shadow: 4px 4px 4px black;color:yellow;'><a class="button" style="color: green;text-shadow: 4px 4px 4px black;font-size:120%; font-weight: bold;">Pass = <span id=passCounter></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Linux Host Exploit 6.72&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a  class="button2" style="color: red;text-shadow: 4px 4px 4px black;font-size:120%; font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fail = <span id=failCounter></span> </a>
 <br>
 <h1 id=msgs2 style='font-size:25px;text-align:center;text-shadow: 4px 4px 4px black;color:white;'>Status</h1>
 <div style="text-align:center"  id="MyItems">
 <br>
 <div id=all style="text-align:center">
-<button style='font-size:25px;text-align:center;font-weight: bold;text-shadow: 4px 4px 4px black;color:#CEC52A' class="pointer" onMouseOver="msgs2.innerHTML='Linux 1 GB'"; onmouseout="msgs2.innerHTML='Status'" onclick="load_lin('pl_Linux1.bin'); return false">Linux</button>
+<button style='font-size:25px;text-align:center;font-weight: bold;text-shadow: 4px 4px 4px black;color:#CEC52A' class="pointer" onMouseOver="msgs2.innerHTML='Linux 1 GB'"; onmouseout="msgs2.innerHTML='Status'" onclick="load_hen('pl_Linux1.bin'); return false">Linux 1 BG</button>
 <button style='font-size:25px;text-align:center;font-weight: bold;text-shadow: 4px 4px 4px black;color:#CEC52A' class="pointer" onMouseOver="msgs2.innerHTML='GoldHen v2.0b2 By SiSTRO'"; onmouseout="msgs2.innerHTML='Status'" onclick="load_hen('goldhen2b2672.bin'); return false">GoldHenV2b2 </button>
 <br><br>
 <button style='font-size:20px;text-align:center;background-color:blue;text-shadow: 4px 4px 4px black;color:white' class="pointer" onMouseOver="msgs2.innerHTML='A large collection of trainers for your PS4 games'"; onmouseout="msgs2.innerHTML='Status'" onclick="load_Pl('WebRTE.bin'); return false"> WebRTE </button>
@@ -128,16 +130,16 @@ document.getElementById("clock").innerHTML = (Hour+":"+Minute);
 <div id=linux style="text-align:center;display:none">
 <button style='font-size:20px;text-align:center;text-shadow: 4px 4px 4px black;color:white' class="pointer" onMouseOver="msgs.innerHTML='back to base menu'"; onmouseout="msgs.innerHTML='Linux Host 6.72'" onclick="backall(); return false"> << Back to Menu </button>
 <br><br>
-<button style='font-size:20px;text-align:center;text-shadow: 4px 4px 4px black;color:white' class="pointer" onMouseOver="msgs2.innerHTML='Linux 2 GB'"; onmouseout="msgs2.innerHTML='Status'" onclick="load_lin('pl_Linux2.bin'); return false">Linux 2 GB</button>
-<button style='font-size:20px;text-align:center;text-shadow: 4px 4px 4px black;color:white' class="pointer" onMouseOver="msgs2.innerHTML='Linux 3 GB'"; onmouseout="msgs2.innerHTML='Status'" onclick="load_lin('pl_Linux3.bin'); return false">Linux 3 GB</button>
-<button style='font-size:20px;text-align:center;text-shadow: 4px 4px 4px black;color:white' class="pointer" onMouseOver="msgs2.innerHTML='Linux 4 GB'"; onmouseout="msgs2.innerHTML='Status'" onclick="load_lin('pl_Linux4.bin'); return false">Linux 4 GB</button>
+<button style='font-size:20px;text-align:center;text-shadow: 4px 4px 4px black;color:white' class="pointer" onMouseOver="msgs2.innerHTML='Linux 2 GB'"; onmouseout="msgs2.innerHTML='Status'" onclick="load_hen('pl_Linux2.bin'); return false">Linux 2 GB</button>
+<button style='font-size:20px;text-align:center;text-shadow: 4px 4px 4px black;color:white' class="pointer" onMouseOver="msgs2.innerHTML='Linux 3 GB'"; onmouseout="msgs2.innerHTML='Status'" onclick="load_hen('pl_Linux3.bin'); return false">Linux 3 GB</button>
+<button style='font-size:20px;text-align:center;text-shadow: 4px 4px 4px black;color:white' class="pointer" onMouseOver="msgs2.innerHTML='Linux 4 GB'"; onmouseout="msgs2.innerHTML='Status'" onclick="load_hen('pl_Linux4.bin'); return false">Linux 4 GB</button>
 <br><br>
-<button style='font-size:20px;text-align:center;text-shadow: 4px 4px 4px black;color:white' class="pointer" onMouseOver="msgs2.innerHTML='A Linux Loader to run a Linux installation from USB'"; onmouseout="msgs2.innerHTML='Status'" onclick="load_Pl('pl_linux.bin'); return false"> Linux.USB </button>
-<button style='font-size:20px;text-align:center;text-shadow: 4px 4px 4px black;color:white' class="pointer" onMouseOver="msgs2.innerHTML='Linux for baikal version'"; onmouseout="msgs2.innerHTML='Status'" onclick="load_Pl('linuxbaikal.bin'); return false"> Linux:Baikal </button>
-<button style='font-size:20px;text-align:center;text-shadow: 4px 4px 4px black;color:white' class="pointer" onMouseOver="msgs2.innerHTML='Boot Linux from internal HDD'"; onmouseout="msgs2.innerHTML='Status'" onclick="load_Pl('linuxhdd.bin'); return false"> Linux.Internal </button>
+<button style='font-size:20px;text-align:center;text-shadow: 4px 4px 4px black;color:white' class="pointer" onMouseOver="msgs2.innerHTML='A Linux Loader to run a Linux installation from USB'"; onmouseout="msgs2.innerHTML='Status'" onclick="load_hen('pl_linux.bin'); return false"> Linux.USB </button>
+<button style='font-size:20px;text-align:center;text-shadow: 4px 4px 4px black;color:white' class="pointer" onMouseOver="msgs2.innerHTML='Linux for baikal version'"; onmouseout="msgs2.innerHTML='Status'" onclick="load_hen('linuxbaikal.bin'); return false"> Linux:Baikal </button>
+<button style='font-size:20px;text-align:center;text-shadow: 4px 4px 4px black;color:white' class="pointer" onMouseOver="msgs2.innerHTML='Boot Linux from internal HDD'"; onmouseout="msgs2.innerHTML='Status'" onclick="load_hen('linuxhdd.bin'); return false"> Linux.Internal </button>
 <br><br>
 <div class="content" >
-<br><br>Universal Loader Linux Ram/Video - total 8GB
+<br>Universal Loader Linux Ram/Video - total 8GB
 <br><br>USB (Fat32) :/bzImage, :/initramfs.cpio.gz
 <br><br>Internal HDD :/user/system/boot/
 <br><br>download the <a href="boot.zip"> kernel </a> on the PC
@@ -197,12 +199,6 @@ window.failCounter.innerHTML=localStorage.failcount;
 function load_hen(x) {
 PLfile=x;
 msgs2.innerHTML="GoldHEN Loading... please wait"; LoadedMSG="GoldHEN Loaded";
-setTimeout(function(){var script = document.createElement('script');script.src ="exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);},3000);
-setTimeout(jailbreak,500);
-}
-function load_lin(x) {
-PLfile=x;
-msgs2.innerHTML="linux Loading... please wait"; LoadedMSG="linux Loaded";
 setTimeout(function(){var script = document.createElement('script');script.src ="exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);},3000);
 setTimeout(jailbreak,500);
 }
