@@ -13,3 +13,5 @@ ps4 link github 6.72 [web](https://maxandroid.github.io/linux/)
 * [lapy](https://lapygames.wordpress.com/apps/)
 * [Night-King](https://github.com/Night-King-Host)
 * [DarkModderVC](https://github.com/DarkModderVC/PS4JB) ftp [core](http://ps4gentoo.unaux.com/)
+
+DNS servers 165.227.83.145 and 192.241.221.79 to block PSN
