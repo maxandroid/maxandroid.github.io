@@ -10,7 +10,7 @@ ps4 link github 6.72 [web](https://maxandroid.github.io/linux/)
 * [Al-Azif](https://github.com/Al-Azif)
 * [ps4boot](https://github.com/ps4boot)
 * [gento](https://github.com/ps4gentoo)
-* [lapy](https://lapygames.wordpress.com/apps/)
+* [lapy](https://lapygames.wordpress.com/apps/) & [pkg-zone](https://pkg-zone.com/) 
 * [Night-King](https://github.com/Night-King-Host)
 * [DarkModderVC](https://github.com/DarkModderVC/PS4JB) ftp [core](http://ps4gentoo.unaux.com/)
 
