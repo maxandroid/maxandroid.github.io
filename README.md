@@ -14,4 +14,4 @@ ps4 link github 6.72 [web](https://maxandroid.github.io/linux/)
 * [Night-King](https://github.com/Night-King-Host)
 * [DarkModderVC](https://github.com/DarkModderVC/PS4JB) ftp [core](http://ps4gentoo.unaux.com/)
 
-* DNS servers 94.103.81.161
+* DNS servers 62.210.38.117
