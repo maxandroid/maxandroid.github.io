@@ -2,7 +2,7 @@
 ps4 link github 6.72 [web](https://maxandroid.github.io/linux/)
 * [Leeful](https://github.com/Leeful)
 * [Hakkuraifu](https://github.com/Hakkuraifu)
-* [Nazky](https://github.com/Nazky/PS4Linux-Payloads/releases/) & [web](https://es7in1.site/nazky) 
+* [Nazky](https://github.com/Nazky/PS4Linux-Payloads/releases/) & [web](https://es7in1.site/ps4/nazky) 
 * [SiSTR0](https://github.com/GoldHEN/GoldHEN) GoldHEN2.2 [Cheat](https://github.com/GoldHEN/GoldHEN_Cheat_Repository) & [Shop](https://ko-fi.com/sistro/shop) 
 * [kar0218](https://github.com/kar0218)
 * [wolf-5](https://github.com/wolf-5)
