@@ -1,0 +1,301 @@
+Package: asterisk18-app-authenticate
+Version: 1.8.30.0-2
+Depends: libc, asterisk18
+Source: feeds/telephony/net/asterisk-1.8.x
+Section: net
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: realtek
+Installed-Size: 3283
+Filename: asterisk18-app-authenticate_1.8.30.0-2_realtek.ipk
+Size: 4024
+MD5Sum: 5a4876cdfa8eccef63fe41be84bd0018
+SHA256sum: 4953cde77ded20ece0341ea4434fe7cbf2814bead7ef2054f33b4767c79dea57
+Description:  Asterisk is a complete PBX in software. It provides all of the features
+ you would expect from a PBX and more. Asterisk does voice over IP in three
+ protocols, and can interoperate with almost all standards-based telephony
+ equipment using relatively inexpensive hardware.
+ This package provides support Execute arbitrary authenticate commands in Asterisk.
+
+Package: asterisk18-app-disa
+Version: 1.8.30.0-2
+Depends: libc, asterisk18
+Source: feeds/telephony/net/asterisk-1.8.x
+Section: net
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: realtek
+Installed-Size: 4928
+Filename: asterisk18-app-disa_1.8.30.0-2_realtek.ipk
+Size: 5662
+MD5Sum: b9e1764ceb5f6190b94adc14ad7a2c8b
+SHA256sum: 40a85bb01d4ccfe4315de3a63df5b598fbc9cda550f17909c5ca8dab8e4058d1
+Description:  Asterisk is a complete PBX in software. It provides all of the features
+ you would expect from a PBX and more. Asterisk does voice over IP in three
+ protocols, and can interoperate with almost all standards-based telephony
+ equipment using relatively inexpensive hardware.
+ This package provides support Direct Inward System Access in Asterisk.
+
+Package: asterisk18-app-record
+Version: 1.8.30.0-2
+Depends: libc, asterisk18
+Source: feeds/telephony/net/asterisk-1.8.x
+Section: net
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: realtek
+Installed-Size: 4671
+Filename: asterisk18-app-record_1.8.30.0-2_realtek.ipk
+Size: 5421
+MD5Sum: daafdb3b4c0deda85898ef56ed312774
+SHA256sum: 598ade2570d4e2795a60ef7e76ddeffa6395ed09103223b505c93a4b92a2a2d1
+Description:  Asterisk is a complete PBX in software. It provides all of the features
+ you would expect from a PBX and more. Asterisk does voice over IP in three
+ protocols, and can interoperate with almost all standards-based telephony
+ equipment using relatively inexpensive hardware.
+ This package provides support to record a sound file in Asterisk.
+
+Package: asterisk18-app-senddtmf
+Version: 1.8.30.0-2
+Depends: libc, asterisk18
+Source: feeds/telephony/net/asterisk-1.8.x
+Section: net
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: realtek
+Installed-Size: 2637
+Filename: asterisk18-app-senddtmf_1.8.30.0-2_realtek.ipk
+Size: 3422
+MD5Sum: 289b7ea422cf22176c51dea7106e1a88
+SHA256sum: 79080e0aece3c6d7d5162e1a090f558126ef6623cdb079de2eb450c49d6bedf5
+Description:  Asterisk is a complete PBX in software. It provides all of the features
+ you would expect from a PBX and more. Asterisk does voice over IP in three
+ protocols, and can interoperate with almost all standards-based telephony
+ equipment using relatively inexpensive hardware.
+ This package provides support Sends arbitrary DTMF digits in Asterisk.
+
+Package: asterisk18-app-setcallerid
+Version: 1.8.30.0-2
+Depends: libc, asterisk18
+Source: feeds/telephony/net/asterisk-1.8.x
+Section: net
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: realtek
+Installed-Size: 1995
+Filename: asterisk18-app-setcallerid_1.8.30.0-2_realtek.ipk
+Size: 2773
+MD5Sum: f6ec27a8f9b73b2330995648f27ddad1
+SHA256sum: 3424544233543a1f542c16cf9b97eb1b3755ed465d054c5c604888edd8956692
+Description:  Asterisk is a complete PBX in software. It provides all of the features
+ you would expect from a PBX and more. Asterisk does voice over IP in three
+ protocols, and can interoperate with almost all standards-based telephony
+ equipment using relatively inexpensive hardware.
+ This package provides support Support for setting callerid in Asterisk.
+
+Package: asterisk18-app-system
+Version: 1.8.30.0-2
+Depends: libc, asterisk18
+Source: feeds/telephony/net/asterisk-1.8.x
+Section: net
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: realtek
+Installed-Size: 2493
+Filename: asterisk18-app-system_1.8.30.0-2_realtek.ipk
+Size: 3267
+MD5Sum: 5657ac023e619ab4628d5c24c7b395eb
+SHA256sum: 85cc52bfc9d518c92e60a4c19a5203d781e961035d1cf90bfaf3792b898240d4
+Description:  Asterisk is a complete PBX in software. It provides all of the features
+ you would expect from a PBX and more. Asterisk does voice over IP in three
+ protocols, and can interoperate with almost all standards-based telephony
+ equipment using relatively inexpensive hardware.
+ This package provides support support for executing system commands in Asterisk.
+
+Package: asterisk18-chan-gtalk
+Version: 1.8.30.0-2
+Depends: libc, asterisk18, libiksemel
+Source: feeds/telephony/net/asterisk-1.8.x
+Section: net
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: realtek
+Installed-Size: 64207
+Filename: asterisk18-chan-gtalk_1.8.30.0-2_realtek.ipk
+Size: 64828
+MD5Sum: 3cc75eabbcc47ee69a8ebfa038ba91f8
+SHA256sum: 3ddf5a40d2335f8906f1ac807eb3a17077b20f979d0d867db93592fd846178e9
+Description:  Asterisk is a complete PBX in software. It provides all of the features
+ you would expect from a PBX and more. Asterisk does voice over IP in three
+ protocols, and can interoperate with almost all standards-based telephony
+ equipment using relatively inexpensive hardware.
+ This package provides support An implementation of chan_gtalk and res_jabber for GTalk support in Asterisk.
+
+Package: asterisk18-chan-local
+Version: 1.8.30.0-2
+Depends: libc, asterisk18
+Source: feeds/telephony/net/asterisk-1.8.x
+Section: net
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: realtek
+Installed-Size: 11711
+Filename: asterisk18-chan-local_1.8.30.0-2_realtek.ipk
+Size: 12475
+MD5Sum: fac8faab67cfb5c2300001cd4b170967
+SHA256sum: 18971722e9d04c23b6244d59cd8a69ecc97b6dcc7300953e404bafd80101db28
+Description:  Asterisk is a complete PBX in software. It provides all of the features
+ you would expect from a PBX and more. Asterisk does voice over IP in three
+ protocols, and can interoperate with almost all standards-based telephony
+ equipment using relatively inexpensive hardware.
+ This package provides support An implementation of local proxy channel in Asterisk.
+
+Package: asterisk18-codec-a-mu
+Version: 1.8.30.0-2
+Depends: libc, asterisk18
+Source: feeds/telephony/net/asterisk-1.8.x
+Section: net
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: realtek
+Installed-Size: 2140
+Filename: asterisk18-codec-a-mu_1.8.30.0-2_realtek.ipk
+Size: 2918
+MD5Sum: 3f385135a09de849b35be3fdb80204ab
+SHA256sum: 60692ef50802667e766d11bf45366a4b211a90801b576d2b641ffa785d53daa1
+Description:  Asterisk is a complete PBX in software. It provides all of the features
+ you would expect from a PBX and more. Asterisk does voice over IP in three
+ protocols, and can interoperate with almost all standards-based telephony
+ equipment using relatively inexpensive hardware.
+ This package provides support translation between alaw and ulaw codecs in Asterisk.
+
+Package: asterisk18-codec-alaw
+Version: 1.8.30.0-2
+Depends: libc, asterisk18
+Source: feeds/telephony/net/asterisk-1.8.x
+Section: net
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: realtek
+Installed-Size: 2242
+Filename: asterisk18-codec-alaw_1.8.30.0-2_realtek.ipk
+Size: 3035
+MD5Sum: 0174f47e6a7b1cb6137975c61246a20f
+SHA256sum: 34c7b71f42cd923c3c244b282bf5a877e84fb0af4f85a2db723565a7dc1e402b
+Description:  Asterisk is a complete PBX in software. It provides all of the features
+ you would expect from a PBX and more. Asterisk does voice over IP in three
+ protocols, and can interoperate with almost all standards-based telephony
+ equipment using relatively inexpensive hardware.
+ This package provides support translation between signed linear and alaw codecs in Asterisk.
+
+Package: asterisk18-func-channel
+Version: 1.8.30.0-2
+Depends: libc, asterisk18
+Source: feeds/telephony/net/asterisk-1.8.x
+Section: net
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: realtek
+Installed-Size: 6702
+Filename: asterisk18-func-channel_1.8.30.0-2_realtek.ipk
+Size: 7496
+MD5Sum: 34b1f60342d439156e24a732ff3a2eb6
+SHA256sum: 3721613c0ce17df66e07fe3ca40207f212bb509047bfc8cf3f98dbb4148219ce
+Description:  Asterisk is a complete PBX in software. It provides all of the features
+ you would expect from a PBX and more. Asterisk does voice over IP in three
+ protocols, and can interoperate with almost all standards-based telephony
+ equipment using relatively inexpensive hardware.
+ This package provides support Channel info dialplan function in Asterisk.
+
+Package: asterisk18-func-cut
+Version: 1.8.30.0-2
+Depends: libc, asterisk18
+Source: feeds/telephony/net/asterisk-1.8.x
+Section: net
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: realtek
+Installed-Size: 3837
+Filename: asterisk18-func-cut_1.8.30.0-2_realtek.ipk
+Size: 4571
+MD5Sum: aa3b2754915de45b9bb85aa5c4774300
+SHA256sum: 9aace01aa5520734606cff0b662018cbb3d7c3d41c4b6a309983c756bd4141ba
+Description:  Asterisk is a complete PBX in software. It provides all of the features
+ you would expect from a PBX and more. Asterisk does voice over IP in three
+ protocols, and can interoperate with almost all standards-based telephony
+ equipment using relatively inexpensive hardware.
+ This package provides support CUT function in Asterisk.
+
+Package: asterisk18-res-clioriginate
+Version: 1.8.30.0-2
+Depends: libc, asterisk18
+Source: feeds/telephony/net/asterisk-1.8.x
+Section: net
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: realtek
+Installed-Size: 3487
+Filename: asterisk18-res-clioriginate_1.8.30.0-2_realtek.ipk
+Size: 4234
+MD5Sum: f1bcfd614e99a947bb19b14005ee2134
+SHA256sum: 77084e94cbec51db62fe3ecbabf05f28446378943d6bca764f21133a3ccfbe30
+Description:  Asterisk is a complete PBX in software. It provides all of the features
+ you would expect from a PBX and more. Asterisk does voice over IP in three
+ protocols, and can interoperate with almost all standards-based telephony
+ equipment using relatively inexpensive hardware.
+ This package provides support Originate calls via the CLI in Asterisk.
+
+Package: asterisk18-res-crypto
+Version: 1.8.30.0-2
+Depends: libc, asterisk18
+Source: feeds/telephony/net/asterisk-1.8.x
+Section: net
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: realtek
+Installed-Size: 7040
+Filename: asterisk18-res-crypto_1.8.30.0-2_realtek.ipk
+Size: 7827
+MD5Sum: c8dff9fc6cc200d230ce9a329fbe6d8f
+SHA256sum: 31e0bcbc58103a3684b61d7a46b370a319b3afcd30c601ca92345a4e7582f076
+Description:  Asterisk is a complete PBX in software. It provides all of the features
+ you would expect from a PBX and more. Asterisk does voice over IP in three
+ protocols, and can interoperate with almost all standards-based telephony
+ equipment using relatively inexpensive hardware.
+ This package provides support Cryptographic Signature capability in Asterisk.
+
+Package: asterisk18
+Version: 1.8.30.0-2
+Depends: libc, libopenssl, libncurses, libpopt, libpthread, zlib
+Source: feeds/telephony/net/asterisk-1.8.x
+Section: net
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: realtek
+Installed-Size: 1151687
+Filename: asterisk18_1.8.30.0-2_realtek.ipk
+Size: 1148628
+MD5Sum: 51ee54552d6072fdd55be42cfe74b966
+SHA256sum: 092e4a1b3b204a5bd5e51e79623974c0de7a5185f5e66e434e359d4a5db6865e
+Description:  Asterisk is a complete PBX in software. It provides all of the features
+ you would expect from a PBX and more. Asterisk does voice over IP in three
+ protocols, and can interoperate with almost all standards-based telephony
+ equipment using relatively inexpensive hardware.
+
+Package: libiksemel
+Version: 1.4-1
+Depends: libc, libgnutls, libtasn1, libgcrypt, libgpg-error
+Source: feeds/telephony/libs/iksemel
+Section: libs
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: realtek
+Installed-Size: 20757
+Filename: libiksemel_1.4-1_realtek.ipk
+Size: 21466
+MD5Sum: 714008e0c13481dad553fc0b54c54f7f
+SHA256sum: 083cb8852d8c1c97d8feab7eef106d2c795b660ae4e5ef96d40059a2f3481fff
+Description:  Iksemel is an XML parser library mainly designed for Jabber applications.
+ It provides SAX, DOM, and special Jabber stream APIs. Library is coded
+ in ANSI C except the network code (which is POSIX compatible), thus
+ highly portable.
+
+Package: smap
+Version: 0.6.0-2
+Depends: libc, libpthread
+Source: feeds/telephony/net/smap
+Section: net
+Maintainer: Daniel Dickinson <openwrt@cshore.neomailbox.net>
+Architecture: realtek
+Installed-Size: 22162
+Filename: smap_0.6.0-2_realtek.ipk
+Size: 22765
+MD5Sum: 85d27f866025b68f9c179c8bfb557a79
+SHA256sum: bc3855b674626d2da54180a155f530dba60846569366349d499b790e9355692d
+Description:  Discovers and identifies SIP devices on the network including hardware
+ phones, softphones, PBX software, and PBX equipment.
+
