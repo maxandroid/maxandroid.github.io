@@ -1,0 +1,996 @@
+Package: apache-icons
+Version: 2.2.27-1
+Depends: libc, apache
+Source: feeds/packages/net/apache
+License: Apache License
+Section: net
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: realtek
+Installed-Size: 71400
+Filename: apache-icons_2.2.27-1_realtek.ipk
+Size: 72188
+MD5Sum: 28bb5cb7bd8fa0619e9e41ac45b0d3bc
+SHA256sum: af4189c0b38fea0ef7bcda40d3efcfc0b118c505ff9bc76f86eff0b4769fd346
+Description:  The Apache Web Server is a powerful and flexible HTTP/1.1 compliant
+ web server.  Originally designed as a replacement for the NCSA HTTP
+ Server, it has grown to be the most popular web server on the Internet.
+ .
+ This package contains the icons from Apache.
+
+Package: apache
+Version: 2.2.27-1
+Depends: libc, libapr, libaprutil, libpcre, libopenssl, unixodbc
+Source: feeds/packages/net/apache
+License: Apache License
+Section: net
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: realtek
+Installed-Size: 472871
+Filename: apache_2.2.27-1_realtek.ipk
+Size: 473615
+MD5Sum: e98ea97a417b1823885204acdd2c4051
+SHA256sum: 5bc7549a28eb66f481c8c738b7bf842a89cb2c815af855cb9d704d8520ddd899
+Description:  The Apache Web Server is a powerful and flexible HTTP/1.1 compliant
+ web server.  Originally designed as a replacement for the NCSA HTTP
+ Server, it has grown to be the most popular web server on the Internet.
+ .
+ This package contains the Apache web server and utility programs.
+ .
+ Take care that you don't include apache at the moment into your image
+ please select it only as module because busybox will override
+ /usr/sbin/httpd. It'll be solved soon. If you need to include this
+ package in the image anyway, remove httpd from busybox
+ (Base system --> Configuration --> Networking Utilities --> httpd).
+ Also you should take care for the initscripts, apache's httpd isn't
+ compatible with the one from busybox, so if you want to use apache
+ for running your webif, you'll need to change the parameters in the
+ scripts and configure the rest in /etc/httpd.conf.
+
+Package: certtool
+Version: 3.3.16-1
+Depends: libc, libgnutls
+Source: feeds/packages/libs/gnutls
+Section: utils
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: realtek
+Installed-Size: 93617
+Filename: certtool_3.3.16-1_realtek.ipk
+Size: 94181
+MD5Sum: c726fb5a9f4d67155fa98008ae5a4b6c
+SHA256sum: 6ecc5b6e87b9976aff434d57060df678a044fff625e261bba14365361546c3ba
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS certtool utility.
+
+Package: collectd-mod-interface
+Version: 4.10.8-3
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 2167
+Filename: collectd-mod-interface_4.10.8-3_realtek.ipk
+Size: 2751
+MD5Sum: 1a66331cc67469a841cb8f96c84f4ca6
+SHA256sum: 4c248df8d238cdc780d6f464623adaf964cdfd061f9d976f7ff4b5ba1e917765
+Description:  network interfaces input plugin
+
+Package: collectd-mod-iwinfo
+Version: 4.10.8-3
+Depends: libc, collectd, libiwinfo
+Source: feeds/packages/utils/collectd
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 2679
+Filename: collectd-mod-iwinfo_4.10.8-3_realtek.ipk
+Size: 3276
+MD5Sum: 52ad54ec55c264ebdf06b32fb4f868f1
+SHA256sum: 5ba000d0883131da080ba55f21d2760ee721c9fb14d02e6b23a1c51adc60a1e7
+Description:  libiwinfo wireless statistics plugin
+
+Package: collectd-mod-load
+Version: 4.10.8-3
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 1882
+Filename: collectd-mod-load_4.10.8-3_realtek.ipk
+Size: 2463
+MD5Sum: 7d7f920296efec90d6c964b31e4a440b
+SHA256sum: 5c4a8b98c6fa3fa768e58f7b680176c0eceddd24f9947d3ccf866da1c0bf32ec
+Description:  system load input plugin
+
+Package: collectd-mod-network
+Version: 4.10.8-3
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 13513
+Filename: collectd-mod-network_4.10.8-3_realtek.ipk
+Size: 14068
+MD5Sum: 928ac08ba87f6fcdd7081e7e7c970361
+SHA256sum: 25031f0899319de7d3558b317e2c922cd03c6236822596d319dc054d6b109c33
+Description:  network input/output plugin
+
+Package: collectd-mod-rrdtool
+Version: 4.10.8-3
+Depends: libc, collectd, librrd1
+Source: feeds/packages/utils/collectd
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 9342
+Filename: collectd-mod-rrdtool_4.10.8-3_realtek.ipk
+Size: 9877
+MD5Sum: bd6e10754aef2f8f694921c15c5906dd
+SHA256sum: 89c4fdffbbce930805e3aefaacb056ab300f0c4fc57a201d9a227a39c419df4c
+Description:  RRDtool output plugin
+
+Package: collectd
+Version: 4.10.8-3
+Depends: libc, libpthread, zlib, libltdl, libip4tc
+Source: feeds/packages/utils/collectd
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 59658
+Filename: collectd_4.10.8-3_realtek.ipk
+Size: 60342
+MD5Sum: 8abd542e1ac2643dd16cad717b1ec2fb
+SHA256sum: 4670eb9edab47575f004f12eabe3ab4a2de3421680ac2cded6710032baf4d38f
+Description:  collectd is a small daemon which collects system information periodically
+ and provides mechanismns to store the values in a variety of ways.
+
+Package: cshark
+Version: 2014-07-02-ec638311b0b8ef74baf0be06dcf03a641e3308a2
+Depends: libc, libjson-c, libpcap, libuci, libubox, libuclient, libustream-polarssl
+Source: feeds/packages/net/cshark
+Section: net
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: realtek
+Installed-Size: 8800
+Filename: cshark_2014-07-02-ec638311b0b8ef74baf0be06dcf03a641e3308a2_realtek.ipk
+Size: 9437
+MD5Sum: 6efdfe2b51900b1d509b0e15043374e2
+SHA256sum: 1457d69f1b33a9dfa0547b4aa3bf56d44f3ce31caac627bfb29b5d2cba08bdc6
+Description:  CloudShark capture tool
+
+Package: ddns-scripts
+Version: 1.0.0-23
+Depends: libc
+Source: feeds/packages/net/ddns-scripts
+License: GPL-2.0
+Section: net
+Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
+Architecture: all
+Installed-Size: 7250
+Filename: ddns-scripts_1.0.0-23_all.ipk
+Size: 7921
+MD5Sum: 6a0ae2f721dae3ddcd02ac9e3cf43337
+SHA256sum: 10b673e8962cb1fcc65255bb348ed473d5a40fdc7298a55ffa6e41d48a539931
+Description:  A highly configurable set of scripts for doing
+ dynamic dns updates
+
+Package: etherwake
+Version: 1.09-3
+Depends: libc
+Source: feeds/packages/net/etherwake
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: realtek
+Installed-Size: 5380
+Filename: etherwake_1.09-3_realtek.ipk
+Size: 6133
+MD5Sum: ba4366acddf6c15b5af11a1357c19a33
+SHA256sum: 3ddd50c7768b241e2aa0dcc2b436dca549ad73a73a99d52eddbbe6fd8ff9f3f4
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: glib2
+Version: 2.41.1-2
+Depends: libc, zlib, libpthread, libffi, libattr
+Source: feeds/packages/libs/glib2
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: realtek
+Installed-Size: 946686
+Filename: glib2_2.41.1-2_realtek.ipk
+Size: 939149
+MD5Sum: 6820ec8f02db32bd4c9604f64fbad32f
+SHA256sum: 79e9cebee618dfdcca8a940ddc2d765530fbe199da162c529ab3a26c6b36fd2d
+Description:  The GLib library of C routines
+
+Package: libapr
+Version: 1.5.1-1
+Depends: libc, libpthread, librt, libuuid
+Source: feeds/packages/libs/apr
+License: Apache License
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: realtek
+Installed-Size: 77316
+Filename: libapr_1.5.1-1_realtek.ipk
+Size: 77908
+MD5Sum: f104ff4d35ff32b94e1d7eebbf45b9a1
+SHA256sum: 62696e62c4e3e7b7691e6591c8ce922a60ef13851480a69e59ada11971bf9765
+Description:  Apache Portable Runtime Library
+
+Package: libaprutil
+Version: 1.5.3-1
+Depends: libc, libapr, libexpat, libsqlite3, libuuid
+Source: feeds/packages/libs/apr-util
+License: Apache License
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: realtek
+Installed-Size: 76885
+Filename: libaprutil_1.5.3-1_realtek.ipk
+Size: 77433
+MD5Sum: 28ae8595b03b59f6deef8028d2d3dd0a
+SHA256sum: 6338a70cd5b68f2d8fdd25fa5f750c2e4211ed556dc27e92f80ae1aab7713876
+Description:  Apache Portable Runtime Utility Library
+
+Package: libattr
+Version: 20140610-1
+Depends: libc
+Source: feeds/packages/utils/attr
+Section: libs
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: realtek
+Installed-Size: 5336
+Filename: libattr_20140610-1_realtek.ipk
+Size: 5889
+MD5Sum: 1fca181c729360362b98258bd7f518a8
+SHA256sum: bc6bc84337d6dc102086094c29a42ccb218825b73fb693ff61d56bd33a03668c
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libcap
+Version: 2.24-1
+Depends: libc
+Source: feeds/packages/libs/libcap
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: realtek
+Installed-Size: 5947
+Filename: libcap_2.24-1_realtek.ipk
+Size: 6479
+MD5Sum: ed3c97730874a80c449320c544e2ece9
+SHA256sum: 598440a2e1701cae0d3d69aa3a713d87dae52fb4a27a302f16f7a7c26c1141ef
+Description:  Linux capabilities library
+
+Package: libdaemon
+Version: 0.14-4
+Depends: libc
+Source: feeds/packages/libs/libdaemon
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: realtek
+Installed-Size: 8440
+Filename: libdaemon_0.14-4_realtek.ipk
+Size: 9334
+MD5Sum: 7b1e1acf6c696004114deb3f2ffdc9e5
+SHA256sum: 1e0d5e2066287932f9bd2bc713102325b00a95dac6feaa1f8606ae0b1335bc08
+Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
+ It consists of the following parts:
+ - A wrapper around fork() which does the correct daemonization procedure of a process
+ - A wrapper around syslog() for simpler and compatible log output to Syslog or STDERR
+ - An API for writing PID files
+ - An API for serializing UNIX signals into a pipe for usage with select() or poll()
+ - An API for running subprocesses with STDOUT and STDERR redirected to syslog
+ 
+ APIs like these are used in most daemon software available. It is not that
+ simple to get it done right and code duplication is not a goal.
+
+Package: libexpat
+Version: 2.1.0-1
+Depends: libc
+Source: feeds/packages/libs/expat
+License: MIT
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: realtek
+Installed-Size: 62192
+Filename: libexpat_2.1.0-1_realtek.ipk
+Size: 62550
+MD5Sum: 395a1d358687dbb9c5ad87d47187c5fa
+SHA256sum: 0fa3f0be2a13cdaa626190c09bd2dec8dfaf54e91ea3faf1831fde49c8bfd73b
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.0.13-1
+Depends: libc
+Source: feeds/packages/libs/libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: realtek
+Installed-Size: 5474
+Filename: libffi_3.0.13-1_realtek.ipk
+Size: 6326
+MD5Sum: 5f22b2c39babd4d09046d8215a248030
+SHA256sum: a444257da4282a7f223401e0b07a6edf24e155078c30668660a5939c120ac05d
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libgcrypt
+Version: 1.6.1-1
+Depends: libc, libgpg-error
+Source: feeds/packages/libs/libgcrypt
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: realtek
+Installed-Size: 364984
+Filename: libgcrypt_1.6.1-1_realtek.ipk
+Size: 363800
+MD5Sum: 3c50cfec51cc4c07bcf23477142b00f3
+SHA256sum: a39765e2fe14d07e2ac50b3218f174c5aeac761b5ce80a12d59a9c670a8b9da8
+Description:  This is a general purpose cryptographic library based on the code from
+ GnuPG. It provides functions for all cryptograhic building blocks:
+ symmetric ciphers (AES, DES, Arcfour, CAST5), hash algorithms (MD5, SHA-1,
+ RIPE-MD160, SHA-224/256, SHA-384/512), MACs (HMAC for all hash
+ algorithms), public key algorithms (RSA, DSA), large integer functions,
+ random numbers and a lot of supporting functions. Some algorithms have
+ been disabled to reduce size (Blowfish, Twofish, Serpent,
+ RC2, SEED, Camellia, CRC, MD4, TIGER-192, Whirlpool, ElGamal, ECC).
+
+Package: libgd
+Version: 2.1.0-1
+Depends: libc, libjpeg, libpng
+Source: feeds/packages/libs/libgd
+License: MIT
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 117449
+Filename: libgd_2.1.0-1_realtek.ipk
+Size: 115657
+MD5Sum: aecc98242579ae03bbb5099dcd0cb060
+SHA256sum: dda46bd7161f690e54c413d124e0b67c995b99df95458497e13540e021cec768
+Description:  GD is an open source code library for the dynamic creation of images by
+ programmers. GD creates PNG, JPEG and GIF images, among other formats.
+
+Package: libgnutls
+Version: 3.3.16-1
+Depends: libc, libnettle, libgmp
+Source: feeds/packages/libs/gnutls
+Section: libs
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: realtek
+Installed-Size: 312476
+Filename: libgnutls_3.3.16-1_realtek.ipk
+Size: 312673
+MD5Sum: 1563bd96520acb2cb398dae51dfea983
+SHA256sum: dc9a27da7584651bfbbe7897e253d0057d8fdb6fb9dc279c37b48a81514c37f2
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libgpg-error
+Version: 1.12-1
+Depends: libc
+Source: feeds/packages/libs/libgpg-error
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: realtek
+Installed-Size: 5958
+Filename: libgpg-error_1.12-1_realtek.ipk
+Size: 6660
+MD5Sum: a65586891cb1d66653bb062cfd13c175
+SHA256sum: 1c7a2cd9010a565a57c2adad02bd564962c1074e5b9aa4fb3ac54c81be792c59
+Description:  An helper library for common error codes and descriptions.
+ This is a library that defines common error values for all GnuPG
+ components. Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
+ Libksba, DirMngr, Pinentry, SmartCard Daemon and possibly more in the
+ future.
+
+Package: libjpeg
+Version: 6b-1
+Depends: libc
+Source: feeds/packages/libs/libjpeg
+License: IJG
+LicenseFiles: README
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 68073
+Filename: libjpeg_6b-1_realtek.ipk
+Size: 68399
+MD5Sum: 99bc17457391e7430e84f7f96c15e199
+SHA256sum: 6a84b575b10ec637135fdd607ad3fcdadb6c9d5c86df794df7677ae583c90373
+Description:  The Independent JPEG Group's JPEG runtime library
+
+Package: libminiupnpc
+Version: 1.9-1
+Depends: libc
+Source: feeds/packages/net/miniupnpc
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: realtek
+Installed-Size: 16999
+Filename: libminiupnpc_1.9-1_realtek.ipk
+Size: 17531
+MD5Sum: 267e306b387220c338e400705863e15c
+SHA256sum: 4b95760ee77a4baef83a565bec857c02c14f9a28ff5951f2cf376d5276e42b53
+Description:  Lightweight UPnP library
+
+Package: libnetsnmp
+Version: 5.4.4-1
+Depends: libc
+Source: feeds/packages/net/net-snmp
+License: MIT BSD-3-Clause-Clear
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 359422
+Filename: libnetsnmp_5.4.4-1_realtek.ipk
+Size: 359617
+MD5Sum: 1977a095cba8326068ff6bacca69ecaa
+SHA256sum: 7f15bc1cf0aa888cbff0dcc17428789b3647741c90ea1c6fdcf6fc1448d461c9
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains shared libraries, needed by other programs.
+
+Package: libpcre
+Version: 8.35-2
+Depends: libc
+Source: feeds/packages/libs/pcre
+License: BSD-3c
+LicenseFiles: LICENCE
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: realtek
+Installed-Size: 103953
+Filename: libpcre_8.35-2_realtek.ipk
+Size: 104552
+MD5Sum: d0a0cccfae86acbf968487320c70f7a6
+SHA256sum: f5021eecc1a9e6b36f749df475dc18a349c912e8e3ace95619d08fe6744b32e7
+Description:  A Perl Compatible Regular Expression library
+
+Package: libpng
+Version: 1.2.56-1
+Depends: libc, zlib
+Source: feeds/packages/libs/libpng
+License: Libpng GPL-2.0+ BSD-3-Clause
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 131473
+Filename: libpng_1.2.56-1_realtek.ipk
+Size: 132134
+MD5Sum: bf5e1390e4f86dc885309fba5f80f6b7
+SHA256sum: c9619abccf21533a36e752720a4e5a04dfa882d01e29d88ee50d518d002f71bc
+Description:  A PNG format files handling library
+
+Package: libprotobuf-c
+Version: 2014-06-30
+Depends: libc
+Source: feeds/packages/libs/protobuf-c
+Section: libs
+Maintainer: Jacob Siverskog <jacob@teenageengineering.com>
+Architecture: realtek
+Installed-Size: 15442
+Filename: libprotobuf-c_2014-06-30_realtek.ipk
+Size: 16069
+MD5Sum: d5f7e7a245e78fe2152954b6ab8bab54
+SHA256sum: ac1435a28f0ec0c49e80fbab16a7cb70d782cd046beb0247910b174fb434f6ec
+Description:  Runtime library to use Google Protocol Buffers from C applications.
+ Protocol Buffers are a way of encoding structured data in an efficient yet
+ extensible format. Google uses Protocol Buffers for almost all of its
+ internal RPC protocols and file formats.
+
+Package: librrd1
+Version: 1.0.50-2
+Depends: libc, zlib
+Source: feeds/packages/utils/rrdtool1
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 146597
+Filename: librrd1_1.0.50-2_realtek.ipk
+Size: 147185
+MD5Sum: 1306c49fa997737da9854778ba7c6924
+SHA256sum: 41a58236f1c2b4076204a5e0d3557738b6f785cb3551a87da79987eb853d9375
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains a shared library, used by other programs.
+
+Package: libsqlite3
+Version: 3080704-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/sqlite3
+License: PUBLICDOMAIN
+Section: libs
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: realtek
+Installed-Size: 411054
+Filename: libsqlite3_3080704-1_realtek.ipk
+Size: 410618
+MD5Sum: 5eb59f12c53c1d6281427f48e670e64d
+SHA256sum: 6b7383f74b56bb4c1f5cf2b274d74e48b9933f947c49af0f1bfefca9aec070f4
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libtasn1
+Version: 4.4-1
+Depends: libc
+Source: feeds/packages/libs/libtasn1
+Section: libs
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: realtek
+Installed-Size: 31378
+Filename: libtasn1_4.4-1_realtek.ipk
+Size: 31758
+MD5Sum: 440595f996e645f76aaaf9d166321d1f
+SHA256sum: 22ccd57a44a6ea2e57bd675e867786894cc6c68254579858e9962f87982be12c
+Description:  This is a library for Abstract Syntax Notation One (ASN.1) and
+ Distinguish Encoding Rules (DER) manipulation.
+
+Package: libxml2
+Version: 2.9.2-2
+Depends: libc, libpthread, zlib
+Source: feeds/packages/libs/libxml2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: realtek
+Installed-Size: 531756
+Filename: libxml2_2.9.2-2_realtek.ipk
+Size: 529062
+MD5Sum: b765083d7425278ab64ba87edb55d19d
+SHA256sum: 8e358aeb035bfc6ae82fb036caecafc9419ff84a78ed19d93eae61c631511896
+Description:  A library for manipulating XML and HTML resources.
+
+Package: luci-app-cshark
+Version: 2014-07-02-ec638311b0b8ef74baf0be06dcf03a641e3308a2
+Depends: libc, cshark, luci
+Source: feeds/packages/net/cshark
+Section: luci
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: realtek
+Installed-Size: 3735
+Filename: luci-app-cshark_2014-07-02-ec638311b0b8ef74baf0be06dcf03a641e3308a2_realtek.ipk
+Size: 4345
+MD5Sum: a697cafd9ed2d04fe725714532a78c67
+SHA256sum: 028ce866767142f934e664c5c48e7a340c8e756c3683069a48a2e82c0137ad94
+Description:  Cloudshark capture tool Web UI
+
+Package: luci-app-mwan3
+Version: 1.3-5
+Depends: libc, mwan3, luci-mod-admin-full, luci-app-firewall, luci-lib-nixio
+Source: feeds/packages/net/mwan3-luci
+License: GPLv2
+Section: LuCI
+Maintainer: Aedan Renner <chipdankly@gmail.com>
+Architecture: all
+Installed-Size: 13902
+Filename: luci-app-mwan3_1.3-5_all.ipk
+Size: 14632
+MD5Sum: 96cc33344982b5ba5ad94b5ec6c11d2b
+SHA256sum: ccf1724cccfac38096b1e89dea0a1d626fbd676ac183801d339f219bd5200ef3
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple and
+ manageable with loadbalancing/failover support for up to 250 physical or logical
+ WAN interfaces, connection tracking and an easy to manage traffic ruleset
+
+Package: luci-app-ocserv
+Version: 1
+Depends: libc, luci-lib-json, luci-lib-nixio, luci-mod-admin-full, ocserv
+Source: feeds/packages/net/luci-app-ocserv
+Section: luci
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: realtek
+Installed-Size: 4189
+Filename: luci-app-ocserv_1_realtek.ipk
+Size: 4765
+MD5Sum: 3f90e5baf9bc032f68ad6f6f7a78a007
+SHA256sum: 9854719951c79cdceece7cad6ba9e07c599b434571d5aecccc8b35a13752ed3e
+Description:  ocserv web module for LuCi web interface
+
+Package: luci-app-sqm
+Version: 1.0.3-1
+Depends: libc, lua, luci-base, sqm-scripts
+Source: feeds/packages/net/sqm-scripts
+License: GPLv2
+Section: luci
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 3755
+Filename: luci-app-sqm_1.0.3-1_all.ipk
+Size: 4540
+MD5Sum: 66a7598a952676252517dc26735a0106
+SHA256sum: 1402ee1f1646bfd558a80b68514cabc33fca6ce96560e50a77858f2e67121543
+Description:  Control the simple_qos SQM script
+
+Package: luci-proto-openconnect
+Version: 1
+Depends: libc, luci-mod-admin-full, luci-lib-nixio, openconnect
+Source: feeds/packages/net/luci-proto-openconnect
+Section: luci
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: realtek
+Installed-Size: 1624
+Filename: luci-proto-openconnect_1_realtek.ipk
+Size: 2204
+MD5Sum: d4323049f7f261caea13cbf08089d845
+SHA256sum: 73ba5f729feb2910431d3424f123abc1611878de2fe7b5759de61947c45fc69e
+Description:  openconnect web module for LuCi web interface
+
+Package: mwan3
+Version: 1.5-10
+Depends: libc, ip, iptables, iptables-mod-conntrack-extra, iptables-mod-ipopt
+Source: feeds/packages/net/mwan3
+License: GPLv2
+Section: net
+Maintainer: Jeroen Louwes <jeroen.louwes@gmail.com>
+Architecture: all
+Installed-Size: 4889
+Filename: mwan3_1.5-10_all.ipk
+Size: 5632
+MD5Sum: 6014fb402644c93bb777b0704051fcb0
+SHA256sum: 589b9281369c41337d90c8245cd2b112503f342bbd52cb008a1fc550255ce048
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
+ and manageable. With loadbalancing/failover support for up to 250 wan
+ interfaces, connection tracking and an easy to manage traffic ruleset.
+
+Package: nano
+Version: 2.3.6-1
+Depends: libc, libncurses
+Source: feeds/packages/utils/nano
+Section: utils
+Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
+Architecture: realtek
+Installed-Size: 29408
+Filename: nano_2.3.6-1_realtek.ipk
+Size: 29883
+MD5Sum: 1eb5decb5c0faedfa8605ac64b23f471
+SHA256sum: 5460701b13c15fc650804f370b7bc6332fa2f07c3b3390a7b4d7cd238b4170ce
+Description:  GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
+ of the Pico text editor.
+
+Package: ocserv
+Version: 0.8.9-5
+Depends: libc, libgnutls, certtool, libncurses, libreadline, libprotobuf-c
+Source: feeds/packages/net/ocserv
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: realtek
+Installed-Size: 205256
+Filename: ocserv_0.8.9-5_realtek.ipk
+Size: 205063
+MD5Sum: 3994eca470219aaa4015e70d3c16c3b4
+SHA256sum: 1a31c70197a2f62c9288b064ae0181cf4136eacd95dfe55c7f94ea60644a01cc
+Description:  OpenConnect server (ocserv) is an SSL VPN server. Its purpose is to be 
+ a secure, small, fast and configurable VPN server. It implements the
+ OpenConnect SSL VPN protocol, and has also (currently experimental)
+ compatibility with clients using the AnyConnect SSL VPN protocol. The
+ OpenConnect VPN protocol uses the standard IETF security protocols such
+ as TLS 1.2, and Datagram TLS to provide the secure VPN service. 
+
+Package: openconnect
+Version: 7.03-3
+Depends: libc, libxml2, kmod-tun, resolveip, libgnutls
+Source: feeds/packages/net/openconnect
+Section: net
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: realtek
+Installed-Size: 68855
+Filename: openconnect_7.03-3_realtek.ipk
+Size: 68692
+MD5Sum: 468420815b9764d5486c49108ceebcb5
+SHA256sum: 6cd0eea489ad21c68bd915fe026a3f37f542bb8ad1472d4191e8aa4c06c6bae7
+Description:  A VPN client compatible with Cisco's AnyConnect SSL VPN and ocserv.
+ 
+ OpenConnect is a client that follows the Cisco's AnyConnect SSL VPN protocol,
+ which is supported by IOS 12.4(9)T or later on Cisco SR500, 870, 880, 1800, 
+ 2800, 3800, 7200 Series and Cisco 7301 Routers, as well as the OpenConnect
+ VPN server.
+
+Package: polipo
+Version: 1.1.1-1
+Depends: libc
+Source: feeds/packages/net/polipo
+Section: net
+Maintainer: Gabriel Kerneis <gabriel@kerneis.info>
+Architecture: realtek
+Installed-Size: 107072
+Filename: polipo_1.1.1-1_realtek.ipk
+Size: 107238
+MD5Sum: 69d86c17f896aeb269b3869cc84c33e0
+SHA256sum: 8419c1e546f1933803835f322f4fa785f7ff30febb8df346f59c17bbe4c2d800
+Description:  Polipo is a small and fast caching web proxy (a web cache, an HTTP proxy,
+ a proxy server). While Polipo was designed to be used by one person or a
+ small group of people, there is nothing that prevents it from being used
+ by a larger group.
+
+Package: rrdtool1
+Version: 1.0.50-2
+Depends: libc, librrd1
+Source: feeds/packages/utils/rrdtool1
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 11827
+Filename: rrdtool1_1.0.50-2_realtek.ipk
+Size: 12803
+MD5Sum: 1868c5b819beb6a9e80f411d9daa3d5a
+SHA256sum: 6bf9398374a869224ca662ba0f23bb57c94e52f3926f60104e5cd8658e891eb4
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains command line tools used to manage RRDs.
+
+Package: snmp-utils
+Version: 5.4.4-1
+Depends: libc, libnetsnmp
+Source: feeds/packages/net/net-snmp
+License: MIT BSD-3-Clause-Clear
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 16884
+Filename: snmp-utils_5.4.4-1_realtek.ipk
+Size: 17619
+MD5Sum: 11ebccb772589144613b0dc52cde4bc9
+SHA256sum: 891a00311f81fa9cfd08a987aeeeac80cfc9922080fa057da34a6e88489ca7e6
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains SNMP client utilities.
+
+Package: snmpd
+Version: 5.4.4-1
+Depends: libc, libnetsnmp
+Source: feeds/packages/net/net-snmp
+License: MIT BSD-3-Clause-Clear
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 9429
+Filename: snmpd_5.4.4-1_realtek.ipk
+Size: 10239
+MD5Sum: 7c8e7de057d2018be4c02e8cf6aa9021
+SHA256sum: 655f5f3c8046f0f78e63436881a44d81e98c12f2aaa47dbccc0653dda16ad18e
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains the SNMP agent, dynamically linked.
+
+Package: sqm-scripts
+Version: 1.0.3-1
+Depends: libc, tc, kmod-sched, kmod-ifb, iptables, ip, iptables-mod-ipopt, iptables-mod-conntrack-extra
+Source: feeds/packages/net/sqm-scripts
+License: GPLv2
+Section: net
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 17078
+Filename: sqm-scripts_1.0.3-1_all.ipk
+Size: 17790
+MD5Sum: 9149d9f445479c47ecffd4c329b0aef6
+SHA256sum: d35d1342dfc0272c8e830fdfc41004c539e39c0fbe550369ce0c94e03068eb2c
+Description:  A set of scripts that does simple SQM configuration.
+
+Package: tinyproxy
+Version: 1.8.3-2
+Depends: libc
+Source: feeds/packages/net/tinyproxy
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 29925
+Filename: tinyproxy_1.8.3-2_realtek.ipk
+Size: 30277
+MD5Sum: 959b35c7887002ae1abd5be5ce5d82b7
+SHA256sum: aa269f22c7df101396aa25b163b99146d563b0e5d2d052145542ed16c92ded26
+Description:  Tinyproxy is a lightweight HTTP and HTTPS proxy
+
+Package: transmission-daemon
+Version: 2.84-1
+Depends: libc, libcurl, libopenssl, libpthread, libevent2, librt
+Source: feeds/packages/net/transmission
+Section: net
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: realtek
+Installed-Size: 210795
+Filename: transmission-daemon_2.84-1_realtek.ipk
+Size: 209796
+MD5Sum: 59718cd1f490d8d7900ec651c04437f7
+SHA256sum: aa77d00778cf346ca73ff3939e7db1f010ee53cd707eb9facf32e7d7644dcbd4
+Description:  Transmission is a simple BitTorrent client.
+ It features a very simple, intuitive interface
+ on top on an efficient, cross-platform back-end.
+ This package contains the daemon itself.
+
+Package: transmission-remote
+Version: 2.84-1
+Depends: libc, libcurl, libopenssl, libpthread, libevent2, librt
+Source: feeds/packages/net/transmission
+Section: net
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: realtek
+Installed-Size: 218934
+Filename: transmission-remote_2.84-1_realtek.ipk
+Size: 218089
+MD5Sum: 2dfe971d02e78b103a43e272027f52fa
+SHA256sum: 0ad93180492fb2499e926b187e5614c7f10ee6100859d6da75fc93fbfa151727
+Description:  CLI remote interface for transmission.
+
+Package: transmission-web
+Version: 2.84-1
+Depends: libc, transmission-daemon
+Source: feeds/packages/net/transmission
+Section: net
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: realtek
+Installed-Size: 206726
+Filename: transmission-web_2.84-1_realtek.ipk
+Size: 207439
+MD5Sum: 2ce9f7ef9af432aacdc65bec9d09732c
+SHA256sum: 8b4c57c8f037aa93944110c0f02fc7906bf181cabcd43b8908f7e12b7aa1a468
+Description:  Webinterface resources for transmission.
+
+Package: udpxy
+Version: 1.0.23-9-4
+Depends: libc
+Source: feeds/packages/net/udpxy
+License: GPL-3.0
+LicenseFiles: gpl.txt
+Section: net
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: realtek
+Installed-Size: 32211
+Filename: udpxy_1.0.23-9-4_realtek.ipk
+Size: 32955
+MD5Sum: 5536dbaf5f6ad1081f91c2816507f735
+SHA256sum: c468c0a2704e8dc45e2aadb82f1a741726934ed390b650ae40387ff54b140520
+Description:  udproxy makes it possible to convert UDP IPTV streams into HTTP
+ streams which can be viewed even over WLANs. HTTP streams do
+ not generate huge amounts of multicast traffic, so a sd stream
+ only takes about 300k. Interesting for peoply who have IPTV at
+ home and do not want to rent multiple decoders from their
+ provider but just use their own streaming client (for example
+ popcornhour/mediatomb/vlc).
+
+Package: unixodbc
+Version: 2.3.2-1
+Depends: libc, libltdl, libpthread
+Source: feeds/packages/libs/unixodbc
+License: prog GPL libs LGPL
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: realtek
+Installed-Size: 205243
+Filename: unixodbc_2.3.2-1_realtek.ipk
+Size: 205195
+MD5Sum: 5cc724802b51fce5e70c166f98e8e662
+SHA256sum: f3ef718e33198a9f61b3649d959cb63ab0b75170673681a9ce483df5676b95be
+Description:  unixODBC is an Open Source ODBC sub-system and an ODBC SDK for Linux,
+ Mac OSX, and UNIX.
+
+Package: vnstat
+Version: 1.11-4
+Depends: libc
+Source: feeds/packages/net/vnstat
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 61699
+Filename: vnstat_1.11-4_realtek.ipk
+Size: 62466
+MD5Sum: f333f8ddd38aca4d7f0a2d564ceed4d3
+SHA256sum: 8f489e0a243b75f707b144d317b7cd452389a40669d38d383157f5869fd2f82a
+Description:  vnStat is a network traffic monitor for Linux that keeps a log of daily
+ network traffic for the selected interface(s). vnStat isn't a packet
+ sniffer. The traffic information is analyzed from the /proc -filesystem,
+ so vnStat can be used without root permissions.
+
+Package: vnstati
+Version: 1.11-4
+Depends: libc, vnstat, libgd
+Source: feeds/packages/net/vnstat
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 32941
+Filename: vnstati_1.11-4_realtek.ipk
+Size: 33564
+MD5Sum: 20eb42261ac745637db2a959860de0e5
+SHA256sum: 065c9d36d113f4fba0675ade3b9a0cc705107b3b9eeb708f7b9b20f43ed1f478
+Description:  The purpose of vnstati is to provide image output support for statistics
+ collected using vnstat(1). However, the image file format is limited to
+ png. All basic outputs of vnStat are supported excluding live traffic
+ features. The image can be outputted either to a file or to standard
+ output.
+
+Package: wshaper
+Version: 1.1a-1
+Depends: libc, kmod-sched, tc
+Source: feeds/packages/net/wshaper
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: all
+Installed-Size: 2071
+Filename: wshaper_1.1a-1_all.ipk
+Size: 2805
+MD5Sum: cb3caf6bd1f59ca6032a35c83fb3d0ac
+SHA256sum: a2139d8ce00dec8ab7cae891e0edfeb4884cfcbd740047f76178cd97924d93d4
+Description:  A script to do traffing shaping with the HTB algorithm.
+ Wshaper attempts to:
+ * Maintain low latency for interfactive traffic at all times
+ * Allow 'surfing' at reasonable speeds while up or downloading
+ * Make sure uploads don't harm downloads, and the other way around
+
+Package: xl2tpd
+Version: 1.3.6-5619e1771048e74b729804e8602f409af0f3faea
+Depends: libc, ppp-mod-pppol2tp, ip, resolveip
+Source: feeds/packages/net/xl2tpd
+Section: net
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: realtek
+Installed-Size: 49726
+Filename: xl2tpd_1.3.6-5619e1771048e74b729804e8602f409af0f3faea_realtek.ipk
+Size: 50563
+MD5Sum: a86924721f1b73da665ff57edd7a985e
+SHA256sum: 3ca7fea62c4b5686c25c7a9a704d88a0a6b4fbf599a6522a0e9fab06f1e2c31e
+Description:  l2tpd is the open source implementation of the L2TP tunneling protocol (RFC2661).
+ It does implement both LAC and LNS role in a L2TP networking architecture. The
+ main goal of this protocol is to tunnel PPP frame trough an IP network.
+
