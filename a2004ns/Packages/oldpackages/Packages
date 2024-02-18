@@ -1,0 +1,654 @@
+Package: aircrack-ng
+Version: 1.1-3
+Depends: libc, libpthread, libopenssl, libpcap
+Source: feeds/oldpackages/net/aircrack-ng
+Section: net
+Architecture: realtek
+Installed-Size: 470326
+Filename: aircrack-ng_1.1-3_realtek.ipk
+Size: 467459
+MD5Sum: 9e584d605aae3480ed10c1ad4c88e258
+SHA256sum: 70aa312221f2add09ee36f1ed752bcb2cd186f5dc4e67daa7d90786d64a59ce6
+Description:  Aircrack-ng is the next generation of aircrack with new features
+
+Package: bridge
+Version: 1.5-2
+Depends: libc
+Source: feeds/oldpackages/net/bridge-utils
+Section: net
+Architecture: realtek
+Installed-Size: 9340
+Filename: bridge_1.5-2_realtek.ipk
+Size: 9904
+MD5Sum: 9ab1ef06dff50af7bc26b8233923b8bd
+SHA256sum: 8b54348122d4779dbfa2b1224534b933106b2843bf9b979f3a397f97c433aa4f
+Description:  Manage ethernet bridging: a way to connect networks together to
+ form a larger network.
+
+Package: cpusage
+Version: 0.31
+Depends: libc
+Source: feeds/oldpackages/utils/cpusage
+Section: utils
+Architecture: realtek
+Installed-Size: 4576
+Filename: cpusage_0.31_realtek.ipk
+Size: 5192
+MD5Sum: ae1f67c7a68f1ce66292ef95deae33b9
+SHA256sum: 6899855e53496c9054c105397f8b7653a54853b94394fd5b489c8dec7f5675f6
+Description:  CPUsage outputs CPU usage statistics once per second.
+ Optionally writes CSV output (see '-o' option).
+ Written by Fabian Schneider (TUM, TUB) in 2005.
+ Timestamp and CSV-compliance by Florian Sesser (TUM), 2010.
+
+Package: disktype
+Version: 9-1
+Depends: libc
+Source: feeds/oldpackages/utils/disktype
+Section: utils
+Architecture: realtek
+Installed-Size: 31504
+Filename: disktype_9-1_realtek.ipk
+Size: 32173
+MD5Sum: afcfa55b1b42f4e8fed56ef0a0b4855e
+SHA256sum: 03381b086347f06de538c81cdc4b6d50ee3d53a18245d6ffcdddc4d7bdbb43f3
+Description:  The purpose of disktype is to detect the content format of a disk or disk image.
+ It knows about common file systems, partition tables, and boot codes.
+ The program is written in C and is designed to compile on any modern Unix flavour.
+ It is self-contained and in general works without special libraries or headers.
+ Some system-dependant features can be used to gather additional information.
+
+Package: dosfsck
+Version: 3.0.12-1
+Depends: libc
+Source: feeds/oldpackages/utils/dosfstools
+Section: utils
+Architecture: realtek
+Installed-Size: 24585
+Filename: dosfsck_3.0.12-1_realtek.ipk
+Size: 25133
+MD5Sum: e274069193f96bc05ed6bff453714046
+SHA256sum: b5a70bfa56004df663a6eaecac904e64a85815bc95ebd319c3633bac02c810ad
+Description:  Utilities to create and check MS-DOS FAT filesystems.
+ (fsck.vfat and fsck.msdos for checking integrity of FAT volumes)
+
+Package: gpsd
+Version: 3.10-1
+Depends: libc, librt, libgps, libgpsd
+Source: feeds/oldpackages/net/gpsd
+Section: net
+Architecture: realtek
+Installed-Size: 18724
+Filename: gpsd_3.10-1_realtek.ipk
+Size: 19287
+MD5Sum: 985cc2a14941cf72e2c16cd1c6976a91
+SHA256sum: 5070d9d6f70ebe2d773a3b441847667d402ddc2cd1f34c8455a6b915c1d830db
+Description:  gpsd is a userland daemon acting as a translator between GPS and AIS receivers
+ and their clients. gpsd listens on port 2947 for clients requesting
+ position/time/velocity information.  The receivers are expected to generate
+ position information in a well-known format -- as NMEA-0183 sentences, SiRF
+ binary, Rockwell binary, Garmin binary format, or other vendor binary
+ protocols.  gpsd takes this information from the GPS and translates it into
+ something uniform and easier to understand for clients.
+ This package contains the GPS daemon.
+
+Package: hd-idle
+Version: 1.04-1
+Depends: libc
+Source: feeds/oldpackages/utils/hd-idle
+Section: utils
+Architecture: realtek
+Installed-Size: 5016
+Filename: hd-idle_1.04-1_realtek.ipk
+Size: 5555
+MD5Sum: 70a7287604f60f0144e1ca6b735d808d
+SHA256sum: e6fd8f10ba1348e0cbd9ad579c2494ade940357650cdf4a07233de2d7831c295
+Description:  Another idle-daemon for attached hard drives
+
+Package: httping
+Version: 2.3.4-1
+Depends: libc, libopenssl
+Source: feeds/oldpackages/net/httping
+Section: net
+Architecture: realtek
+Installed-Size: 28704
+Filename: httping_2.3.4-1_realtek.ipk
+Size: 29098
+MD5Sum: f4687a91c11e506018d1bcd74325cec3
+SHA256sum: 990461238490e09564ab870faae97659a1652f2849aca25d2eddcc8d820874cf
+Description:  Give it an url, and it'll show you how long it takes to connect, send a
+ request and retrieve the reply (only the headers). Be aware that the
+ transmission across the network also takes time!
+ This package is built with SSL support.
+
+Package: kmod-gpiotoggling
+Version: 3.10.49+b57866441932eabc75b6c4252103121f606dc820-1
+Depends: kernel (=3.10.49-1)
+Source: feeds/oldpackages/utils/gpiotoggling
+Section: kernel
+Architecture: realtek
+Installed-Size: 2429
+Filename: kmod-gpiotoggling_3.10.49+b57866441932eabc75b6c4252103121f606dc820-1_realtek.ipk
+Size: 3005
+MD5Sum: 251251f9531affeab5e7ef8e13192da8
+SHA256sum: 00b716187736e91c1eff7903c9a03fc1f16aeed80951d1f302c0f9cd4a3b0d5a
+Description:  Toggle GPIOs in kernel space
+
+Package: kmod-siit
+Version: 3.10.49+1.1-2
+Depends: kernel (=3.10.49-1)
+Source: feeds/oldpackages/net/siit
+Section: kernel
+Architecture: realtek
+Installed-Size: 5802
+Filename: kmod-siit_3.10.49+1.1-2_realtek.ipk
+Size: 6446
+MD5Sum: d8ebf1db8940a35c119073f155b36a83
+SHA256sum: 97c9be30ce997f3129fb9dcc2e42ddea15e3fe56b3d29d4229d30397ea0b92dd
+Description:  Stateless IP ICMP Translation Algorithm
+
+Package: l2tpd
+Version: 0.70pre-4.1
+Depends: libc
+Source: feeds/oldpackages/net/l2tpd
+Section: net
+Architecture: realtek
+Installed-Size: 37525
+Filename: l2tpd_0.70pre-4.1_realtek.ipk
+Size: 38314
+MD5Sum: d9c937e622a53eecaa6b4c656de5d092
+SHA256sum: 8f751920d5384653f392be3081ebfe87a32e01178374666b68076b74db3d9383
+Description:  l2tpd is the open source implementation of the L2TP tunneling
+ protocol (RFC2661). It does implement both LAC and LNS role
+ in a L2TP networking architecture. The main goal of this protocol is
+ to tunnel PPP frame trough an ip network.
+
+Package: libgps
+Version: 3.10-1
+Depends: libc, librt, libcap
+Source: feeds/oldpackages/net/gpsd
+Section: libs
+Architecture: realtek
+Installed-Size: 53607
+Filename: libgps_3.10-1_realtek.ipk
+Size: 54368
+MD5Sum: a9e9f1264d48785a9e33b8e26566f53f
+SHA256sum: 52a798122e6fef425080c1e3529bc2bed46cca0b39682b934a25fde580ca8db5
+Description:  gpsd is a userland daemon acting as a translator between GPS and AIS receivers
+ and their clients. gpsd listens on port 2947 for clients requesting
+ position/time/velocity information.  The receivers are expected to generate
+ position information in a well-known format -- as NMEA-0183 sentences, SiRF
+ binary, Rockwell binary, Garmin binary format, or other vendor binary
+ protocols.  gpsd takes this information from the GPS and translates it into
+ something uniform and easier to understand for clients.
+ This package contains the libgps library.
+
+Package: libgpsd
+Version: 3.10-1
+Depends: libc, librt, libcap, libusb-1.0
+Source: feeds/oldpackages/net/gpsd
+Section: libs
+Architecture: realtek
+Installed-Size: 134005
+Filename: libgpsd_3.10-1_realtek.ipk
+Size: 134190
+MD5Sum: 5c0b89da13bbf3e41fcd5f82a3e192a1
+SHA256sum: 59605d7fc3473945351c151acfb24a0a636933c9370a976023ce1dbabb52e2a1
+Description:  gpsd is a userland daemon acting as a translator between GPS and AIS receivers
+ and their clients. gpsd listens on port 2947 for clients requesting
+ position/time/velocity information.  The receivers are expected to generate
+ position information in a well-known format -- as NMEA-0183 sentences, SiRF
+ binary, Rockwell binary, Garmin binary format, or other vendor binary
+ protocols.  gpsd takes this information from the GPS and translates it into
+ something uniform and easier to understand for clients.
+ This package contains the libgpsd library.
+
+Package: libmatrixssl
+Version: 1.2.4-1
+Depends: libc, libpthread
+Source: feeds/oldpackages/libs/matrixssl
+Section: libs
+Architecture: realtek
+Installed-Size: 42566
+Filename: libmatrixssl_1.2.4-1_realtek.ipk
+Size: 43151
+MD5Sum: 489a357d2d33b6848fdd4ffc1d93f531
+SHA256sum: 39e406f349f132d91e7b65836f2bd02e9f022ef33d816a36a90a71121876acb2
+Description:  Embedded SSL implementation
+
+Package: libmysqlclient
+Version: 5.1.73-2
+Depends: libc, uclibcxx, zlib
+Source: feeds/oldpackages/libs/mysql
+License: GPL-2.0
+Section: libs
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: realtek
+Installed-Size: 181628
+Filename: libmysqlclient_5.1.73-2_realtek.ipk
+Size: 173431
+MD5Sum: d89adc4825399ad7e0ec4d9e48857c5f
+SHA256sum: 0b8f8bc6c0e3133c55025e88a73c6378e75cf3e63a574667944d374d2b560daf
+Description:  MySQL client library
+
+Package: libnatpmp
+Version: 20110808-1
+Depends: libc
+Source: feeds/oldpackages/libs/libnatpmp
+Section: libs
+Architecture: realtek
+Installed-Size: 3333
+Filename: libnatpmp_20110808-1_realtek.ipk
+Size: 4049
+MD5Sum: a40cefabbf6279d81383e61ac1f59674
+SHA256sum: 03972eadfa5202464b8b338800be634e85149a82829ca204cca5c37eb347c32f
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the shared library.
+
+Package: libnet0
+Version: 1.0.2a-9
+Depends: libc, libpcap
+Source: feeds/oldpackages/libs/libnet-1.0.x
+Section: libs
+Architecture: realtek
+Installed-Size: 10502
+Filename: libnet0_1.0.2a-9_realtek.ipk
+Size: 11061
+MD5Sum: 9d91df4ba1e2e034045d665982ed4abe
+SHA256sum: dd1f83376c850912c983a0f3a3f2bd59555ef1a147ef1ca796a8439f8dfa6ed1
+Description:  Low-level packet creation library (v1.0.x)
+
+Package: libnet1
+Version: 1.1.6-1
+Depends: libc, libpcap
+Source: feeds/oldpackages/libs/libnet-1.1.x
+Section: libs
+Architecture: realtek
+Installed-Size: 29613
+Filename: libnet1_1.1.6-1_realtek.ipk
+Size: 30196
+MD5Sum: c0693d0112454977715c4963b59d7a9c
+SHA256sum: 30dfbe7cf274e411ccd6f4e0756376f021097d31c75a65f5e8460cd7556fe5dc
+Description:  Low-level packet creation library (v1.1.x)
+
+Package: lirc
+Version: 0.8.7-1
+Depends: libc
+Source: feeds/oldpackages/utils/lirc
+Section: utils
+Architecture: realtek
+Installed-Size: 49256
+Filename: lirc_0.8.7-1_realtek.ipk
+Size: 49703
+MD5Sum: 0089fbd6ab4f68600d9e868d45f5aede
+SHA256sum: 8396f196526e6518a7bcbfc4c4428d4e737b3d06a1ab7e3f8b120dc3f0b7d5a9
+Description:  LIRC is a package that allows you to decode and send infra-red signals of many
+ (but not all) commonly used remote controls.
+
+Package: lircdaemonadd
+Version: 0.8.7-1
+Depends: libc, lirc
+Source: feeds/oldpackages/utils/lirc
+Section: utils
+Architecture: realtek
+Installed-Size: 57030
+Filename: lircdaemonadd_0.8.7-1_realtek.ipk
+Size: 57431
+MD5Sum: a55c464f25800c2f0fbe145105e2139d
+SHA256sum: 0ac91fb8dc4e3726583d99321398bb710ef536c37ad8a8c17ba8ccc9150d1ffb
+Description:  Contains additional daemon-tools.
+
+Package: lirctools
+Version: 0.8.7-1
+Depends: libc, lirc
+Source: feeds/oldpackages/utils/lirc
+Section: utils
+Architecture: realtek
+Installed-Size: 30579
+Filename: lirctools_0.8.7-1_realtek.ipk
+Size: 31094
+MD5Sum: 1786b45ef980613b7fe0cfb2a9dba43d
+SHA256sum: d58d92e742b78af92b6f0d91aca57a46230d024c7ee0559561ae8125c0d5fae7
+Description:  Contains additional lirc-tools.
+
+Package: mac-to-devinfo
+Version: 1.0.0-2
+Depends: libc
+Source: feeds/oldpackages/net/mac-to-devinfo
+Section: net
+Maintainer: Daniel Dickinson <openwrt@cshore.neomailbox.net>
+Architecture: realtek
+Installed-Size: 3932
+Filename: mac-to-devinfo_1.0.0-2_realtek.ipk
+Size: 4656
+MD5Sum: 8d2a2a74443be7bd2fadfbedfcd66a45
+SHA256sum: 89501c8267ea96fadbd707389b873ad31d99ccecd1605c0801b01cef6c7d78b6
+Description:  Scripts to take a mac address (or ip if the ip is in the arp cache)
+ and translate it into device information (mostly OUI owner, from the
+ IEEE data files, but more information may be available for specific
+ devices/vendors).
+
+Package: mc
+Version: 4.8.10-1
+Depends: libc, glib2, libncurses, librpc
+Source: feeds/oldpackages/utils/mc
+Section: utils
+Architecture: realtek
+Installed-Size: 423774
+Filename: mc_4.8.10-1_realtek.ipk
+Size: 423580
+MD5Sum: 8bb1f53ebf361f8489ccfda6fd40ad3a
+SHA256sum: 0169af72a689c0dd47aacc66801dbf474ee53bafefa2fdf1ffac88872d5c2fb8
+Description:  GNU Midnight Commander is a visual file manager, licensed under GNU General
+ Public License and therefore qualifies as Free Software. It's a feature rich
+ full-screen text mode application that allows you to copy, move and delete
+ files and whole directory trees, search for files and run commands in the
+ subshell.
+
+Package: mdk3
+Version: v6-2
+Depends: libc, libpthread
+Source: feeds/oldpackages/net/mdk3
+Section: net
+Architecture: realtek
+Installed-Size: 45206
+Filename: mdk3_v6-2_realtek.ipk
+Size: 45771
+MD5Sum: bdeb5cd903c94e9aef80f44ec3fc2c7d
+SHA256sum: 5d55f78a253993e6bfa70e4a26f7e3b52bc2cf4679bb954b88b0aaeb424ba752
+Description:  Tool to exploit wireless vulnerabilities
+
+Package: mkdosfs
+Version: 3.0.12-1
+Depends: libc
+Source: feeds/oldpackages/utils/dosfstools
+Section: utils
+Architecture: realtek
+Installed-Size: 12650
+Filename: mkdosfs_3.0.12-1_realtek.ipk
+Size: 13264
+MD5Sum: bd000a3057da8c46aa193be70105f123
+SHA256sum: ddb56447fd357213d6555885407826ef218fb5de56c60d5a0f1d30fbfb2492f0
+Description:  Utilities to create and check MS-DOS FAT filesystems.
+ (mkfs.vfat and mkfs.msdos for creating FAT volumes)
+
+Package: multiwan
+Version: 1.0.22-2
+Depends: libc, ip, iptables, kmod-ipt-conntrack, iptables-mod-conntrack-extra, iptables-mod-ipopt
+Source: feeds/oldpackages/net/multiwan
+Section: net
+Maintainer: Craig M. Coffee <craigc@netlab7.com>
+Architecture: realtek
+Installed-Size: 7640
+Filename: multiwan_1.0.22-2_realtek.ipk
+Size: 8465
+MD5Sum: 753d01aeb06579c030a30fbb77cd1f26
+SHA256sum: a3b8b3ecf17ffd7a6a2581cf74f59d36f2bff2526392a873637575f065530dfd
+Description:  An agent script that makes Multi-WAN configuration simple,
+ easy and manageable. Complete with load balancing, failover and an easy
+ to manage traffic ruleset.
+
+Package: mysql-server
+Version: 5.1.73-2
+Depends: libc, libmysqlclient, libpthread, libncurses, libncursesw, libreadline
+Source: feeds/oldpackages/libs/mysql
+License: GPL-2.0
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: realtek
+Installed-Size: 2482785
+Filename: mysql-server_5.1.73-2_realtek.ipk
+Size: 2449384
+MD5Sum: 933fa45f3311f82b739062b3cffaca08
+SHA256sum: 6ab4e58a457ed7ee16a44fbdcd332f37e33da9411be63e920ba4723e7777d076
+Description:  MySQL Server
+
+Package: netdiscover-to-devinfo
+Version: 1.0.0-2
+Depends: libc, mac-to-devinfo, netdiscover
+Source: feeds/oldpackages/net/mac-to-devinfo
+Section: net
+Architecture: realtek
+Installed-Size: 1094
+Filename: netdiscover-to-devinfo_1.0.0-2_realtek.ipk
+Size: 1695
+MD5Sum: 7583f3fb9da1967d2ac4cea1831afd4d
+SHA256sum: 5e2c970eb3356474e7a637d447be91fa51c93612cc5e102c577ffd818a1cf2ac
+Description:  A script to use netdiscover to discover all devices on the specified
+ arp-able networks and translate into the device information.
+
+Package: netdiscover
+Version: 0.3-beta6-3
+Depends: libc, libpcap, libnet1, libpthread
+Source: feeds/oldpackages/net/netdiscover
+Section: net
+Maintainer: Daniel Dickinson <openwrt@cshore.neomailbox.net>
+Architecture: realtek
+Installed-Size: 144716
+Filename: netdiscover_0.3-beta6-3_realtek.ipk
+Size: 143981
+MD5Sum: b1e91f648e5fdef09225e990200dbd56
+SHA256sum: 46ff4d2ce03b2681a936da62752c68dee9ab65d0cfbb118e5bb78f4a6bde60da
+Description:  An active/passive address reconnaissance tool
+
+Package: ntfs-3g-utils
+Version: 2014.2.15-1-fuseint
+Depends: libc, ntfs-3g
+Source: feeds/oldpackages/utils/ntfs-3g
+Section: utils
+Maintainer: Bud <wrt_buddhay@gmx.net>
+Architecture: realtek
+Installed-Size: 67623
+Filename: ntfs-3g-utils_2014.2.15-1-fuseint_realtek.ipk
+Size: 68027
+MD5Sum: 1262f923ce4e087b784b87b50c1e1a4d
+SHA256sum: ce87343398238dcd738a71aa2d0e6ca16483357875c336279fb43ca58b937f4e
+Description:  Additional ntfs-3g utilities. Not included by default for size
+ considerations. All binaries except ntfs-3g, ntfs-3g.probe.
+ 
+ Currently:
+ - ntfs-3g.secaudit
+ - ntfs-3g.usermap
+ 
+
+Package: ntfs-3g
+Version: 2014.2.15-1-fuseint
+Depends: libc, kmod-fuse, libpthread
+Source: feeds/oldpackages/utils/ntfs-3g
+Section: utils
+Maintainer: Bud <wrt_buddhay@gmx.net>
+Architecture: realtek
+Installed-Size: 214586
+Filename: ntfs-3g_2014.2.15-1-fuseint_realtek.ipk
+Size: 215063
+MD5Sum: e158e58efbecc172075aa88a46853eff
+SHA256sum: ace28cee8f20664f04705188e226dc8713b873fb4695389a8d14d745327d68d8
+Description:  Ntfs-3g is a NTFS driver, which can create, remove, rename,
+ move files, directories, hard links, and streams. It can read
+ and write files, including streams and sparse files. It can
+ handle special files like symbolic links, devices, and FIFOs.
+ Moreover it can also read transparently compressed files.
+ 
+ Contains:
+ - ntfs-3g
+ - ntfs-3g.probe
+ - mount.ntfs-3g (symlink to ntfs-3g)
+ 
+
+Package: ntpclient
+Version: 2007_365-4
+Depends: libc, librt
+Source: feeds/oldpackages/net/ntpclient
+Section: net
+Architecture: realtek
+Installed-Size: 12033
+Filename: ntpclient_2007_365-4_realtek.ipk
+Size: 12598
+MD5Sum: 389d99a4bfd591c8d0a745c785963d81
+SHA256sum: 6d7f730e308ce01823b4bdf4dca8a9241e4f870a664ddc9fb689d7ac5f0f96e3
+Description:  NTP client for setting system time from NTP servers.
+
+Package: p910nd
+Version: 0.95-3
+Depends: libc
+Source: feeds/oldpackages/net/p910nd
+Section: net
+Architecture: realtek
+Installed-Size: 5592
+Filename: p910nd_0.95-3_realtek.ipk
+Size: 6318
+MD5Sum: d80b5941293ee0cd6a2fc2795367e07a
+SHA256sum: aecfc3c974c7a00852f483789aabe29773e1f667ced771049c0253e300e567c7
+Description:  p910nd is a small daemon that copies any data received on
+ the port it is listening on to the corresponding printer
+ port. It is primarily intended for diskless Linux hosts
+ running as printer drivers but there is no reason why it
+ could not be used on diskful hosts. Port 9100 is copied
+ to /dev/lp0, 9101 to /dev/lp1 and 9102 to /dev/lp2. The
+ default is port 9100 to /dev/lp0.
+
+Package: powertop
+Version: 1.11-2
+Depends: libc, libncurses
+Source: feeds/oldpackages/utils/powertop
+Section: utils
+Architecture: realtek
+Installed-Size: 66517
+Filename: powertop_1.11-2_realtek.ipk
+Size: 66434
+MD5Sum: 9d2a3534c3c88c2e536a8188c09e1857
+SHA256sum: 70ad417e175e6a92b4f8a560551ba9244aca6ab294a2209a3a6a53a5181996d0
+Description:  PowerTOP is a Linux tool that helps you find those programs that are
+ misbehaving while your computer is idle.
+
+Package: radvd
+Version: 1.9.1-2
+Depends: libc, kmod-ipv6, libdaemon
+Source: feeds/oldpackages/ipv6/radvd
+Section: net
+Architecture: realtek
+Installed-Size: 34920
+Filename: radvd_1.9.1-2_realtek.ipk
+Size: 35577
+MD5Sum: dbbebb27424237079bd898510102a603
+SHA256sum: f2f681670ea7d25c5ecda37f4b8f7bf28d20cdafad69ca05bc8adad0ecf78756
+Description:  radvd is the router advertisement daemon for IPv6. It listens to router
+ solicitations and sends router advertisements as described in "Neighbor
+ Discovery for IP Version 6 (IPv6)" (RFC 4861).  With these advertisements hosts
+ can automatically configure their addresses and some other parameters. They also
+ can choose a default router based on these advertisements.
+
+Package: smap-to-devinfo
+Version: 1.0.0-2
+Depends: libc, mac-to-devinfo, smap, httping
+Source: feeds/oldpackages/net/mac-to-devinfo
+Section: net
+Architecture: realtek
+Installed-Size: 2182
+Filename: smap-to-devinfo_1.0.0-2_realtek.ipk
+Size: 2846
+MD5Sum: fb17662c21bde9b6901576bc77f173ad
+SHA256sum: 2a82d6593b21f6a8f2b568ec5cc491e721d231c33cc16931a42e2d25520c7807
+Description:  A script to use smap to discover all SIP devices on the networks
+ (provided ICMP and SIP are allowed to the network from the host) and
+ translate (through the ip then mac) into the device information.
+
+Package: snort-wireless
+Version: 2.4.3-alpha04-1
+Depends: libc, libnet0, libpcap, libpcre
+Source: feeds/oldpackages/net/snort-wireless
+Section: net
+Architecture: realtek
+Installed-Size: 309597
+Filename: snort-wireless_2.4.3-alpha04-1_realtek.ipk
+Size: 309197
+MD5Sum: 12637d061600088070c0881dff8127e5
+SHA256sum: a95ddde33805fb80ad47eccc7aad8e93b5c58946aac168889d54ebaae6a9980c
+Description:  Lightweight Network Intrusion Detection System
+
+Package: squid
+Version: 2.7.STABLE9-2
+Depends: libc, libopenssl, libpthread
+Source: feeds/oldpackages/net/squid
+Section: net
+Architecture: realtek
+Installed-Size: 461773
+Filename: squid_2.7.STABLE9-2_realtek.ipk
+Size: 460679
+MD5Sum: f2486be7a7a355995627f92a6c43874c
+SHA256sum: f14e7a440798ed3cd522b5fd5f047cce3bc1f3aa431886c45755c086ec99ba3c
+Description:  Squid is a high-performance proxy caching server for web clients,
+ supporting FTP, gopher, and HTTP data objects. Unlike traditional
+ caching software, Squid handles all requests in a single,
+ non-blocking, I/O-driven process.
+
+Package: traceroute6
+Version: 1.0.2-1
+Depends: libc, libpthread, librt
+Source: feeds/oldpackages/ipv6/ndisc
+Section: net
+Architecture: realtek
+Installed-Size: 13119
+Filename: traceroute6_1.0.2-1_realtek.ipk
+Size: 13624
+MD5Sum: 49d88f729277e27a446e730b92c1f92d
+SHA256sum: 3ec2cbfacc94f2657d5efa0564a7a33d3794b929ece61d7ffa2bf41e2d43b31d
+Description:  An IPv6-based traceroute implementation
+
+Package: vim-full
+Version: 7.3-1
+Depends: libc, libncurses
+Source: feeds/oldpackages/utils/vim
+Section: utils
+Architecture: realtek
+Installed-Size: 792090
+Filename: vim-full_7.3-1_realtek.ipk
+Size: 791025
+MD5Sum: fbb1a6781e9310a1507e8e07d2dda84d
+SHA256sum: 8825bd4dc816e890bfdd7416eb33356e153a4802f2de65a4c8bfb37f38044940
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Normal build)
+
+Package: watchcat
+Version: 1-5
+Depends: libc
+Source: feeds/oldpackages/utils/watchcat
+Section: utils
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: realtek
+Installed-Size: 2048
+Filename: watchcat_1-5_realtek.ipk
+Size: 2670
+MD5Sum: 09190b281d89de86ddb092c120057d13
+SHA256sum: 109a345a4ec21c32fb0205b2f202f4c3c64eb4b9be614876aa8be76887635fdf
+Description:  Allows to configure a periodically reboot, or after loosing internet connectivity. Configured trough UCI /etc/config/system.
+
+Package: zoneinfo-europe
+Version: 2011n-1
+Depends: libc
+Source: feeds/oldpackages/utils/zoneinfo
+Section: utils
+Architecture: realtek
+Installed-Size: 23880
+Filename: zoneinfo-europe_2011n-1_realtek.ipk
+Size: 24310
+MD5Sum: ebade31c1b2819cdff505b15524f7110
+SHA256sum: a130e66442bac1f686881f411b9dc3cc39ee6867346ba46433ea83bd3f504cc7
+Description:  Zone Information (Europe)
+
+Package: zoneinfo-simple
+Version: 2011n-1
+Depends: libc
+Source: feeds/oldpackages/utils/zoneinfo
+Section: utils
+Architecture: realtek
+Installed-Size: 17215
+Filename: zoneinfo-simple_2011n-1_realtek.ipk
+Size: 17686
+MD5Sum: 956b221a3dca7532d2272743f4c05e49
+SHA256sum: c0b191c9dbdeaa25e1861eb9aac869d474da877d39fcf57f17713f5f239cd0a1
+Description:  Zone Information (simple)
+
