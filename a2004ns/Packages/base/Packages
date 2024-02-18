@@ -1,0 +1,3859 @@
+Package: 6in4
+Version: 17-1
+Depends: libc, kmod-ipv6, kmod-sit
+Source: package/network/ipv6/6in4
+Section: net
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: all
+Installed-Size: 1195
+Filename: 6in4_17-1_all.ipk
+Size: 1843
+MD5Sum: d39bfa70175c0881319db8a40c994d66
+SHA256sum: 5fe5a29bd170e76ea06ba2de7fa34baff0971ad843d819e1df01c7bb3611908a
+Description:  Provides support for 6in4 tunnels in /etc/config/network.
+ Refer to http://wiki.openwrt.org/doc/uci/network for
+ configuration details.
+
+Package: 6rd
+Version: 7-1
+Depends: libc, kmod-ipv6, kmod-sit
+Source: package/network/ipv6/6rd
+Section: net
+Maintainer: Stéphan Kochen <stephan@kochen.nl>
+Architecture: all
+Installed-Size: 3217
+Filename: 6rd_7-1_all.ipk
+Size: 3827
+MD5Sum: d0b806495d2d50f3850e7df63e895c59
+SHA256sum: 748f2086a3c9e0f5eb443aba367dcbfb7101938f07a43c1832a5f9d468d4e103
+Description:  Provides support for 6rd tunnels in /etc/config/network.
+ Refer to http://wiki.openwrt.org/doc/uci/network for
+ configuration details.
+
+Package: base-files
+Version: 156-r42887
+Depends: libc, netifd, procd, jsonfilter
+Source: package/base-files
+Section: base
+Architecture: realtek
+Installed-Size: 26160
+Filename: base-files_156-r42887_realtek.ipk
+Size: 26803
+MD5Sum: f2a5f6404ae9a3044ea2096cb168f41e
+SHA256sum: a3d2119bbc06ee316c4890f47d041629848c5144ff14650da5314f58e4d95349
+Description:  This package contains a base filesystem and system scripts for OpenWrt.
+
+Package: block-mount
+Version: 2014-06-22-e0430f5c62f367e5a8e02755412977b02c3fc45e
+Depends: libc, ubox, libubox, libuci
+Source: package/system/fstools
+License: GPLv2
+Section: base
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: realtek
+Installed-Size: 17418
+Filename: block-mount_2014-06-22-e0430f5c62f367e5a8e02755412977b02c3fc45e_realtek.ipk
+Size: 17999
+MD5Sum: c89b19522a8b9a22a48dd1d1f3f28cb1
+SHA256sum: 37a47229b6774d69afd794ce0209cde56cb2671ec5fbc011e1cd2b48964cf8b7
+Description:  Block device mounting and checking
+
+Package: busybox
+Version: 1.24.2-1
+Depends: libc
+Source: package/utils/busybox
+License: GPL-2.0
+LicenseFiles: LICENSE archival/libarchive/bz/LICENSE
+Section: base
+Essential: yes
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: realtek
+Installed-Size: 254700
+Filename: busybox_1.24.2-1_realtek.ipk
+Size: 253557
+MD5Sum: ded8ebb90ba104a3ad8c4cc225869093
+SHA256sum: 651a040d36cdb7319d0911d44a6464c1fd4c64c79d8b8eeecd8b4f2919b932bb
+Description:  The Swiss Army Knife of embedded Linux.
+ It slices, it dices, it makes Julian Fries.
+
+Package: ca-certificates
+Version: 20140325
+Depends: libc
+Source: package/system/ca-certificates
+Section: base
+Architecture: realtek
+Installed-Size: 161361
+Filename: ca-certificates_20140325_realtek.ipk
+Size: 161985
+MD5Sum: 3e74cc3f64588f5b238ce1c7cd4effbf
+SHA256sum: 163f26c68415c0d4a4e9344007de0b743a8bbcec0c1c6da86e56b2b422181325
+Description:  System CA certificates
+
+Package: dnsmasq-full
+Version: 2.78-1
+Depends: libc
+Source: package/network/services/dnsmasq
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Architecture: realtek
+Installed-Size: 113181
+Filename: dnsmasq-full_2.78-1_realtek.ipk
+Size: 113539
+MD5Sum: dc0b4f2d285e9420250e5619144b861c
+SHA256sum: ffe5431a588bc527ff46e14db01c33a05fe3553b9249dd8fab26024b85c33b9f
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+ 
+ This is a fully configurable variant with DHCPv6, DNSSEC, Authoritative DNS and
+ IPset, NO_ID support enabled by default.
+
+Package: dnsmasq
+Version: 2.78-1
+Depends: libc
+Source: package/network/services/dnsmasq
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Architecture: realtek
+Installed-Size: 112527
+Filename: dnsmasq_2.78-1_realtek.ipk
+Size: 112851
+MD5Sum: bc0489dcb137a3b719b0f6677524f292
+SHA256sum: b660f7545e53c078981915a2663a96e9997a94409702725c526c8968aba77a2e
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+
+Package: dropbear
+Version: 2014.63-2
+Depends: libc
+Source: package/network/services/dropbear
+License: MIT
+LicenseFiles: LICENSE libtomcrypt/LICENSE libtommath/LICENSE
+Section: net
+Architecture: realtek
+Installed-Size: 86275
+Filename: dropbear_2014.63-2_realtek.ipk
+Size: 86340
+MD5Sum: 14439444bd8babccfaea1c54b6a07468
+SHA256sum: bf11c98e3c98f725bba458704186cdcc4d6a18517ed11d1406193a84f54a5f13
+Description:  A small SSH2 server/client designed for small memory environments.
+
+Package: e2fsprogs
+Version: 1.42.4-1
+Depends: libc, libuuid, libext2fs
+Source: package/utils/e2fsprogs
+Section: utils
+Architecture: realtek
+Installed-Size: 191801
+Filename: e2fsprogs_1.42.4-1_realtek.ipk
+Size: 191671
+MD5Sum: ec1d72e257af0723c7c52213a62db4ec
+SHA256sum: 0552e0e5f13b2788c88f129e7e2742a24b8fab8396ac857c480c9306569ccff8
+Description:  This package contains essential ext2 filesystem utilities which consists of
+ e2fsck, mke2fs, tune2fs, and most of the other core ext2
+ filesystem utilities.
+
+Package: firewall
+Version: 2014-09-19
+Depends: libc, libubox, libubus, libuci, libip4tc, libip6tc, libxtables, kmod-ipt-core, kmod-ipt-nat
+Source: package/network/config/firewall
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 61766
+Filename: firewall_2014-09-19_realtek.ipk
+Size: 61745
+MD5Sum: 586c6f13402f4fba25ba29b879bbf7bd
+SHA256sum: b03593a04719a66b86b9801f9dc08841e3ecfd843f70e6cff41f6233a717571b
+Description:  This package provides a config-compatible C implementation of the UCI firewall.
+
+Package: fstools
+Version: 2014-06-22-e0430f5c62f367e5a8e02755412977b02c3fc45e
+Depends: libc, ubox
+Source: package/system/fstools
+License: GPLv2
+Section: base
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: realtek
+Installed-Size: 16744
+Filename: fstools_2014-06-22-e0430f5c62f367e5a8e02755412977b02c3fc45e_realtek.ipk
+Size: 17282
+MD5Sum: 979bf596abeec2813d3d59992e72a842
+SHA256sum: 95846a3957ccd920d1b1ae315d6b17490acfb55803cebdd383c2a00b150f0a8c
+Description:  OpenWrt filesystem tools
+
+Package: home-rf
+Version: 0.7-1
+Depends: libc, rf-ctrl, uhttpd
+Source: package/utils/home-rf
+Section: utils
+Architecture: realtek
+Installed-Size: 13251
+Filename: home-rf_0.7-1_realtek.ipk
+Size: 13785
+MD5Sum: 17cc4da3e55aeb5f2ae6e8bf605b4f4f
+SHA256sum: 4757d53b81e5bf865f3763d63cc2d9ff4e2c7ab5bbdd22bd56f4c94d96bf3b4a
+Description:  Home-RF Web UI
+
+Package: hostapd-common
+Version: 2017-08-24-4
+Depends: libc
+Source: package/network/services/hostapd
+License: BSD-3-Clause
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: realtek
+Installed-Size: 5775
+Filename: hostapd-common_2017-08-24-4_realtek.ipk
+Size: 6352
+MD5Sum: 21d7436b873fc993cacbbc8bf8772db0
+SHA256sum: 32591f60cdd899fc6e5645d6da8d416be540cf8338e542a24128c7fac15a3ce5
+Description:  hostapd/wpa_supplicant common support files
+
+Package: igmpproxy
+Version: 0.1-8
+Depends: libc
+Source: package/network/services/igmpproxy
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 14933
+Filename: igmpproxy_0.1-8_realtek.ipk
+Size: 15578
+MD5Sum: 742efc437c265dccc5b4bc84ab48cd09
+SHA256sum: 14f3f81bfae9aaea9de616ea95e6180b410925d831b81b346ddc087bdca5d70f
+Description:  IGMPproxy is a simple dynamic Multicast Routing Daemon using
+ only IGMP signalling (Internet Group Management Protocol).
+
+Package: ip6tables
+Version: 1.4.21-1
+Depends: libc, kmod-ip6tables, iptables
+Source: package/network/utils/iptables
+Section: net
+Architecture: realtek
+Installed-Size: 219
+Filename: ip6tables_1.4.21-1_realtek.ipk
+Size: 738
+MD5Sum: b589bb5be3bb45f1ad0ccdb56eb52491
+SHA256sum: 8a6d3a0dd42433721e1e5437d1f7e37bc488e06cdd1ea26105ed1a6e26506392
+Description:  IPv6 firewall administration tool
+
+Package: ip
+Version: 3.15.0-1
+Depends: libc, libnl-tiny
+Source: package/network/utils/iproute2
+Section: net
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: realtek
+Installed-Size: 74169
+Filename: ip_3.15.0-1_realtek.ipk
+Size: 74677
+MD5Sum: 3185fb38243c7a587e255c7c2052db7b
+SHA256sum: fd40155ae1d6475709e6d27b9e528b4cfda3abd556429cab14184891c23cd465
+Description:  Routing control utility (Minimal)
+
+Package: iptables-mod-conntrack-extra
+Version: 1.4.21-1
+Depends: libc, iptables, kmod-ipt-conntrack-extra
+Source: package/network/utils/iptables
+Section: net
+Architecture: realtek
+Installed-Size: 9564
+Filename: iptables-mod-conntrack-extra_1.4.21-1_realtek.ipk
+Size: 10203
+MD5Sum: 514bc97957ca4fd56e4bf0044f7fc7c4
+SHA256sum: 68a94ca1ab21fd1fe340e802491621f5a50025843653ddada6001f0eb4f6b40c
+Description:  Extra iptables extensions for connection tracking.
+ 
+ Matches:
+ - connbytes
+ - connlimit
+ - connmark
+ - recent
+ - helper
+ 
+ Targets:
+ - CONNMARK
+ 
+
+Package: iptables-mod-filter
+Version: 1.4.21-1
+Depends: libc, iptables, kmod-ipt-filter
+Source: package/network/utils/iptables
+Section: net
+Architecture: realtek
+Installed-Size: 14875
+Filename: iptables-mod-filter_1.4.21-1_realtek.ipk
+Size: 15438
+MD5Sum: 67d96020518d0e73899bc1985a0aafa0
+SHA256sum: 0661af4c65ebc8129a319ba5ac87a188202e90dbe69549ae270c5179586c0427
+Description:  iptables extensions for packet content inspection.
+ Includes support for:
+ 
+ Matches:
+ - layer7
+ - string
+ 
+
+Package: iptables-mod-ipopt
+Version: 1.4.21-1
+Depends: libc, iptables, kmod-ipt-ipopt
+Source: package/network/utils/iptables
+Section: net
+Architecture: realtek
+Installed-Size: 14273
+Filename: iptables-mod-ipopt_1.4.21-1_realtek.ipk
+Size: 14877
+MD5Sum: b48c608be158aee81a3488c922ab129c
+SHA256sum: c37e9154a046117e19ee4c313670260eaf9fc2ed45d9ee0fc1d96929173a904e
+Description:  iptables extensions for matching/changing IP packet options.
+ 
+ Matches:
+ - dscp
+ - ecn
+ - length
+ - statistic
+ - tcpmss
+ - unclean
+ - hl
+ 
+ Targets:
+ - DSCP
+ - CLASSIFY
+ - ECN
+ - HL
+ 
+
+Package: iptables
+Version: 1.4.21-1
+Depends: libc, kmod-ipt-core, libip4tc, libip6tc, libxtables
+Source: package/network/utils/iptables
+Section: net
+Architecture: realtek
+Installed-Size: 53540
+Filename: iptables_1.4.21-1_realtek.ipk
+Size: 53970
+MD5Sum: 3a2016408f9aa5cf31db7d33555079b5
+SHA256sum: d157ce583db3340857f99a429d74748414cc397c8ffe1f1e4b13eb186560e9af
+Description:  IP firewall administration tool.
+ 
+ Matches:
+ - icmp
+ - tcp
+ - udp
+ - comment
+ - conntrack
+ - limit
+ - mac
+ - mark
+ - multiport
+ - set
+ - state
+ - time
+ 
+ Targets:
+ - ACCEPT
+ - CT
+ - DNAT
+ - DROP
+ - REJECT
+ - LOG
+ - MARK
+ - MASQUERADE
+ - REDIRECT
+ - SET
+ - SNAT
+ - TCPMSS
+ 
+ Tables:
+ - filter
+ - mangle
+ - nat
+ - raw
+ 
+
+Package: iw
+Version: 3.15-1
+Depends: libc, libnl-tiny
+Source: package/network/utils/iw
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 44605
+Filename: iw_3.15-1_realtek.ipk
+Size: 45237
+MD5Sum: 91b58d9d5075238b03070a218999bc7d
+SHA256sum: ae002e3028fe872923a74378e0c86b518ef254a8c92658d1c02b74eebe7ce2b6
+Description:  cfg80211 interface configuration utility
+
+Package: jshn
+Version: 2014-08-04-dffbc09baf71b294185a36048166d00066d433b5
+Depends: libc, libjson-c, libubox, libblobmsg-json
+Source: package/libs/libubox
+License: ISC BSD-3c
+Section: utils
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 5616
+Filename: jshn_2014-08-04-dffbc09baf71b294185a36048166d00066d433b5_realtek.ipk
+Size: 6261
+MD5Sum: d201ade6d6893172177f9bdf93318f17
+SHA256sum: 174bc39e971eb0f9a3090de3fd65cd4923786e9855b436b11b0ca2583e05b1e7
+Description:  Library for parsing and generating JSON from shell scripts
+
+Package: jsonfilter
+Version: 2014-06-19-cdc760c58077f44fc40adbbe41e1556a67c1b9a9
+Depends: libc, libubox, libjson-c
+Source: package/utils/jsonfilter
+Section: base
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 8158
+Filename: jsonfilter_2014-06-19-cdc760c58077f44fc40adbbe41e1556a67c1b9a9_realtek.ipk
+Size: 8794
+MD5Sum: 015adb7a0beedda83dec7580b581ef33
+SHA256sum: d1733d4c07c6f50b93090e490203056bc00e9c8268ac5a642dd6efd352dfe260
+Description:  OpenWrt JSON filter utility
+
+Package: kmod-8021q
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 105
+Filename: kmod-8021q_3.10.49-1_realtek.ipk
+Size: 651
+MD5Sum: 58a8e7b6e673dab25a36d4f07a898b59
+SHA256sum: 91ef223cc49ac15b3f24b6966e460df1e29cf9d34e31c768bee58a98223d0438
+Description:  Kernel module for 802.1Q VLAN support
+
+Package: kmod-atm
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 30969
+Filename: kmod-atm_3.10.49-1_realtek.ipk
+Size: 31564
+MD5Sum: 7d775cd885e48a8f479a7e09efebf9ef
+SHA256sum: 54808d63b02ced7d46a393f5b3ee32181fdc7f5ba6b2e6cd5399ae87fd578767
+Description:  Kernel modules for ATM support
+
+Package: kmod-cfg80211
+Version: 3.10.49+2014-05-22-1
+Depends: kernel (=3.10.49-1), iw
+Source: package/kernel/mac80211
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 121902
+Filename: kmod-cfg80211_3.10.49+2014-05-22-1_realtek.ipk
+Size: 121779
+MD5Sum: 49c2fa04c6611f55922ca640c517e52a
+SHA256sum: a9fc150aff01a0356279072db8b7ac7dc00229f2c7dabd76c999e7925bb34ca9
+Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
+
+Package: kmod-crypto-aes
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 106
+Filename: kmod-crypto-aes_3.10.49-1_realtek.ipk
+Size: 655
+MD5Sum: 81c4536fe7328c705fa517bf9a001a00
+SHA256sum: 8df889acf7765678eff1892e1abfa00af5485cbb0d915e25dcfe30adff1424b4
+Description:  AES cipher CryptoAPI module
+
+Package: kmod-crypto-arc4
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 1318
+Filename: kmod-crypto-arc4_3.10.49-1_realtek.ipk
+Size: 2025
+MD5Sum: 52bb21f0ebac90df379dceb98da5195a
+SHA256sum: 72c27f09762b38d47f988918f7565a69d2baa798ee84c95cfa3bca9cb057befa
+Description:  ARC4 (RC4) cipher CryptoAPI module
+
+Package: kmod-crypto-core
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 8001
+Filename: kmod-crypto-core_3.10.49-1_realtek.ipk
+Size: 8557
+MD5Sum: bbb0cee866aabd034864c5bf7d6cb406
+SHA256sum: fbdb580b2a663adb0874558b74ce43a81d81a7a33336f86413728ba3df0e6bf7
+Description:  Core CryptoAPI modules
+
+Package: kmod-crypto-crc32c
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-crypto-hash, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 1087
+Filename: kmod-crypto-crc32c_3.10.49-1_realtek.ipk
+Size: 1788
+MD5Sum: b12f6dab13e249765d0852d7bccf48d8
+SHA256sum: c2d0a90a972427fcc297c584353699499b5212323e3929b777a5a54ec5541119
+Description:  CRC32c CRC module
+
+Package: kmod-crypto-ecb
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-crypto-manager, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 1630
+Filename: kmod-crypto-ecb_3.10.49-1_realtek.ipk
+Size: 2330
+MD5Sum: 8c7e1b968fa2a9a411ecf54e31db28ee
+SHA256sum: 43e65d0355aee458bb1aa122754caf509c30992f68db56afc8e2a95c0d71d0e4
+Description:  Electronic CodeBook CryptoAPI module
+
+Package: kmod-crypto-hash
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 6631
+Filename: kmod-crypto-hash_3.10.49-1_realtek.ipk
+Size: 7266
+MD5Sum: b75707352f87c7ca160a29251f906f4f
+SHA256sum: c35eab3a505709026078f2cbad363f4eab79d63e91c631751eb48c28451a1802
+Description:  CryptoAPI hash support
+
+Package: kmod-crypto-manager
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-crypto-hash, kmod-crypto-pcompress, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 3750
+Filename: kmod-crypto-manager_3.10.49-1_realtek.ipk
+Size: 4311
+MD5Sum: 838af614b0f01dd6ed8fc7948ea0cef4
+SHA256sum: 8f098d8e58809e598fbfaf2461a85663d3cba1d769ce8098e2e8e03c3c675f95
+Description:  CryptoAPI algorithm manager
+
+Package: kmod-crypto-pcompress
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 106
+Filename: kmod-crypto-pcompress_3.10.49-1_realtek.ipk
+Size: 666
+MD5Sum: 07f399039f1f2ac179ab4024d957799d
+SHA256sum: 8240b95de67b2ff793d5761c28725445268d5a71289bd607800537ea89ab9326
+Description:  CryptoAPI Partial (de)compression operations
+
+Package: kmod-crypto-sha1
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-crypto-hash, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 1561
+Filename: kmod-crypto-sha1_3.10.49-1_realtek.ipk
+Size: 2273
+MD5Sum: 2dae02cde611d6ee8d40e5faa83b48a6
+SHA256sum: f640d515305458104bae114047c610361c0e6a1e6bb68d809b3baccd9af59580
+Description:  SHA1 digest CryptoAPI module
+
+Package: kmod-fastpath
+Version: 3.10.49+0.1-1
+Depends: kernel (=3.10.49-1), kmod-ipt-core, kmod-ipt-conntrack, kmod-ipt-nat, kmod-ppp
+Source: package/kernel/fastpath
+Section: kernel
+Architecture: realtek
+Installed-Size: 40891
+Filename: kmod-fastpath_3.10.49+0.1-1_realtek.ipk
+Size: 41410
+MD5Sum: 8e7b6380a790f892e938b2c6da2b27f9
+SHA256sum: de39feafbbbac281ec932ffa89653d27956e5a504d87c37de00bf6d5d2333f70
+Description:  Kernel modules for fastpath support
+
+Package: kmod-fs-autofs4
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 14587
+Filename: kmod-fs-autofs4_3.10.49-1_realtek.ipk
+Size: 15207
+MD5Sum: 0f3d006de1add43a85e2b9deaff29454
+SHA256sum: 83028f5455d53cbab267dcd921779a6379473a36f5891124f572023bf755f586
+Description:  Kernel module for AutoFS4 support
+
+Package: kmod-fs-ext4
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-lib-crc16, kmod-crypto-hash
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 266984
+Filename: kmod-fs-ext4_3.10.49-1_realtek.ipk
+Size: 266698
+MD5Sum: daf5581338140f832aead8b60c30e31c
+SHA256sum: 96429df5cca4c2996049392bf83fce60996606aec65e01f69927b45705efbd59
+Description:  Kernel module for EXT4 filesystem support
+
+Package: kmod-fs-msdos
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-fs-vfat, kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 105
+Filename: kmod-fs-msdos_3.10.49-1_realtek.ipk
+Size: 673
+MD5Sum: bae069d58387dbc93e0b952c765e0b35
+SHA256sum: 8597679722180e538fd9ccc13e34e8f80aa2b9fa8a5d9366fcef8e50c72b4e49
+Description:  Kernel module for MSDOS filesystem support
+
+Package: kmod-fs-vfat
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 106
+Filename: kmod-fs-vfat_3.10.49-1_realtek.ipk
+Size: 662
+MD5Sum: 97f57aed63864f705a1decf9863e19f5
+SHA256sum: feea7686c96901f1d671eaa3a398bfd9726ed202a2cd65f8a0288ced20a95a9c
+Description:  Kernel module for VFAT filesystem support
+
+Package: kmod-fuse
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 47886
+Filename: kmod-fuse_3.10.49-1_realtek.ipk
+Size: 48535
+MD5Sum: 6aa7dea90fec85cff93f4ba8bae72155
+SHA256sum: 9c96700592f4d99ac768dae00d3088dd44d44ccbba4298f3c8fa5de5f01a091e
+Description:  Kernel module for userspace filesystem support
+
+Package: kmod-gpio-dev
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 105
+Filename: kmod-gpio-dev_3.10.49-1_realtek.ipk
+Size: 672
+MD5Sum: 7cbf49e220dc9990bec9c967f456c23e
+SHA256sum: 31c72ec096d8d31ca4a577fa03aa00ff5f7fd25b3a430d3bd9c4ebf1a71d93e7
+Description:  Kernel module to allows control of GPIO pins using a character device.
+
+Package: kmod-gre
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-ipv6, kmod-iptunnel
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 7977
+Filename: kmod-gre_3.10.49-1_realtek.ipk
+Size: 8672
+MD5Sum: 4cb3aa3430b7704b8d4fd2b7df089d7d
+SHA256sum: 0b755e4d72f279aa78c9d0666a641aa67536860eb3e5e011308ba9d86e2326c7
+Description:  Generic Routing Encapsulation support
+
+Package: kmod-hid-generic
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-hid
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 806
+Filename: kmod-hid-generic_3.10.49-1_realtek.ipk
+Size: 1378
+MD5Sum: 656881b4e3e144954224966a7e66d68b
+SHA256sum: 0674cac1d0b256fab2f920b84406a915691d77d32e38421d32ac257df6b27a3e
+Description:  Generic HID device support
+
+Package: kmod-hid
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-input-core, kmod-input-evdev
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 44117
+Filename: kmod-hid_3.10.49-1_realtek.ipk
+Size: 42123
+MD5Sum: 919dbbaa27d69390d79decc29ed269cb
+SHA256sum: 98c7c8fb569a4c05859c8e443038788ec4f351a298b6893a20e5af6b77838baa
+Description:  Kernel modules for HID devices
+
+Package: kmod-i2c-algo-bit
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-i2c-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 3819
+Filename: kmod-i2c-algo-bit_3.10.49-1_realtek.ipk
+Size: 4491
+MD5Sum: 0a9208484035755e979c9beb8dc3be3f
+SHA256sum: 5bae5acc4830c0fde7ddc4ee487fcf561801581aec1a29945e26742ee9c01f2c
+Description:  Kernel modules for I2C bit-banging interfaces
+
+Package: kmod-i2c-core
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 15678
+Filename: kmod-i2c-core_3.10.49-1_realtek.ipk
+Size: 16169
+MD5Sum: 928d825bf6d7756c72daeaea776fe513
+SHA256sum: 393eada0b0d7adb06d907fce2b3ead77492a644440a9601f62fbdb3b6e897c7e
+Description:  Kernel modules for I2C support
+
+Package: kmod-i2c-gpio-custom
+Version: 3.10.49-2
+Depends: kernel (=3.10.49-1), kmod-i2c-core, kmod-i2c-gpio
+Source: package/kernel/i2c-gpio-custom
+Section: kernel
+Architecture: realtek
+Installed-Size: 1749
+Filename: kmod-i2c-gpio-custom_3.10.49-2_realtek.ipk
+Size: 2321
+MD5Sum: 50b2e1d8ad5af61c333da3e3387348ad
+SHA256sum: f7e1852bd9a3b1572dc1a49d4731c27fb5800172d19682155413e755c28b8d24
+Description:  Kernel module for register a custom i2c-gpio platform device.
+
+Package: kmod-i2c-gpio
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-i2c-algo-bit
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 2138
+Filename: kmod-i2c-gpio_3.10.49-1_realtek.ipk
+Size: 2881
+MD5Sum: 099908a8e7187d78dd67720526e6ed7d
+SHA256sum: 964ef869a7eb051cd4484212e30bf25908721379964bddcd1b520a7bf7d58718
+Description:  Kernel modules for a very simple bitbanging I2C driver utilizing the
+ arch-neutral GPIO API to control the SCL and SDA lines.
+
+Package: kmod-i2c-mux-gpio
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-i2c-mux
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 2424
+Filename: kmod-i2c-mux-gpio_3.10.49-1_realtek.ipk
+Size: 3101
+MD5Sum: 94010c084a0d305024eb9a7f543c0018
+SHA256sum: 91ad669f5912a71040d178426fc6fa6e64ed71ee4cb30d6491e4fa5ff424a9c8
+Description:  Kernel modules for GENERIC_GPIO I2C bus mux/switching devices
+
+Package: kmod-i2c-mux
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-i2c-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 1732
+Filename: kmod-i2c-mux_3.10.49-1_realtek.ipk
+Size: 2444
+MD5Sum: ddea8d07124b1f47e5e3312abbd1ca25
+SHA256sum: 8604165439460b99d087c8fab13e8cf57ac0f35e63e9047475d5b2421b6b17f3
+Description:  Kernel modules for I2C bus multiplexing support
+
+Package: kmod-i2c-tiny-usb
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-i2c-core, kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 2566
+Filename: kmod-i2c-tiny-usb_3.10.49-1_realtek.ipk
+Size: 3283
+MD5Sum: 1b2badedf4db13b3be820e8a74615bb5
+SHA256sum: 27ea1c9e4e695d735cdff24137041023ee70e77f650dc9328a94e610d9d52e0b
+Description:  Kernel module for the I2C Tiny USB adaptor developed
+ by Till Harbaum (http://www.harbaum.org/till/i2c_tiny_usb)
+
+Package: kmod-ifb
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 3257
+Filename: kmod-ifb_3.10.49-1_realtek.ipk
+Size: 3915
+MD5Sum: ea9b1a5066935a90623d85e05acae6f2
+SHA256sum: ddc52cb44d9855033aa0def5cdecfef7be6dec209b6fc7fafe3b1de6af095e82
+Description:  The Intermediate Functional Block
+
+Package: kmod-input-core
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 105
+Filename: kmod-input-core_3.10.49-1_realtek.ipk
+Size: 649
+MD5Sum: 04a7edc76f4f982b25807721539d3c56
+SHA256sum: f4ebbe53648fdd8c50c4d1a02f3dc3a95af511a8bd94e35963e5c6be6e39b8e5
+Description:  Kernel modules for support of input device
+
+Package: kmod-input-evdev
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-input-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 104
+Filename: kmod-input-evdev_3.10.49-1_realtek.ipk
+Size: 661
+MD5Sum: 575d7f433cb7248fc9fcc8159712b270
+SHA256sum: 69748eaec9e55e05e08aecd6a203c652834a09582f74eb7700bdf9c2b49c0840
+Description:  Kernel modules for support of input device events
+
+Package: kmod-input-gpio-keys-polled
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-input-polldev, kmod-input-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 2736
+Filename: kmod-input-gpio-keys-polled_3.10.49-1_realtek.ipk
+Size: 3311
+MD5Sum: eceddc422f31eae870eb39739def03ad
+SHA256sum: 9d430e0cb06a8ef1a78aa96c4a665b1bc122c8dc5d4d58303aabe8194316acd5
+Description:  Kernel module for support polled GPIO keys input device
+
+Package: kmod-input-gpio-keys
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-input-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 4800
+Filename: kmod-input-gpio-keys_3.10.49-1_realtek.ipk
+Size: 5411
+MD5Sum: 15f90a57a2cdd878682b2708e85a20f3
+SHA256sum: be1200fe1753718883a7af98aa6f7f17cee54415355c808796806d534724edfd
+Description:  This driver implements support for buttons connected
+ to GPIO pins of various CPUs (and some other chips).
+
+Package: kmod-input-polldev
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-input-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 105
+Filename: kmod-input-polldev_3.10.49-1_realtek.ipk
+Size: 667
+MD5Sum: d5d1e3ffd0e8d85ebb26ed1eba7b41c9
+SHA256sum: 71db3ce87f68e6531c19471dbf011540d2a6de1c1dc7ed449abe06bff0f42f1a
+Description:  Kernel module for support of polled input devices
+
+Package: kmod-ip6-tunnel
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-ipv6, kmod-iptunnel6
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 13127
+Filename: kmod-ip6-tunnel_3.10.49-1_realtek.ipk
+Size: 13790
+MD5Sum: 2461580752783333c49feb6e33275ec3
+SHA256sum: 42a0c5242ec6770c11d330d8ae40869c2552838f3934f80211d130c72008f677
+Description:  Kernel modules for IPv6-in-IPv6 and IPv4-in-IPv6 tunnelling
+
+Package: kmod-ip6tables
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-ipv6, kmod-ipt-core, kmod-ipt-conntrack
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 21190
+Filename: kmod-ip6tables_3.10.49-1_realtek.ipk
+Size: 21857
+MD5Sum: 65e7c9f13043f3b9142213cc98211cee
+SHA256sum: 68f82d032babd3dd8a68c33246079adde3bf1514df1c69c36b83b3639ec8c76d
+Description:  Netfilter IPv6 firewalling support
+
+Package: kmod-ipt-conntrack-extra
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-ipt-core, kmod-ipt-conntrack
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 10968
+Filename: kmod-ipt-conntrack-extra_3.10.49-1_realtek.ipk
+Size: 11617
+MD5Sum: cd46e135aa886c3d52846e9585e00e37
+SHA256sum: f316811048b340b35f50f6bdc5c505fc554ced891511be4afd4a301d0f277da6
+Description:  Netfilter (IPv4) extra kernel modules for connection tracking
+ Includes:
+ - connbytes
+ - connmark/CONNMARK
+ - conntrack
+ - helper
+ - recent
+
+Package: kmod-ipt-conntrack
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 44506
+Filename: kmod-ipt-conntrack_3.10.49-1_realtek.ipk
+Size: 45090
+MD5Sum: c62ee79be7807a74a32ce4d8507792ae
+SHA256sum: 65a1ff40d838110e5b8d6ed7f2d61f9b76f9faa971ec4d1892f5f21513e3a46a
+Description:  Netfilter (IPv4) kernel modules for connection tracking
+ Includes:
+ - conntrack
+ - defrag
+ - iptables_raw
+ - NOTRACK
+ - state
+
+Package: kmod-ipt-core
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 33738
+Filename: kmod-ipt-core_3.10.49-1_realtek.ipk
+Size: 34356
+MD5Sum: e9232a634a6749b9993a23b11ba1d16a
+SHA256sum: 6c8af217e69f93b488f30f9d088bc9737cd3b7fa5c0986f3e102d04c2e50d5bf
+Description:  Netfilter core kernel modules
+ Includes:
+ - comment
+ - limit
+ - LOG
+ - mac
+ - multiport
+ - REJECT
+ - TCPMSS
+
+Package: kmod-ipt-filter
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-ipt-core, kmod-lib-textsearch, kmod-ipt-conntrack
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 9474
+Filename: kmod-ipt-filter_3.10.49-1_realtek.ipk
+Size: 10119
+MD5Sum: 78a7ac4adbfdf2edc413c43b433d370e
+SHA256sum: 79652bd4e5062d13df17bc7d26eef35f4e26304a2dc99e2a2703b5a663bb33a3
+Description:  Netfilter (IPv4) kernel modules for packet content inspection
+ Includes:
+ - layer7
+ - string
+
+Package: kmod-ipt-ipopt
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 6339
+Filename: kmod-ipt-ipopt_3.10.49-1_realtek.ipk
+Size: 7010
+MD5Sum: 2316a2191a4f47357fe1cdf6c23981e3
+SHA256sum: da220b8fcdf43a877521c2ae50ac88e048dbba6850c12308a7010027bbdc3803
+Description:  Netfilter (IPv4) modules for matching/changing IP packet options
+ Includes:
+ - CLASSIFY
+ - dscp/DSCP
+ - ecn/ECN
+ - hl/HL
+ - length
+ - mark/MARK
+ - statistic
+ - tcpmss
+ - time
+ - ttl/TTL
+ - unclean
+
+Package: kmod-ipt-nat
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-ipt-core, kmod-ipt-conntrack
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 14394
+Filename: kmod-ipt-nat_3.10.49-1_realtek.ipk
+Size: 15002
+MD5Sum: 1e7a168284767d8b7925bcabfb260534
+SHA256sum: 988eb3d2f9bff1ad492739e100c9122f3ace680bb42e2bd9c77f7f7aefc53851
+Description:  Netfilter (IPv4) kernel modules for basic NAT targets
+ Includes:
+ - MASQUERADE
+
+Package: kmod-ipt-nathelper
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-ipt-core, kmod-ipt-nat
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 8518
+Filename: kmod-ipt-nathelper_3.10.49-1_realtek.ipk
+Size: 9138
+MD5Sum: 69a034dcb191eb9b9851bd434dc1ef2f
+SHA256sum: dc1fd5eca0b85605df520cf5a09e6e34a2353d680968f40d8cce9d321a5848e3
+Description:  Default Netfilter (IPv4) Conntrack and NAT helpers
+ Includes:
+ - ftp
+ - irc
+ - tftp
+
+Package: kmod-iptunnel4
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 1886
+Filename: kmod-iptunnel4_3.10.49-1_realtek.ipk
+Size: 2571
+MD5Sum: e602ad444b5bab4850f350e51bbc71c7
+SHA256sum: f85c1090513d8f87a0fb907222c96751d5fd361c74aa49c6014c79eef9c5e4f0
+Description:  Kernel modules for IPv4 tunneling
+
+Package: kmod-iptunnel6
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-ipv6
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 1945
+Filename: kmod-iptunnel6_3.10.49-1_realtek.ipk
+Size: 2637
+MD5Sum: 377c9d693f2c92aa85d8cccbbd815be7
+SHA256sum: 5b8148233dbabcf71663a9c3a41e009b6a21461dfe0113759346549465f40de1
+Description:  Kernel modules for IPv6 tunneling
+
+Package: kmod-iptunnel
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 8645
+Filename: kmod-iptunnel_3.10.49-1_realtek.ipk
+Size: 9304
+MD5Sum: 080427640963e3ad2ad5b1992232431f
+SHA256sum: 2c9d6a939005f0550426abc3475c70c03a6cd0f36ec4004868fb3ac1ca63bcc3
+Description:  Kernel module for generic IP tunnel support
+
+Package: kmod-ipv6
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 175649
+Filename: kmod-ipv6_3.10.49-1_realtek.ipk
+Size: 175153
+MD5Sum: 31ad2b0b5e1cb0d4f1741386c34f6b27
+SHA256sum: dbfaf71241602fa4f2658d5936a323c2b05e9451b9ded817548388a901e95fa3
+Description:  Kernel modules for IPv6 support
+
+Package: kmod-l2tp
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-ipv6
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 14899
+Filename: kmod-l2tp_3.10.49-1_realtek.ipk
+Size: 15518
+MD5Sum: 7319fef4dbfec94f1b328316f27282e0
+SHA256sum: dcb89fe8d72dfbbe046b4afab92c225ee26ce4525062f73a268b50627bad943f
+Description:  Kernel modules for L2TP V3 Support
+
+Package: kmod-leds-gpio
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 105
+Filename: kmod-leds-gpio_3.10.49-1_realtek.ipk
+Size: 651
+MD5Sum: 5db08b4a91e1a89487bf770a6a4c079a
+SHA256sum: 6aeb8189d8e11a284957003671d84e51f99cc2eb2f5b3c4b1a558d0dbdf8f3fa
+Description:  Kernel module for LEDs on GPIO lines
+
+Package: kmod-ledtrig-gpio
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 2474
+Filename: kmod-ledtrig-gpio_3.10.49-1_realtek.ipk
+Size: 3151
+MD5Sum: 5bf48a4908ceba3d6b1fa33c505e4b8c
+SHA256sum: 3582832d72a0699c9589c4b4932c22354a51c7f4869eea47313572fcfb9a7414
+Description:  Kernel module that allows LEDs to be controlled by gpio events
+
+Package: kmod-ledtrig-heartbeat
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 105
+Filename: kmod-ledtrig-heartbeat_3.10.49-1_realtek.ipk
+Size: 649
+MD5Sum: 51c6af885e99e81777fc407692be08af
+SHA256sum: b89cd1b14d347e362075756bced334fa6b0164e9df02cc19b03548f3c4f4b692
+Description:  LED Heartbeat Trigger
+
+Package: kmod-ledtrig-morse
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 2344
+Filename: kmod-ledtrig-morse_3.10.49-1_realtek.ipk
+Size: 3003
+MD5Sum: b1c1856cee8086a7807cdc95cf2b6784
+SHA256sum: 78d2e554002206fdcff855c07a31a1f1548ef694a3858f6b89fe472341e0851d
+Description:  Kernel module to show morse coded messages on LEDs
+
+Package: kmod-ledtrig-netdev
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 106
+Filename: kmod-ledtrig-netdev_3.10.49-1_realtek.ipk
+Size: 667
+MD5Sum: 0fe4d0040d3fc072ef07a5c2f609cdca
+SHA256sum: 184c59e37d909ff9b370bbfa6fda40c86fbed2ab881cdf571a4cacd437e70744
+Description:  Kernel module to drive LEDs based on network activity
+
+Package: kmod-ledtrig-netfilter
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 1988
+Filename: kmod-ledtrig-netfilter_3.10.49-1_realtek.ipk
+Size: 2876
+MD5Sum: f4e7f8fc263c60bdf9f9a187652fd257
+SHA256sum: 1780f0b2c3b73016c65006530ba97839c8aea01cbbf1fe296ff9e23a7e0ae583
+Description:  Kernel module to flash LED when a particular packets passing through your machine.
+ 
+ For example to create an LED trigger for incoming SSH traffic:
+ iptables -A INPUT -p tcp --dport 22 -j LED --led-trigger-id ssh --led-delay 1000
+ Then attach the new trigger to an LED on your system:
+ echo netfilter-ssh > /sys/class/leds/<ledname>/trigger
+
+Package: kmod-ledtrig-oneshot
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 1778
+Filename: kmod-ledtrig-oneshot_3.10.49-1_realtek.ipk
+Size: 2508
+MD5Sum: 95a51a31d81ef7bc54c39b568aed6a3e
+SHA256sum: afa160baf125d1d892fe75b0070008b7f6a25f884bef0152ec5db03902ab1b3b
+Description:  Kernel module that allows LEDs to be triggered by sporadic events in
+ one-shot pulses
+
+Package: kmod-ledtrig-timer
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 105
+Filename: kmod-ledtrig-timer_3.10.49-1_realtek.ipk
+Size: 689
+MD5Sum: 84687a7a47bae9b1c7b155d8055967ad
+SHA256sum: 8c25dc625bff4320cc94c1d4dd98dcc92aec1272ea206adfe8fa5cd3df607cf5
+Description:  Kernel module that allows LEDs to be controlled by a programmable timer
+ via sysfs
+
+Package: kmod-ledtrig-usbdev
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 2427
+Filename: kmod-ledtrig-usbdev_3.10.49-1_realtek.ipk
+Size: 3120
+MD5Sum: 8138f36d604f12ad712d3c73b5394c28
+SHA256sum: 0df381a7098e8e5c6418db4482108cce6e9ac04b658b88fa400cf0cdab25b394
+Description:  Kernel module to drive LEDs based on USB device presence/activity
+
+Package: kmod-lib-crc-ccitt
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 1305
+Filename: kmod-lib-crc-ccitt_3.10.49-1_realtek.ipk
+Size: 1892
+MD5Sum: 55cd6afd3d40150678250b234e8713d6
+SHA256sum: c6e7e8a991d895918ef108a9e0fe835a002d324dc45cdf7a1f710d0a76c35f0d
+Description:  Kernel module for CRC-CCITT support
+
+Package: kmod-lib-crc16
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 1216
+Filename: kmod-lib-crc16_3.10.49-1_realtek.ipk
+Size: 1795
+MD5Sum: 38bf8b64e59c7f2a366a9182aacd1917
+SHA256sum: 70840360ee69232cf19a27c24d57fbb295d76bd83912a549dfe0c4ab664911d1
+Description:  Kernel module for CRC16 support
+
+Package: kmod-lib-crc32c
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-crypto-crc32c
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 1016
+Filename: kmod-lib-crc32c_3.10.49-1_realtek.ipk
+Size: 1598
+MD5Sum: 2b69589c8675ce233fc2d64364a9691e
+SHA256sum: 7d79499de43b3a235923abc4d17974ba21f6f18ebac4ad32132953bf89e4ffe2
+Description:  Kernel module for CRC32 support
+
+Package: kmod-lib-crc7
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 987
+Filename: kmod-lib-crc7_3.10.49-1_realtek.ipk
+Size: 1570
+MD5Sum: 8ff622a10b8f688ae2e3c7f8025dd9cf
+SHA256sum: 737ac27cce0e180e70d21939fe74fe989282679bf29e069a117df4aade4f23d8
+Description:  Kernel module for CRC7 support
+
+Package: kmod-lib-crc8
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 890
+Filename: kmod-lib-crc8_3.10.49-1_realtek.ipk
+Size: 1477
+MD5Sum: 6e7b2325a94213bfeecbe277b383f104
+SHA256sum: c87ce965f78ed2ffb95f996aa2e633a5c59e6abb1fb17f12444eb8e8d07672cb
+Description:  Kernel module for CRC8 support
+
+Package: kmod-lib-lzo
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 3079
+Filename: kmod-lib-lzo_3.10.49-1_realtek.ipk
+Size: 3630
+MD5Sum: 816175a0b192bfb9bda3dc89ca74d36d
+SHA256sum: 461b2f106cc431fab2b9c3d885eea6cc1a096440c8f7d4e658631e201307bddc
+Description:  Kernel module for LZO compression/decompression support
+
+Package: kmod-lib-textsearch
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 3707
+Filename: kmod-lib-textsearch_3.10.49-1_realtek.ipk
+Size: 4275
+MD5Sum: 0ac3f8ffdfc7f1e554d93498f6ab4b65
+SHA256sum: b4ea235b8e4f4b1c3945d633ad8827fc5a982e7413c21f525bf387817bb49553
+Description:  Textsearch support
+
+Package: kmod-libphy
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 106
+Filename: kmod-libphy_3.10.49-1_realtek.ipk
+Size: 633
+MD5Sum: 9b8bd39fd407385bd32daae6e608ff8a
+SHA256sum: be71108a1bf22a58b068e3148923ff3ee5e8a6bb048a35904c5eb75f54cc68f5
+Description:  PHY library
+
+Package: kmod-mac80211
+Version: 3.10.49+2014-05-22-1
+Depends: kernel (=3.10.49-1), kmod-crypto-core, kmod-crypto-arc4, kmod-crypto-aes, kmod-cfg80211, hostapd-common
+Source: package/kernel/mac80211
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 200005
+Filename: kmod-mac80211_3.10.49+2014-05-22-1_realtek.ipk
+Size: 199038
+MD5Sum: 3c9bbb8c728a2689dc0ba48f9722d7a6
+SHA256sum: d57e1a549429f458eba71490a496f26be75c96cb1e37e066be90531707e98982
+Description:  Generic IEEE 802.11 Networking Stack (mac80211)
+
+Package: kmod-mii
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 106
+Filename: kmod-mii_3.10.49-1_realtek.ipk
+Size: 630
+MD5Sum: ea8f362db03e30dbc171086be21c72f9
+SHA256sum: d12ef31e6387a47e1a4b41475290ac6310c6ed03e6cf2e135d94bcbe8e0ad073
+Description:  MII library
+
+Package: kmod-mppe
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-ppp, kmod-crypto-core, kmod-crypto-arc4, kmod-crypto-sha1, kmod-crypto-ecb
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 4905
+Filename: kmod-mppe_3.10.49-1_realtek.ipk
+Size: 5487
+MD5Sum: 2f2c542c4200444f8c3fb2e76ccea45d
+SHA256sum: e04d2b08333988358317d6ae4f0afce6e90d7117af5c1c3a60de58bae8ea1f13
+Description:  Kernel modules for Microsoft PPP compression/encryption
+
+Package: kmod-nls-base
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 106
+Filename: kmod-nls-base_3.10.49-1_realtek.ipk
+Size: 664
+MD5Sum: 51d3143e562c3876f826c76b5ef2402b
+SHA256sum: 4777ef04e7a8843b79544e46007b807c2eacd1f853ba36f66b0ada9eab5a949c
+Description:  Kernel module for NLS (Native Language Support)
+
+Package: kmod-nls-cp1250
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 1969
+Filename: kmod-nls-cp1250_3.10.49-1_realtek.ipk
+Size: 2656
+MD5Sum: d1f0d6bfed6c5c2001af7a30e3615993
+SHA256sum: 632320c4181770d2aa9fe2e5c703ca60ee2df6706b5b82423da9c80ae3449e74
+Description:  Kernel module for NLS Codepage 1250 (Eastern Europe)
+
+Package: kmod-nls-cp1251
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 1880
+Filename: kmod-nls-cp1251_3.10.49-1_realtek.ipk
+Size: 2565
+MD5Sum: 3c597ca16f0f2a618042caf193788a9d
+SHA256sum: d53b22304aebea18a49a6f5c65551d15b64ed1eed43f9b276c089ee7d335ef9f
+Description:  Kernel module for NLS Codepage 1251 (Russian)
+
+Package: kmod-nls-cp437
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 104
+Filename: kmod-nls-cp437_3.10.49-1_realtek.ipk
+Size: 675
+MD5Sum: d6c9b22501694646edd62455f8d86782
+SHA256sum: 20194c108a51dbeb663ea7ca072cecc92a5f6b9d3f6198a35aa3fc607486174e
+Description:  Kernel module for NLS Codepage 437 (United States, Canada)
+
+Package: kmod-nls-cp850
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 1991
+Filename: kmod-nls-cp850_3.10.49-1_realtek.ipk
+Size: 2679
+MD5Sum: c45274b2fa0d2e43fb06576d26261b1c
+SHA256sum: 8292a156e5958c22708cfc169533735d79200075f3b37b10867477fb1dbdbc42
+Description:  Kernel module for NLS Codepage 850 (Europe)
+
+Package: kmod-nls-cp852
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 2066
+Filename: kmod-nls-cp852_3.10.49-1_realtek.ipk
+Size: 2748
+MD5Sum: f87439f4d13dff62dcbbc8fc1b24c4af
+SHA256sum: ae3a17b849a27b9784b958679bb336b195718e611df2acb2b3459214b968a804
+Description:  Kernel module for NLS Codepage 852 (Europe)
+
+Package: kmod-nls-cp866
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 1894
+Filename: kmod-nls-cp866_3.10.49-1_realtek.ipk
+Size: 2579
+MD5Sum: 7ecf06b694640a2ffc05423945137608
+SHA256sum: 8fbe7605b0a2c4d01de0667df4d8f8cb0d3d706f28c80a5a4b2823217bef24d3
+Description:  Kernel module for NLS Codepage 866 (Cyrillic)
+
+Package: kmod-nls-iso8859-15
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 1778
+Filename: kmod-nls-iso8859-15_3.10.49-1_realtek.ipk
+Size: 2465
+MD5Sum: 662b8eb4069655d63fb43a0552b32d0b
+SHA256sum: 6495f1dffdcf271639dbaae79f1879a88f68adc56ae64b6fab84adc01008d2e9
+Description:  Kernel module for NLS ISO 8859-15 (Latin 9)
+
+Package: kmod-nls-iso8859-1
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 104
+Filename: kmod-nls-iso8859-1_3.10.49-1_realtek.ipk
+Size: 663
+MD5Sum: 987ef3e45f38e06fe69fde271ad64368
+SHA256sum: 73d0391ad78f9dbaf8bfdd506ce41ec485cf6fa8c0e159f82a8d84649b427a92
+Description:  Kernel module for NLS ISO 8859-1 (Latin 1)
+
+Package: kmod-nls-koi8r
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 1924
+Filename: kmod-nls-koi8r_3.10.49-1_realtek.ipk
+Size: 2600
+MD5Sum: 2cbfedb9bfddc74242353fe8a2e3060a
+SHA256sum: bf2de8442edb77d0843b62f5aa366b53a2beab6a35137fdb4d709e3d46a03725
+Description:  Kernel module for NLS KOI8-R (Russian)
+
+Package: kmod-nls-utf8
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 994
+Filename: kmod-nls-utf8_3.10.49-1_realtek.ipk
+Size: 1683
+MD5Sum: abb35815ee83c434a293516416038471
+SHA256sum: 69eb7cfc26abd8cf5bf68d05a8243491099b51b3d65fc82a576dee17e9e12193
+Description:  Kernel module for NLS UTF-8
+
+Package: kmod-ook-gpio
+Version: 3.10.49+0.3-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/ook-gpio
+Section: kernel
+Architecture: realtek
+Installed-Size: 3430
+Filename: kmod-ook-gpio_3.10.49+0.3-1_realtek.ipk
+Size: 4054
+MD5Sum: 383a88e22c4860672a80efb18dee5955
+SHA256sum: acbea8a7499333f228e323fc1bc540900e6c3aea310c89dfbb1d648782d1d3e5
+Description:  Kernel module for OOK modulation support using a GPIO.
+
+Package: kmod-ppp
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-lib-crc-ccitt, kmod-slhc
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 23785
+Filename: kmod-ppp_3.10.49-1_realtek.ipk
+Size: 24306
+MD5Sum: 57b4a7ea2d53d00dcd3d137363e365b8
+SHA256sum: 276445a8147ece308eec1954599aabdf39588f3fa3f41cc11aeb4629c1535c91
+Description:  Kernel modules for PPP support
+
+Package: kmod-pppoa
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-ppp, kmod-atm
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 3314
+Filename: kmod-pppoa_3.10.49-1_realtek.ipk
+Size: 3972
+MD5Sum: 73b681c7144e9bf9ed78ee5bcfed956e
+SHA256sum: 96f7cb9d41de6ca8537d94fd650378cd5c3eacb61cfbc3d8ebdab803810e2bbf
+Description:  Kernel modules for PPPoA (PPP over ATM) support
+
+Package: kmod-pppoe
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-ppp, kmod-pppox
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 7037
+Filename: kmod-pppoe_3.10.49-1_realtek.ipk
+Size: 7617
+MD5Sum: a6cbe31f28fc7c833df45ed01a30afb4
+SHA256sum: df258ce995dd369bcbf6995e9eff192fe7576e8817c500eb570460c621d793ac
+Description:  Kernel module for PPPoE (PPP over Ethernet) support
+
+Package: kmod-pppol2tp
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-ppp, kmod-pppox, kmod-l2tp
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 10580
+Filename: kmod-pppol2tp_3.10.49-1_realtek.ipk
+Size: 11174
+MD5Sum: 87c21b8322f3395509b684981cfd2e55
+SHA256sum: b9b8170575daa6636dd491724d2aaa8dd07ae262a1ccaed2ad5595bab683b515
+Description:  Kernel modules for PPPoL2TP (PPP over L2TP) support
+
+Package: kmod-pppox
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-ppp
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 1586
+Filename: kmod-pppox_3.10.49-1_realtek.ipk
+Size: 2173
+MD5Sum: f22f274a2b124b77190711e6ac01f5cf
+SHA256sum: cddfa8d824402a4fdcef7e309389c22ac8b94d74b16c02906d754d64210aca72
+Description:  Kernel helper module for PPPoE and PPTP support
+
+Package: kmod-pps-gpio
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-pps
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 2198
+Filename: kmod-pps-gpio_3.10.49-1_realtek.ipk
+Size: 2850
+MD5Sum: 39d9df73f9d126a6f66d44dfd53a2b74
+SHA256sum: 8c72e09c6f6cf21b3b104bc589e5be0a7d5537118dbeb10231c809fe35084631
+Description:  PPS client using GPIO
+
+Package: kmod-pps
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 5515
+Filename: kmod-pps_3.10.49-1_realtek.ipk
+Size: 6169
+MD5Sum: 31bc53fea4d9f447f2dafefc00804d1c
+SHA256sum: 3a5323ea0f9c76f79e2d1e49e4fb2afc870a9b589fe30fe2f756dfa3f2149b8a
+Description:  PPS support
+
+Package: kmod-pptp
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-ppp, kmod-gre, kmod-pppox
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 5484
+Filename: kmod-pptp_3.10.49-1_realtek.ipk
+Size: 6053
+MD5Sum: b1e3f0d3d1622ea7252164a01d503985
+SHA256sum: b2cbba90d08e90fe7c82948515333ca49a96c0d15b29d16e9ef3a7566053cf68
+Description:  PPtP support
+
+Package: kmod-pwm-gpio
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-pwm
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 105
+Filename: kmod-pwm-gpio_3.10.49-1_realtek.ipk
+Size: 680
+MD5Sum: f5005e79eca3005d8da19077c7461ea2
+SHA256sum: a3bdab5d997bcac83506c9914d2b8ec0158b8f83e127ef97f1de633a7ac6184a
+Description:  Kernel module to models a single-channel PWM device using a timer and a GPIO pin
+
+Package: kmod-pwm
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 105
+Filename: kmod-pwm_3.10.49-1_realtek.ipk
+Size: 656
+MD5Sum: 56abed32cb6b0468ee2adbcf9e8009f2
+SHA256sum: 20983461f9863eb36a4e93bf4f9b48f6968cf38128b988056237803c746457cb
+Description:  Kernel module that implement a generic PWM API
+
+Package: kmod-rtl8192cd
+Version: 3.10.49+2014-05-22-1
+Depends: kernel (=3.10.49-1), kmod-mac80211
+Source: package/kernel/mac80211
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 912470
+Filename: kmod-rtl8192cd_3.10.49+2014-05-22-1_realtek.ipk
+Size: 891702
+MD5Sum: 8844cd5a92193211e7bc29c5e82ccfe5
+SHA256sum: 98c4af98d48e95428c57649cb203905c7eaf34c39ecf7331a07be851c8c0d3a1
+Description:  This module adds support for Realtek rtl8192cd wireless adapters
+
+Package: kmod-rtl_nf
+Version: 3.10.49+0.1-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/rtl_nf
+Section: kernel
+Architecture: realtek
+Installed-Size: 1834
+Filename: kmod-rtl_nf_3.10.49+0.1-1_realtek.ipk
+Size: 2479
+MD5Sum: b0f0dbcb162f827b599dd3f4e73489ab
+SHA256sum: 25d2fda558fbcfcbc9d6b668aa4bfc14ab3c95b13ecec0e348c63184ee288d30
+Description:  Kernel module to rtl_nf
+
+Package: kmod-rtl_sendfile
+Version: 3.10.49+0.1-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/rtl_sendfile
+Section: kernel
+Architecture: realtek
+Installed-Size: 7906
+Filename: kmod-rtl_sendfile_3.10.49+0.1-1_realtek.ipk
+Size: 8568
+MD5Sum: abe6b2507f39ebbe320b27c0643edd45
+SHA256sum: b8b9da577a36096c99adc4ba9f96d1f30dbafa8e0bbd42a7f6c99556e452caed
+Description:  Improve performance on socket-to-file by using zero copy techonology.
+
+Package: kmod-sched-connmark
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-sched-core, kmod-ipt-core, kmod-ipt-conntrack-extra
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 1389
+Filename: kmod-sched-connmark_3.10.49-1_realtek.ipk
+Size: 2102
+MD5Sum: f746b5fcdffd3f21201ce8c786ae35b8
+SHA256sum: b90f550989592ad59a83af363ecebd995465579051443fa44d950959bcc453f1
+Description:  Traffic shaper conntrack mark support
+
+Package: kmod-sched-core
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 33337
+Filename: kmod-sched-core_3.10.49-1_realtek.ipk
+Size: 33962
+MD5Sum: 6bd68c06b8a956c65e1ecc6082a883f3
+SHA256sum: b7fdf7c308a207a80057b6cb0d5b7e722bec40c17800cf9e850983c24283cdf7
+Description:  Core kernel scheduler support for IP traffic
+
+Package: kmod-sched
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-sched-core, kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 50107
+Filename: kmod-sched_3.10.49-1_realtek.ipk
+Size: 50712
+MD5Sum: fbc840a15fb09a05b8ad726384f64d7a
+SHA256sum: 67bc85434bbe1b9305fd42c0d27a44639ef70bc103c21838cb87527a3772c9d7
+Description:  Extra kernel schedulers modules for IP traffic
+
+Package: kmod-scsi-cdrom
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-scsi-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 31851
+Filename: kmod-scsi-cdrom_3.10.49-1_realtek.ipk
+Size: 32145
+MD5Sum: 8d5c787c14eca40aa4b64c99a79a7fe1
+SHA256sum: 53e772e116b355164300ba1155d03dafc2e9678a5a22311f125eb151e91b8869
+Description:  Kernel support for CD / DVD drives
+
+Package: kmod-scsi-core
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 105
+Filename: kmod-scsi-core_3.10.49-1_realtek.ipk
+Size: 643
+MD5Sum: 103706f44b575b265c708e089323cb82
+SHA256sum: 8c7927f726e1597cb4ab42949a2899de66b6c1b593f12583fab9a4473c16e7dd
+Description:  SCSI device support
+
+Package: kmod-scsi-generic
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-scsi-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 17690
+Filename: kmod-scsi-generic_3.10.49-1_realtek.ipk
+Size: 18343
+MD5Sum: 498a5768b11c81dacdb99c1dad4b126c
+SHA256sum: 9ca4b11bbe1a8e3531ed95a14136eba4ffc865e09b6c16be2194b33bd4655b68
+Description:  Kernel support for SCSI generic
+
+Package: kmod-sit
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-ipv6, kmod-iptunnel, kmod-iptunnel4
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 10443
+Filename: kmod-sit_3.10.49-1_realtek.ipk
+Size: 11125
+MD5Sum: 952d51eaf866e69ff9c099ba41bcd963
+SHA256sum: 0188231aceab94a6d953834e5e8be4c41ffef4b32d52160e0193a2080604e056
+Description:  Kernel modules for IPv6-in-IPv4 tunnelling
+
+Package: kmod-slhc
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-lib-crc-ccitt
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 3481
+Filename: kmod-slhc_3.10.49-1_realtek.ipk
+Size: 4072
+MD5Sum: 879b78511f156b12007553034932a5ec
+SHA256sum: afd19ca5451d59c06db13268befda37eff9670c8edc0f6951f0e8cf600f56f64
+Description:  Serial Line Header Compression
+
+Package: kmod-sound-core
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-input-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 143524
+Filename: kmod-sound-core_3.10.49-1_realtek.ipk
+Size: 143811
+MD5Sum: 8aa7eb96fcc3cee0125582f6c0a96c57
+SHA256sum: ccc7ed1fbaaa10e3eec57ae55e7e08210a76d6c83869f2d00ab76e01ba4da050
+Description:  Kernel modules for sound support
+
+Package: kmod-tun
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 13373
+Filename: kmod-tun_3.10.49-1_realtek.ipk
+Size: 14019
+MD5Sum: 4855bb3fd85834356a5fa599174afebc
+SHA256sum: a5b87f1bb93d3d04e075f24edb8beb7f500d99081a9b3ab55cf2c10a3b2c6679
+Description:  Kernel support for the TUN/TAP tunneling device
+
+Package: kmod-usb-acm
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 10849
+Filename: kmod-usb-acm_3.10.49-1_realtek.ipk
+Size: 11442
+MD5Sum: 84394f1bcffba7b4587be9e2aff36960
+SHA256sum: fb3ac787e825b778df0b03d64fc8fafdc5384423afb7552a3cc15de9e9867bc2
+Description:  Kernel support for USB ACM devices (modems/isdn controllers)
+
+Package: kmod-usb-audio
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-core, kmod-sound-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 68992
+Filename: kmod-usb-audio_3.10.49-1_realtek.ipk
+Size: 68834
+MD5Sum: 2718c0180d968478365802a7c81672b3
+SHA256sum: 702b6bf7c26fc07278f24b7c329227b6ddb57514219dabf518b8aabf747ae818
+Description:  Kernel support for USB audio devices
+
+Package: kmod-usb-core
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 106
+Filename: kmod-usb-core_3.10.49-1_realtek.ipk
+Size: 649
+MD5Sum: 749364448e02d53870ded04afa9d05f5
+SHA256sum: 3c26c25e1a0afdc942a1b7145c0aa98dcf8ec2330aed159feb6ab4678b3c43ca
+Description:  Kernel support for USB
+
+Package: kmod-usb-hid
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-core, kmod-hid, kmod-hid-generic, kmod-input-core, kmod-input-evdev
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 18840
+Filename: kmod-usb-hid_3.10.49-1_realtek.ipk
+Size: 19410
+MD5Sum: 95efa3ebb66f18a15217c2fd265a2eaa
+SHA256sum: a8431106f441897da2c493b472b71e43e8da8e58acf38343c01879301a39c7ad
+Description:  Kernel support for USB HID devices such as keyboards and mice
+
+Package: kmod-usb-net-asix
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-libphy, kmod-usb-net
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 11341
+Filename: kmod-usb-net-asix_3.10.49-1_realtek.ipk
+Size: 11937
+MD5Sum: 29596c7c137c1b5d0afdd3b70b636c45
+SHA256sum: fbd29edea772fc81c61b14d15537a8651bdf2d244a1ecb28979e0d790c34a54d
+Description:  Kernel module for USB-to-Ethernet Asix convertors
+
+Package: kmod-usb-net-cdc-eem
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-net
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 2632
+Filename: kmod-usb-net-cdc-eem_3.10.49-1_realtek.ipk
+Size: 3195
+MD5Sum: 09898b3352aed7841670b9eac4ba6b66
+SHA256sum: 52cfabc58c968558fee95230936749796d01648753908d9ccb3dc38594c43eea
+Description:  Kernel support for USB CDC EEM
+
+Package: kmod-usb-net-cdc-ether
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-net
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 3343
+Filename: kmod-usb-net-cdc-ether_3.10.49-1_realtek.ipk
+Size: 3896
+MD5Sum: b64f61cc5591aa20187ef50d198b32cf
+SHA256sum: 6d5ab80d9601214a27859c714256d1761b142ef2499e6b7ae89e31029e64ee02
+Description:  Kernel support for USB CDC Ethernet devices
+
+Package: kmod-usb-net-cdc-mbim
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-net, kmod-usb-wdm, kmod-usb-net-cdc-ncm
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 3463
+Filename: kmod-usb-net-cdc-mbim_3.10.49-1_realtek.ipk
+Size: 4052
+MD5Sum: bac4e5dc6b57ff1c7751112ade8ccc15
+SHA256sum: 6d87eecfa393e579647b567dc56cab112dca56b9a008b45d6bbf6e06a9a588e7
+Description:  Kernel module for Option USB High Speed Mobile Devices
+
+Package: kmod-usb-net-cdc-ncm
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-net
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 7595
+Filename: kmod-usb-net-cdc-ncm_3.10.49-1_realtek.ipk
+Size: 8168
+MD5Sum: 457005b62d730e0947cb9426edb05e8c
+SHA256sum: 76f7921875ec99fd761be53a6cee94bc55a7cdd69f562d6c5e8a266cc94f30e4
+Description:  Kernel support for CDC NCM connections
+
+Package: kmod-usb-net-cdc-subset
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-net
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 1167
+Filename: kmod-usb-net-cdc-subset_3.10.49-1_realtek.ipk
+Size: 1786
+MD5Sum: 2c6f568879585ccc3a3f43a6ecf57799
+SHA256sum: 798ad4dd4fcd806983efe5862e9c5d3cd382eb7394680e04347fb075afd7ceca
+Description:  Kernel support for Simple USB Network Links (CDC Ethernet subset)
+
+Package: kmod-usb-net-dm9601-ether
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-net
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 4434
+Filename: kmod-usb-net-dm9601-ether_3.10.49-1_realtek.ipk
+Size: 4988
+MD5Sum: 37f09bb1c162d773c00b4b5a2585c3bc
+SHA256sum: 1eedcf259998db85b621bd7dd886e337d21f93e2281ba02763ea9da7e6199261
+Description:  Kernel support for USB DM9601 devices
+
+Package: kmod-usb-net-hso
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-net
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 104
+Filename: kmod-usb-net-hso_3.10.49-1_realtek.ipk
+Size: 668
+MD5Sum: 90dc7fc0e030ba13a4f880b8e5b6b7a6
+SHA256sum: 4d9a271b3072c634cd6a2b41a80f427b4bee684764b2d355abb2695529c85d9e
+Description:  Kernel module for Option USB High Speed Mobile Devices
+
+Package: kmod-usb-net-ipheth
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-net
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 4719
+Filename: kmod-usb-net-ipheth_3.10.49-1_realtek.ipk
+Size: 5284
+MD5Sum: 7762f0fc566cb8649e3647fa55e254b4
+SHA256sum: dc963047bce179c2a9b4e0eed78b042d35d8051064370f46daed56c192d7de7b
+Description:  Kernel support for Apple iPhone USB Ethernet driver
+
+Package: kmod-usb-net-kalmia
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-net
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 2843
+Filename: kmod-usb-net-kalmia_3.10.49-1_realtek.ipk
+Size: 3419
+MD5Sum: 37247dba6fcc6457c3c2dfd2f4df84bb
+SHA256sum: 50206675c9e48fab4098113723ac30d88f25af6e26a1d55ca34a7e301f54d064
+Description:  Kernel support for Samsung Kalmia based LTE USB modem
+
+Package: kmod-usb-net-kaweth
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-net
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 7733
+Filename: kmod-usb-net-kaweth_3.10.49-1_realtek.ipk
+Size: 8311
+MD5Sum: 73b5a09a37ff81977d8bedd0333fa8d1
+SHA256sum: 78014225c30d58564bcc2ad78245289b64c3056659d3ae067f9643e43fac4384
+Description:  Kernel module for USB-to-Ethernet Kaweth convertors
+
+Package: kmod-usb-net-mcs7830
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-net
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 3653
+Filename: kmod-usb-net-mcs7830_3.10.49-1_realtek.ipk
+Size: 4232
+MD5Sum: 87dd0c53623a435d95cf76eeefab84ec
+SHA256sum: 8ba96d4fde72940618ab1386af34a38b765de6aca3c31b4f892cda15349cf1c4
+Description:  Kernel module for USB-to-Ethernet MCS7830 convertors
+
+Package: kmod-usb-net-pegasus
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-net
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 10714
+Filename: kmod-usb-net-pegasus_3.10.49-1_realtek.ipk
+Size: 11281
+MD5Sum: ac8a3f65e946c7ae24f4625fcd0aa2ab
+SHA256sum: 3139d625c00f34db30841ac76369d5a0ed7f7d2cf43aacb4c17be73639a9a08d
+Description:  Kernel module for USB-to-Ethernet Pegasus convertors
+
+Package: kmod-usb-net-qmi-wwan
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-net, kmod-usb-wdm
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 4960
+Filename: kmod-usb-net-qmi-wwan_3.10.49-1_realtek.ipk
+Size: 5265
+MD5Sum: 25d378fce845aa50cd066ff6d92954c8
+SHA256sum: 8ab843fbb87995db407d69c455f1f1ef12f3ebfb8024995634b4539623b7dac9
+Description:  QMI WWAN driver for Qualcomm MSM based 3G and LTE modems
+
+Package: kmod-usb-net-rndis
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-net, kmod-usb-net-cdc-ether
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 5179
+Filename: kmod-usb-net-rndis_3.10.49-1_realtek.ipk
+Size: 5745
+MD5Sum: 99d6aade762a9c6476c0ca8994ffbb1d
+SHA256sum: 1e470444aa4f33470a7527f38e179f72414636aba026c7c74ffb0d804d1a1dab
+Description:  Kernel support for RNDIS connections
+
+Package: kmod-usb-net-sierrawireless
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-net
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 5692
+Filename: kmod-usb-net-sierrawireless_3.10.49-1_realtek.ipk
+Size: 6279
+MD5Sum: 3b15780a8aeca58cafce6f059f0cfeaa
+SHA256sum: bb68cb3142a525773865728cbfac1917125c8f1ee2d947b58abbbc7bd30a620b
+Description:  Kernel support for Sierra Wireless devices
+
+Package: kmod-usb-net
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-mii, kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 12840
+Filename: kmod-usb-net_3.10.49-1_realtek.ipk
+Size: 13411
+MD5Sum: 3885451968916bbbafe5605f3c1b1497
+SHA256sum: 759ce3a642ab738573cd94a54b6e63fab675c93f595f295d883cc1f8724e8f98
+Description:  Kernel modules for USB-to-Ethernet convertors
+
+Package: kmod-usb-ohci
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 105
+Filename: kmod-usb-ohci_3.10.49-1_realtek.ipk
+Size: 661
+MD5Sum: 8f2966091043b0ecd0bc18f5ff54ef74
+SHA256sum: 12370a46ca11e6c66285da2cc9d3572f6e11fca0ccdfedac79e32062ab0407d2
+Description:  Kernel support for USB OHCI controllers
+
+Package: kmod-usb-printer
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 7931
+Filename: kmod-usb-printer_3.10.49-1_realtek.ipk
+Size: 8501
+MD5Sum: b3cc043176f485faa6b3e4110e415aad
+SHA256sum: 8d7e091d206b33719ed06f1b247b735cc20b942f2c59a65f85b6d1a213dd9935
+Description:  Kernel support for USB printers
+
+Package: kmod-usb-serial-cp210x
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-serial
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 4328
+Filename: kmod-usb-serial-cp210x_3.10.49-1_realtek.ipk
+Size: 4890
+MD5Sum: 4b6256c4d0bd2a51768a4fc4daeaa137
+SHA256sum: 360f2a10833570f6956dfa89d080d8433004a68dfde67bb17fc927c4143afc8c
+Description:  Kernel support for Silicon Labs cp210x USB-to-Serial converters
+
+Package: kmod-usb-serial-ftdi
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-serial
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 11907
+Filename: kmod-usb-serial-ftdi_3.10.49-1_realtek.ipk
+Size: 12362
+MD5Sum: 05fda43c9773bd714f6e640cc1ede973
+SHA256sum: 9939e776736627f6b9581f7a0c1477a6cf410b3c4a7354d676fa4660cb09b3e1
+Description:  Kernel support for FTDI USB-to-Serial converters
+
+Package: kmod-usb-serial-pl2303
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-serial
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 5676
+Filename: kmod-usb-serial-pl2303_3.10.49-1_realtek.ipk
+Size: 6267
+MD5Sum: 2dc13ac6c5f3b458c64659a60442682e
+SHA256sum: b2ab5bf1b7311842a086163dc743b452774a16f74d56a5c00c31a28572aec29d
+Description:  Kernel support for Prolific PL2303 USB-to-Serial converters
+
+Package: kmod-usb-serial
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 14681
+Filename: kmod-usb-serial_3.10.49-1_realtek.ipk
+Size: 15249
+MD5Sum: 46df7b65540a892d4d28358d29db8248
+SHA256sum: 1b935eefec14be8e2994d96d63d6006cb1e22a82306e1fbc61ff850bc33c8a03
+Description:  Kernel support for USB-to-Serial converters
+
+Package: kmod-usb-storage
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-scsi-core, kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 105
+Filename: kmod-usb-storage_3.10.49-1_realtek.ipk
+Size: 672
+MD5Sum: 7331e274a77b58c9f4c59e9d0e5d9066
+SHA256sum: 4036ed2b5e61331d3f721c27795839853510057893878018e39cbfd1c7a310a9
+Description:  Kernel support for USB Mass Storage devices
+
+Package: kmod-usb-uhci
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 105
+Filename: kmod-usb-uhci_3.10.49-1_realtek.ipk
+Size: 661
+MD5Sum: fc794d3d28b50b569f25bc5051271ec1
+SHA256sum: 022efe3191b7f72e58d9451b940588bb7a24a89c5ccea8eca4baa0ce379b3166
+Description:  Kernel support for USB UHCI controllers
+
+Package: kmod-usb-wdm
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 6909
+Filename: kmod-usb-wdm_3.10.49-1_realtek.ipk
+Size: 7500
+MD5Sum: eff2531cdcc8c69a0d2a104355c80d7e
+SHA256sum: 722d4439fc6e9d88797a260ebe54aec5615fc6effdbf24e4377277d216f747a5
+Description:  USB Wireless Device Management support
+
+Package: kmod-usb2
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 105
+Filename: kmod-usb2_3.10.49-1_realtek.ipk
+Size: 661
+MD5Sum: 9ac2738fd5c5bf216f319b3b99f00666
+SHA256sum: f302b6c153d12f299402c9a91f4da02cbeaf6b89ff1e5dcf67debabfd55f3351
+Description:  Kernel support for USB2 (EHCI) controllers
+
+Package: kmod-usbip-client
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usbip, kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 9926
+Filename: kmod-usbip-client_3.10.49-1_realtek.ipk
+Size: 10509
+MD5Sum: 135c914356a620c321a226d0b0496469
+SHA256sum: 26dc3a89a221ef4e8043d57585dc3355694596ce0ff3ad86d8aeb5ac033f71e1
+Description:  USB-over-IP client driver
+
+Package: kmod-usbip-server
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usbip, kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 10573
+Filename: kmod-usbip-server_3.10.49-1_realtek.ipk
+Size: 11153
+MD5Sum: 4d17d3500a9392c75a85e6a1657629a5
+SHA256sum: 3a608019127d035ce408ed498fc4fc2c14032a6016580ddf15986d6cef5c1e0a
+Description:  USB-over-IP host driver
+
+Package: kmod-usbip
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 4043
+Filename: kmod-usbip_3.10.49-1_realtek.ipk
+Size: 4596
+MD5Sum: 32ff3589ff8af697c326d621c1d26bee
+SHA256sum: 6b096254c35deffabb76f870a977669e9704dd76ee0f966b0e4421ad18e73698
+Description:  USB-over-IP kernel support
+
+Package: kmod-usbmon
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 13467
+Filename: kmod-usbmon_3.10.49-1_realtek.ipk
+Size: 13998
+MD5Sum: 754506610c87324eca66e807edd6017b
+SHA256sum: d57f7d8f43112ddef37c8485b5e42041655a7ee5451b6225691158fa01cf9fbf
+Description:  Kernel support for USB traffic monitoring
+
+Package: kmod-zram
+Version: 3.10.49-1
+Depends: kernel (=3.10.49-1), kmod-lib-lzo
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: realtek
+Installed-Size: 10549
+Filename: kmod-zram_3.10.49-1_realtek.ipk
+Size: 11261
+MD5Sum: 9f670accda7e94e5ed56643b6139462a
+SHA256sum: 83b6935ce6948f81c726a5f424014ade82bbbe7a4500ba0c571268832242073d
+Description:  Compressed RAM block device support
+
+Package: libblobmsg-json
+Version: 2014-08-04-dffbc09baf71b294185a36048166d00066d433b5
+Depends: libc, libjson-c, libubox
+Source: package/libs/libubox
+License: ISC BSD-3c
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 3610
+Filename: libblobmsg-json_2014-08-04-dffbc09baf71b294185a36048166d00066d433b5_realtek.ipk
+Size: 4241
+MD5Sum: 4182d88789261056aff5ab5c4172b579
+SHA256sum: 4df550ef0c87e01a8f514aa5f34c8dd48bd2a359b284a30bf24a0060c0254f45
+Description:  blobmsg <-> json conversion library
+
+Package: libcurl
+Version: 7.38.0-1
+Depends: libc, libpolarssl
+Source: package/network/utils/curl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Imre Kaloz <kaloz@openwrt.org>
+Architecture: realtek
+Installed-Size: 104637
+Filename: libcurl_7.38.0-1_realtek.ipk
+Size: 105138
+MD5Sum: 592dd1b45faae652bf9bcf8f58a5f098
+SHA256sum: ea65aa25b00f8f5a48f4d9067c26d16181ee24b7826073dc0f6754a9b3caec83
+Description:  A client-side URL transfer library using PolarSSL
+
+Package: libevent2
+Version: 2.0.21-1
+Depends: libc
+Source: package/libs/libevent2
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 103377
+Filename: libevent2_2.0.21-1_realtek.ipk
+Size: 104329
+MD5Sum: d62e8ce54110cd2c184b52e989e1197f
+SHA256sum: a4900a6b0de1dc392ab2e473c668d754adcedaf37ae7f48603b18684c0bf03a3
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent shared library historically
+ containing both the core & extra libraries.
+
+Package: libext2fs
+Version: 1.42.4-1
+Depends: libc
+Source: package/utils/e2fsprogs
+Section: libs
+Architecture: realtek
+Installed-Size: 132718
+Filename: libext2fs_1.42.4-1_realtek.ipk
+Size: 132977
+MD5Sum: 2ed82a2b036c36491f8c351bd23968fd
+SHA256sum: 2b549da001f17fe32861f8aceafb4ebb66f53f518e39a79a7ed07d8e4f48bedf
+Description:  libext2fs is a library which can access ext2, ext3 and ext4 filesystems.
+
+Package: libgcc
+Version: -1
+Source: package/libs/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 34907
+Filename: libgcc_-1_realtek.ipk
+Size: 35468
+MD5Sum: 00ddccab450d1f8ba4061db0fd7069fb
+SHA256sum: a3aa317481edffd83ed3f615af96a527dd09f2bf9b7d4f2cc5c1259cafc7d5e7
+Description:  GCC support library
+
+Package: libgmp
+Version: 6.0.0-1
+Depends: libc
+Source: package/libs/gmp
+Section: libs
+Architecture: realtek
+Installed-Size: 231004
+Filename: libgmp_6.0.0-1_realtek.ipk
+Size: 231440
+MD5Sum: 5c26ea30331e492c5893f3ced0640033
+SHA256sum: e3c0af0050d6212af4d5a2bb3a3ea63441b254867a4ba031ab517aa32b73d9b3
+Description:  GMP is a free library for arbitrary precision arithmetic, operating on
+ signed integers, rational numbers, and floating point numbers.
+
+Package: libip4tc
+Version: 1.4.21-1
+Depends: libc
+Source: package/network/utils/iptables
+Section: libs
+Architecture: realtek
+Installed-Size: 11472
+Filename: libip4tc_1.4.21-1_realtek.ipk
+Size: 12037
+MD5Sum: 3c8cfa193e1dda01ef8be5cc55383d57
+SHA256sum: 05f71d0293c55b18303bb6e80173b635e803c770ffcec437038a0851559b5dcc
+Description:  IPv4 firewall - shared libiptc library
+
+Package: libip6tc
+Version: 1.4.21-1
+Depends: libc
+Source: package/network/utils/iptables
+Section: libs
+Architecture: realtek
+Installed-Size: 11938
+Filename: libip6tc_1.4.21-1_realtek.ipk
+Size: 12492
+MD5Sum: f9587795daf76cbdb415f078e0d1cf05
+SHA256sum: aca97fdf0c75ca5d0a84182906e6568ab14b88e1ed521b2b10bba784a3887e59
+Description:  IPv6 firewall - shared libiptc library
+
+Package: libiwinfo-lua
+Version: 51
+Depends: libc, libiwinfo, liblua
+Source: package/network/utils/iwinfo
+Section: lang
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: realtek
+Installed-Size: 5979
+Filename: libiwinfo-lua_51_realtek.ipk
+Size: 6483
+MD5Sum: bdab4501fe263525d2a609a497514fa9
+SHA256sum: 1d4a3dcabdd55c0b31d8dcf5f6c8142e39c477abfc475280c5621504a9e4841f
+Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
+ backends.
+
+Package: libiwinfo
+Version: 51
+Depends: libc, libnl-tiny
+Source: package/network/utils/iwinfo
+Section: libs
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: realtek
+Installed-Size: 22975
+Filename: libiwinfo_51_realtek.ipk
+Size: 23533
+MD5Sum: c0625ea54a6661a1451738a5beb04e1a
+SHA256sum: c06228155ea2140dc7e49d436f9ff5f4f962fa1451d959d1d1c7660e1d53a366
+Description:  Wireless information library with consistent interface for proprietary Broadcom,
+ madwifi, nl80211 and wext driver interfaces.
+
+Package: libjson-c
+Version: 0.11-2
+Depends: libc
+Source: package/libs/libjson-c
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 13702
+Filename: libjson-c_0.11-2_realtek.ipk
+Size: 14300
+MD5Sum: b007edfff74f3c8b4a92f4ebc1220bba
+SHA256sum: d0d63c38843b8936d08e27152a503ea86a32007bcb6d340b1c3bf61040c8fe25
+Description:  This package contains a library for javascript object notation backends.
+
+Package: libjson-script
+Version: 2014-08-04-dffbc09baf71b294185a36048166d00066d433b5
+Depends: libc, libubox
+Source: package/libs/libubox
+License: ISC BSD-3c
+Section: utils
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 5028
+Filename: libjson-script_2014-08-04-dffbc09baf71b294185a36048166d00066d433b5_realtek.ipk
+Size: 5628
+MD5Sum: 7ab2e9db46f8091c0c0d2d9356dec4ed
+SHA256sum: 7994f455fa93984e31a1f4b8d85166439127b0bb9a93f985fb3e2b9a387a20cf
+Description:  Minimalistic JSON based scripting engine
+
+Package: libltdl
+Version: 2.4-1
+Depends: libc
+Source: package/libs/libtool
+License: GPLv2
+LicenseFiles: COPYING
+Section: libs
+Architecture: realtek
+Installed-Size: 13546
+Filename: libltdl_2.4-1_realtek.ipk
+Size: 14097
+MD5Sum: b42421753ab9c776c4b42f3a6580c3fc
+SHA256sum: 7a5d03d4714622bdeed9f4f5768444a7776e958ad7e41072c6dde123e26c86c2
+Description:  A generic dynamic object loading library
+
+Package: liblua
+Version: 5.1.5-1
+Depends: libc
+Source: package/utils/lua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 75987
+Filename: liblua_5.1.5-1_realtek.ipk
+Size: 76114
+MD5Sum: 9472fdf034fecf7dc02faf50cf0c663b
+SHA256sum: e70c0d05023499a222d4b178a90ab1df9c7e1b862a9cfb29f86d443647f484b3
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: liblzo
+Version: 2.08-1
+Depends: libc
+Source: package/libs/lzo
+Section: libs
+Architecture: realtek
+Installed-Size: 41401
+Filename: liblzo_2.08-1_realtek.ipk
+Size: 42010
+MD5Sum: 1358f40c53be105579e097990ac5cf69
+SHA256sum: 5a6d4c90668c9ce04554025cc771c7e6697729936194b8bdab25357ee95cc978
+Description:  LZO is a data compression library which is suitable for data de-/compression
+ in real-time. This means it favours speed over compression ratio.
+
+Package: libncurses
+Version: 5.9-1
+Depends: libc, terminfo
+Source: package/libs/ncurses
+License: FREE
+LicenseFiles: README
+Section: libs
+Architecture: realtek
+Installed-Size: 138481
+Filename: libncurses_5.9-1_realtek.ipk
+Size: 134762
+MD5Sum: 474f7cfc45d8e31ecfc9af33747d6109
+SHA256sum: 50988ba19dd1a6eeccd1ad74b964e58b151b003dd2ea1f4c3b1ecd3688b962b3
+Description:  Terminal handling library
+
+Package: libncursesw
+Version: 5.9-1
+Depends: libc
+Source: package/libs/ncurses
+License: FREE
+LicenseFiles: README
+Section: libs
+Architecture: realtek
+Installed-Size: 162817
+Filename: libncursesw_5.9-1_realtek.ipk
+Size: 158650
+MD5Sum: c3b61058f8246315334ca39685dfd4d2
+SHA256sum: fae4cd121346132e81728e1963e38a04b47f609937d0046732108affa23ca6aa
+Description:  Terminal handling library (Unicode)
+
+Package: libnettle
+Version: 2.7.1-1
+Depends: libc, libgmp
+Source: package/libs/nettle
+License: LGPLv2
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: realtek
+Installed-Size: 251875
+Filename: libnettle_2.7.1-1_realtek.ipk
+Size: 251710
+MD5Sum: 80b2612040df323d6aea0f256eaf2606
+SHA256sum: 41b1250719ba172b86c2319ef6e017fa7c47c95a54c25b1a07fecd70c5737f22
+Description:  GNU crypto library
+
+Package: libnfnetlink
+Version: 1.0.1-1
+Depends: libc
+Source: package/libs/libnfnetlink
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 9186
+Filename: libnfnetlink_1.0.1-1_realtek.ipk
+Size: 9892
+MD5Sum: 55bc485780f727cbeaf6eed67aa1625d
+SHA256sum: 464a692af0337a3a59728865cf1c518f39ae90ec04eab7a8d57b8f7baeae553a
+Description:  libnfnetlink is is the low-level library for netfilter related kernel/userspace communication.
+ It provides a generic messaging infrastructure for in-kernel netfilter subsystems
+ (such as nfnetlink_log, nfnetlink_queue, nfnetlink_conntrack) and their respective users
+ and/or management tools in userspace.
+
+Package: libnl-tiny
+Version: 0.1-3
+Depends: libc
+Source: package/libs/libnl-tiny
+License: GPLv2 LGPLv2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 13338
+Filename: libnl-tiny_0.1-3_realtek.ipk
+Size: 13897
+MD5Sum: 7bd6f815b699a1158da1cdc84d87de44
+SHA256sum: ae56218b2f881eb937035db240aa0816108b1e0a058fdb3e3c6a92c2701b71a6
+Description:  This package contains a stripped down version of libnl
+
+Package: libnl
+Version: 3.2.21-1
+Depends: libc, libpthread
+Source: package/libs/libnl
+Section: libs
+Architecture: realtek
+Installed-Size: 163095
+Filename: libnl_3.2.21-1_realtek.ipk
+Size: 162709
+MD5Sum: 10a09ae478c1c5f424d433fec5f3b841
+SHA256sum: 8fab85f138d770a8d15cdf86a0e2134f7869b4f101ed64a504079ea953363d18
+Description:  This package contains a library for applications dealing with netlink sockets
+
+Package: libopenssl
+Version: 1.0.1j-1
+Depends: libc, zlib
+Source: package/libs/openssl
+License: SSLEAY OPENSSL
+LicenseFiles: LICENSE
+Section: libs
+Architecture: realtek
+Installed-Size: 709435
+Filename: libopenssl_1.0.1j-1_realtek.ipk
+Size: 702440
+MD5Sum: a14ef6b3778f552f380be23ea8806b3b
+SHA256sum: effa79f7e10d3ef8710d4d0f32eda2226fc06facdfc38b0a769c7a71edb58c95
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+ Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+ as a full-strength general purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
+
+Package: libpcap
+Version: 1.5.3-1
+Depends: libc
+Source: package/libs/libpcap
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 91977
+Filename: libpcap_1.5.3-1_realtek.ipk
+Size: 92320
+MD5Sum: 89208a0d2667323b63b2ae5073cf27db
+SHA256sum: f4bc43adcf8a91ac321587e7621dd1b3436f9c0d60d81c732f459e57e8b3b798
+Description:  This package contains a system-independent library for user-level network packet
+ capture.
+
+Package: libpolarssl
+Version: 1.3.8-2
+Depends: libc
+Source: package/libs/polarssl
+Section: libs
+Architecture: realtek
+Installed-Size: 135653
+Filename: libpolarssl_1.3.8-2_realtek.ipk
+Size: 136036
+MD5Sum: 90235b250359d553c6e373db51fe7e7c
+SHA256sum: 785daaa901da1e7f6c53cebeed225df12c92b24aaf5026c3bf9640a5bd34b961
+Description:  The aim of the PolarSSL project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the PolarSSL library.
+
+Package: libpopt
+Version: 1.7-5
+Depends: libc
+Source: package/libs/popt
+Section: libs
+Architecture: realtek
+Installed-Size: 14094
+Filename: libpopt_1.7-5_realtek.ipk
+Size: 14588
+MD5Sum: bbc1b2cc36d34fb5bb5e88b2a1ef3ada
+SHA256sum: 68fc73a291efcac3c6c4be9086f1b2437bbd00225644639788f0c4bb732be6ab
+Description:  A command line option parsing library
+
+Package: libpthread
+Version: -1
+Depends: libgcc
+Source: package/libs/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 29195
+Filename: libpthread_-1_realtek.ipk
+Size: 29771
+MD5Sum: 433e31826b82860e5fdeb6edef383ce5
+SHA256sum: 4baf53f984d6e395430cb5397cd635087b3672695085ae9a5f787964796ba71f
+Description:  POSIX thread library
+
+Package: libreadline
+Version: 6.2-1
+Depends: libc
+Source: package/libs/libreadline
+License: GPLv3
+LicenseFiles: COPYING
+Section: libs
+Architecture: realtek
+Installed-Size: 127456
+Filename: libreadline_6.2-1_realtek.ipk
+Size: 127393
+MD5Sum: fb394ec729221514c8344679b01f4b70
+SHA256sum: 3b1d39f3598aa5d1ffc97eb899763745ef88d75aa10168c2befc13a370665f7b
+Description:  The Readline library provides a set of functions for use by applications 
+ that allow users to edit command lines as they are typed in. Both Emacs 
+ and vi editing modes are available. The Readline library includes 
+ additional functions to maintain a list of previously-entered command 
+ lines, to recall and perhaps reedit those lines, and perform csh-like 
+ history expansion on previous commands.
+
+Package: librpc
+Version: 2015-11-04-a921e3ded051746f9f7cd5e5a312fb6771716aac
+Depends: libc
+Source: package/libs/librpc
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: realtek
+Installed-Size: 31356
+Filename: librpc_2015-11-04-a921e3ded051746f9f7cd5e5a312fb6771716aac_realtek.ipk
+Size: 31865
+MD5Sum: 2afec7cdd68d668d39f196708cc28c8e
+SHA256sum: 766ca079c719c77f4e9e333b2e3d7f073f0188039168cdbeca77ff24b2cf740a
+Description:  uClibc RPC library
+
+Package: librt
+Version: -1
+Depends: libpthread
+Source: package/libs/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 6752
+Filename: librt_-1_realtek.ipk
+Size: 7388
+MD5Sum: ecf92b66a74fea5d51f2528727ec72ae
+SHA256sum: 3992e2dfd756247bf88333bc43754f1ca8d4243cab3cdb569e1458f1f278fea7
+Description:  POSIX.1b RealTime extension library
+
+Package: libstdcpp
+Version: -1
+Source: package/libs/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 243989
+Filename: libstdcpp_-1_realtek.ipk
+Size: 242761
+MD5Sum: d35eebc43a054879388f77c1cec8b42d
+SHA256sum: e93b75d52dfe0c8a134b114edc9b25576219ab7dba36f8e502e258321b2e7e04
+Description:  GNU Standard C++ Library v3
+
+Package: libubox
+Version: 2014-08-04-dffbc09baf71b294185a36048166d00066d433b5
+Depends: libc
+Source: package/libs/libubox
+License: ISC BSD-3c
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 15187
+Filename: libubox_2014-08-04-dffbc09baf71b294185a36048166d00066d433b5_realtek.ipk
+Size: 15760
+MD5Sum: 7c46ba35ff1b3a8cc7f842e7e1abfddf
+SHA256sum: 865ad2b99334f8e40a4d78e91e1ecbbda5256b1b626ec0bfb6a0a1a83f4715d1
+Description:  Basic utility library
+
+Package: libubus-lua
+Version: 2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3
+Depends: libc, libubus, liblua
+Source: package/system/ubus
+License: LGPLv2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 5573
+Filename: libubus-lua_2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3_realtek.ipk
+Size: 6178
+MD5Sum: feb35eeb7d3863b19778b1e306333747
+SHA256sum: be28c0523f7e167411428ed21009535bb140d3186274164deb53eff8b6686eb5
+Description:  Lua binding for the OpenWrt RPC client
+
+Package: libubus
+Version: 2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3
+Depends: libc, libubox
+Source: package/system/ubus
+License: LGPLv2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 8649
+Filename: libubus_2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3_realtek.ipk
+Size: 9232
+MD5Sum: 46fd0e9acbcfd9d722a77a75e3ff01ac
+SHA256sum: 2fdb57faf1c4d430fed8e1af30b2df748f53745e3aa5acff997063721d88d35a
+Description:  OpenWrt RPC client library
+
+Package: libuci-lua
+Version: 2014-04-11.1-1
+Depends: libc, libuci, liblua
+Source: package/system/uci
+License: LGPLv2.1 GPLv2
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 6057
+Filename: libuci-lua_2014-04-11.1-1_realtek.ipk
+Size: 6630
+MD5Sum: 82ed76f6499295715f47ac2845454169
+SHA256sum: c5879c7b97718589f535be6b48e27c69f077690a574acee8355f9e1f1943108e
+Description:  Lua plugin for UCI
+
+Package: libuci
+Version: 2014-04-11.1-1
+Depends: libc, libubox
+Source: package/system/uci
+License: LGPLv2.1 GPLv2
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 16032
+Filename: libuci_2014-04-11.1-1_realtek.ipk
+Size: 16592
+MD5Sum: 6eae461b1e3fa1976a3b3ff8ee58806d
+SHA256sum: 9f4861664ec8eef4319aac678f09630b775b84168b632afe23c7f60a495cebf8
+Description:  C library for the Unified Configuration Interface (UCI)
+
+Package: libuclient
+Version: 2014-09-04-57a1dda8f31878282e554bb98d5cc81307edea49
+Depends: libc, libubox
+Source: package/libs/uclient
+License: ISC
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 8442
+Filename: libuclient_2014-09-04-57a1dda8f31878282e554bb98d5cc81307edea49_realtek.ipk
+Size: 9077
+MD5Sum: e7e65628d14adc3bc639ba09e2be5eb4
+SHA256sum: accf1edc995f2aa32e9472a8e57d1dfe6dec432f79c7217da0f92522279565ba
+Description:  HTTP/1.1 client library
+
+Package: libusb-1.0
+Version: 1.0.9-1
+Depends: libc, libpthread, librt
+Source: package/libs/libusb
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 23963
+Filename: libusb-1.0_1.0.9-1_realtek.ipk
+Size: 24558
+MD5Sum: 23f46e2398413fcf78e4cf7897e53bf0
+SHA256sum: fbc1cc048a08446420f8647eddaa61d301b80099af599f1bf068f622fa54b998
+Description:  libusb is a C library that gives applications easy access to USB devices on
+ many different operating systems.
+
+Package: libustream-polarssl
+Version: 2014-03-25-fc0b5ec804ee43c532978dd04ab0509c34baefb0
+Depends: libc, libubox, libpolarssl
+Source: package/libs/ustream-ssl
+License: ISC
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 3513
+Filename: libustream-polarssl_2014-03-25-fc0b5ec804ee43c532978dd04ab0509c34baefb0_realtek.ipk
+Size: 4093
+MD5Sum: 64326c76c8828894ea93cc598bef7a05
+SHA256sum: 2e83d468237c284d504abab01c27159509f039859cdc5420e6988994361c2dbd
+Description:  ustream SSL Library (polarssl)
+
+Package: libuuid
+Version: 2.24.1-1
+Depends: libc
+Source: package/utils/util-linux
+License: GPLv2 LGPLv2.1 BSD-3c
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+Architecture: realtek
+Installed-Size: 5553
+Filename: libuuid_2.24.1-1_realtek.ipk
+Size: 6315
+MD5Sum: 9398cf29097402aed538e01d87418f87
+SHA256sum: d8957e532633e292ae3894eeea4285cae9d0046649d6e1aa8689a305bd43e052
+Description:  The UUID library is used to generate unique identifiers for objects
+ that may be accessible beyond the local system. This library
+ generates UUIDs compatible with those created by the Open Software
+ Foundation (OSF) Distributed Computing Environment (DCE) utility.
+
+Package: libxtables
+Version: 1.4.21-1
+Depends: libc
+Source: package/network/utils/iptables
+Section: libs
+Architecture: realtek
+Installed-Size: 18161
+Filename: libxtables_1.4.21-1_realtek.ipk
+Size: 18722
+MD5Sum: 78e26a62729e94f5e9c468c7696c9b2a
+SHA256sum: a7ea753737331d3489a5c22a64f9189ebb8d8cb043272e9cd1e1176062eb35c4
+Description:  IPv4/IPv6 firewall - shared xtables library
+
+Package: linux-atm
+Version: 2.5.2-5
+Depends: libc
+Source: package/network/utils/linux-atm
+Section: libs
+Architecture: realtek
+Installed-Size: 17908
+Filename: linux-atm_2.5.2-5_realtek.ipk
+Size: 18466
+MD5Sum: 2172a7f834f39a697ba8ffcb4ab3d274
+SHA256sum: fa9fb8315518c9312ac2156385fa4e4ea568fcf5d03d5b42c845e2163de35abd
+Description:  This package contains a library for accessing the Linux ATM subsystem.
+
+Package: logger
+Version: 2.24.1-1
+Depends: libc
+Source: package/utils/util-linux
+License: GPLv2 LGPLv2.1 BSD-3c
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: realtek
+Installed-Size: 8564
+Filename: logger_2.24.1-1_realtek.ipk
+Size: 9225
+MD5Sum: 315a40bbff0e7eb64881ff2c04b61447
+SHA256sum: 72923df6325ec9b1ac92e3e55995ae012ce3d0379ae1fdca2523c5f729ae1834
+Description:  logger makes entries in the system log, it provides a shell command interface
+ to the syslog system log module
+
+Package: lua
+Version: 5.1.5-1
+Depends: libc, liblua
+Source: package/utils/lua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 4926
+Filename: lua_5.1.5-1_realtek.ipk
+Size: 5605
+MD5Sum: 8d0def994828ff41e1889dd052c0edc5
+SHA256sum: b099e12f211c768271017e266e6423da15d359a9f609628586710fca38ad0b7c
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language interpreter.
+
+Package: mountd
+Version: 0.1-6
+Depends: libc, uci, kmod-usb-storage, kmod-fs-autofs4
+Source: package/system/mountd
+Section: utils
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: realtek
+Installed-Size: 11391
+Filename: mountd_0.1-6_realtek.ipk
+Size: 12014
+MD5Sum: 503bfc2a4b47c4956e621ce145febcda
+SHA256sum: 0f8cebcf9675cc8bc748ec65ae1bd2b402ebc81054d4d9e3bae723c7de72f914
+Description:  openwrt automount daemon
+
+Package: mtd
+Version: 20
+Depends: libc, libubox
+Source: package/system/mtd
+License: GPLv2 GPLv2+
+Section: utils
+Architecture: realtek
+Installed-Size: 13286
+Filename: mtd_20_realtek.ipk
+Size: 13844
+MD5Sum: 85582f3ae98929bc58ca169a12a09a32
+SHA256sum: c4138da29dcc25c1d45afb71ebfb4e66219ac372f3b2018562d6360a3abba2cc
+Description:  This package contains an utility useful to upgrade from other firmware or 
+ older OpenWrt releases.
+
+Package: netifd
+Version: 2016-12-09-edc15caac6c6d3b2d8ea17f98ecbaba81ba573dc
+Depends: libc, libuci, libnl-tiny, libubus, ubus, ubusd, jshn, libubox
+Source: package/network/config/netifd
+License: GPLv2
+Section: base
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 64974
+Filename: netifd_2016-12-09-edc15caac6c6d3b2d8ea17f98ecbaba81ba573dc_realtek.ipk
+Size: 65014
+MD5Sum: d6a02f365197f1ecc380a17b3f09b0e9
+SHA256sum: 5e181e0ea3560180ecb53501ced0ab6227a287a39ee506fc21652e3f0ada727f
+Description:  OpenWrt Network Interface Configuration Daemon
+
+Package: openssl-util
+Version: 1.0.1j-1
+Depends: libc, libopenssl
+Source: package/libs/openssl
+License: SSLEAY OPENSSL
+LicenseFiles: LICENSE
+Section: utils
+Architecture: realtek
+Installed-Size: 197711
+Filename: openssl-util_1.0.1j-1_realtek.ipk
+Size: 196001
+MD5Sum: bbc994bc3856b5ce7016a1d08e09eb4b
+SHA256sum: 54ff32c0b47d7f0fd209d4f2f2b7b99d8534be90c7c366931067991cd5d07b43
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+ Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+ as a full-strength general purpose cryptography library.
+ This package contains the OpenSSL command-line utility.
+
+Package: openvpn-easy-rsa
+Version: 2013-01-30-2
+Depends: libc, openssl-util
+Source: package/network/services/openvpn-easy-rsa
+Section: net
+Architecture: realtek
+Installed-Size: 10072
+Filename: openvpn-easy-rsa_2013-01-30-2_realtek.ipk
+Size: 10721
+MD5Sum: dd74bb97c6c5210f25dd7211dc6ee68d
+SHA256sum: 3a16b866bb0f167d3c95925b5bcd81448af4ce4d73c22cfb210094a6fafba4a1
+Description:  Simple shell scripts to manage a Certificate Authority
+
+Package: openvpn-nossl
+Version: 2.3.4-1
+Depends: libc, kmod-tun, liblzo
+Source: package/network/services/openvpn
+Section: net
+Maintainer: Mirko Vogt <mirko@openwrt.org>
+Architecture: realtek
+Installed-Size: 87674
+Filename: openvpn-nossl_2.3.4-1_realtek.ipk
+Size: 87983
+MD5Sum: 2b4b02b0e8aa919c7113c6e09e804f9c
+SHA256sum: e7f8e33eebd117b9a5952eec437da95106d742f42730d120de269227d8fda2e0
+Description:  Open source VPN solution using plaintext (no SSL)
+
+Package: openvpn-openssl
+Version: 2.3.4-1
+Depends: libc, kmod-tun, liblzo, libopenssl
+Source: package/network/services/openvpn
+Section: net
+Maintainer: Mirko Vogt <mirko@openwrt.org>
+Architecture: realtek
+Installed-Size: 175226
+Filename: openvpn-openssl_2.3.4-1_realtek.ipk
+Size: 174176
+MD5Sum: 3787ff13672041567ed94b8d18526f8b
+SHA256sum: 93f7dcff48ef0fa45b917fa044701c4f82aa334fe9640cb82b1013d291ddfab6
+Description:  Open source VPN solution using OpenSSL
+
+Package: opkg
+Version: 9c97d5ecd795709c8584e972bfdf3aee3a5b846d-7
+Depends: libc
+Source: package/system/opkg
+License: GPLv2
+LicenseFiles: COPYING
+Section: base
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: realtek
+Installed-Size: 61957
+Filename: opkg_9c97d5ecd795709c8584e972bfdf3aee3a5b846d-7_realtek.ipk
+Size: 62484
+MD5Sum: 636585069b6f1ab009227677e542980f
+SHA256sum: 9da7c888ae83269577c47023db0e4b4fae7f6d52be470b72d45ca631f91f49e3
+Description:  Lightweight package management system
+ opkg is the opkg Package Management System, for handling
+ installation and removal of packages on a system. It can
+ recursively follow dependencies and download all packages
+ necessary to install a particular package.
+ 
+ opkg knows how to install both .ipk and .deb packages.
+
+Package: ppp-mod-pppoa
+Version: 2.4.7-2
+Depends: libc, linux-atm, kmod-pppoa
+Source: package/network/services/ppp
+Section: net
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: realtek
+Installed-Size: 8006
+Filename: ppp-mod-pppoa_2.4.7-2_realtek.ipk
+Size: 8634
+MD5Sum: 6bbd8eb005ec49a433b5c2835042be07
+SHA256sum: 006e504d0ade64cde2fe838689c186e4951dada4b07a2d875044bbd5219f0d67
+Description:  This package contains a PPPoA (PPP over ATM) plugin for ppp.
+
+Package: ppp-mod-pppoe
+Version: 2.4.7-2
+Depends: libc, kmod-pppoe
+Source: package/network/services/ppp
+Section: net
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: realtek
+Installed-Size: 9947
+Filename: ppp-mod-pppoe_2.4.7-2_realtek.ipk
+Size: 10553
+MD5Sum: 31028fb4b94e85bac3fe7ee87886df20
+SHA256sum: 4725d2aa26380ad49b56bf73390a9c2b17578f0d405c5351ef80e47922c1b0b7
+Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
+
+Package: ppp-mod-pppol2tp
+Version: 2.4.7-2
+Depends: libc, kmod-pppol2tp
+Source: package/network/services/ppp
+Section: net
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: realtek
+Installed-Size: 4664
+Filename: ppp-mod-pppol2tp_2.4.7-2_realtek.ipk
+Size: 5237
+MD5Sum: 3294fe541ee83de4ab66a0f41790b61f
+SHA256sum: ac6b0533fbf7440b6b030cb2c774a94e071fe99074b46375d34f47076d95c6af
+Description:  This package contains a PPPoL2TP (PPP over L2TP) plugin for ppp.
+
+Package: ppp-mod-pptp
+Version: 2.4.7-2
+Depends: libc, kmod-pptp, kmod-mppe, resolveip
+Source: package/network/services/ppp
+Section: net
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: realtek
+Installed-Size: 16613
+Filename: ppp-mod-pptp_2.4.7-2_realtek.ipk
+Size: 17133
+MD5Sum: e80059aac487636dcc4759a589031299
+SHA256sum: 80ad465db864e2683be9ba98bf4cdbb08cec6b637ca942cf0f310fc3a8ed4fa9
+Description:  This package contains a PPtP plugin for ppp.
+
+Package: ppp-multilink
+Version: 2.4.7-2
+Depends: libc, kmod-ppp
+Source: package/network/services/ppp
+Section: net
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: realtek
+Installed-Size: 132490
+Filename: ppp-multilink_2.4.7-2_realtek.ipk
+Size: 132492
+MD5Sum: 2de8323661a0cd65408f88fab03589d6
+SHA256sum: 3dee354ad582fd650304b411cb026995b390f4cd411d57ac44e955dce30e171a
+Description:  PPP daemon (with multilink support)
+
+Package: ppp
+Version: 2.4.7-2
+Depends: libc, kmod-ppp
+Source: package/network/services/ppp
+Section: net
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: realtek
+Installed-Size: 118464
+Filename: ppp_2.4.7-2_realtek.ipk
+Size: 118471
+MD5Sum: d4d53ae211f514ead2afd37e1cd6f455
+SHA256sum: e84f234ae91f8f5e2d71cd09e8bc8f0d537529dd65d8bd31c0013276f471cb45
+Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
+
+Package: procd
+Version: 2014-09-15-c1a558f7d0c1e6c1ffa5a47d557a7b45205eef1d
+Depends: libc, ubusd, ubus, libjson-script, ubox, libubox, libubus
+Source: package/system/procd
+License: GPLv2
+Section: base
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: realtek
+Installed-Size: 33014
+Filename: procd_2014-09-15-c1a558f7d0c1e6c1ffa5a47d557a7b45205eef1d_realtek.ipk
+Size: 33133
+MD5Sum: d6f35d43b0759d88961bed99b8a048e8
+SHA256sum: 516e44cf836a36acc0ffe08bd14a06e1b53950258149cd66175c9769f8bbf24e
+Description:  OpenWrt system process manager
+
+Package: px5g
+Version: 1
+Depends: libc, libpolarssl
+Source: package/utils/px5g
+Section: utils
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: realtek
+Installed-Size: 4148
+Filename: px5g_1_realtek.ipk
+Size: 4763
+MD5Sum: 15c817ac2f704e0420e1901446bea886
+SHA256sum: 0fe5936f235a9faefb2e6ff3b66e8e210ea935d19ce499cf306ed973e0bf1324
+Description:  Px5g is a tiny standalone X.509 certificate generator.
+ It suitable to create key files and certificates in DER
+ and PEM format for use with stunnel, uhttpd and others.
+
+Package: qos-scripts
+Version: 1.2.1-6
+Depends: libc, tc, kmod-sched-core, kmod-sched-connmark, kmod-ifb, iptables, iptables-mod-filter, iptables-mod-ipopt, iptables-mod-conntrack-extra
+Source: package/network/config/qos-scripts
+Section: utils
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: all
+Installed-Size: 6429
+Filename: qos-scripts_1.2.1-6_all.ipk
+Size: 7130
+MD5Sum: 6942e5974e42f264a2bb170e5de33f88
+SHA256sum: 59bca701c0adc7bb394b0eb0de1ee16633537a16a662ada97888327410bdedd1
+Description:  A set of scripts that abstract QoS configuration into a simple 
+ configuration file supporting stanzas that specify any number of QoS 
+ entries.
+
+Package: relayd
+Version: 2016-02-07-ad0b25ad74345d367c62311e14b279f5ccb8ef13
+Depends: libc, libubox
+Source: package/network/services/relayd
+License: GPL-2.0
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: realtek
+Installed-Size: 9944
+Filename: relayd_2016-02-07-ad0b25ad74345d367c62311e14b279f5ccb8ef13_realtek.ipk
+Size: 10549
+MD5Sum: eb069d28cdf091c70d2973843f0ae59f
+SHA256sum: 65265f23003e7f6f1dc37b4b494164855826d52682677c4401794dd9ab8db941
+Description:  Transparent routing / relay daemon
+
+Package: resolveip
+Version: 2
+Depends: libc
+Source: package/network/utils/resolveip
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: realtek
+Installed-Size: 1952
+Filename: resolveip_2_realtek.ipk
+Size: 2658
+MD5Sum: c135ff5f727143fc570744bb6d2a9929
+SHA256sum: d6a2f678826d9e90385bf5e47ab8733c7add0431c87fc7d773a5b9372e8e92b2
+Description:  This package contains the small resolveip utility which
+ can be used by scripts to turn host names into numeric
+ IP addresses. It supports IPv4 and IPv6 resolving and
+ has a configurable timeout to guarantee a certain maximum
+ runtime in case of slow or defunct DNS servers.
+
+Package: rf-ctrl
+Version: 0.6-1
+Depends: libc, libpthread, libusb-1.0
+Source: package/utils/rf-ctrl
+Section: utils
+Architecture: realtek
+Installed-Size: 19933
+Filename: rf-ctrl_0.6-1_realtek.ipk
+Size: 20400
+MD5Sum: 9ee2397990083f299ca6e9a0c882c2ae
+SHA256sum: 72d8722f4c7dc472c414fa334a8c94db3f8ccf5f31412328bb6cc8137ec9d584
+Description:  433 MHz OOK based devices control utility
+
+Package: rtk_app
+Version: 0.1-1
+Depends: libc, libpcap
+Source: package/utils/rtk_app
+Section: Tool
+Architecture: realtek
+Installed-Size: 224039
+Filename: rtk_app_0.1-1_realtek.ipk
+Size: 223103
+MD5Sum: 4145a695aa4ef7387c255840dbf5ebda
+SHA256sum: 8820445fc790e1c61f7309a7a0f562f40df531a45d4e66d21fcd74ef51bae37f
+Description:  This Package is for realtek to set WLAN TX calibration parameters 
+
+Package: samba36-server
+Version: 3.6.24-1
+Depends: libc
+Source: package/network/services/samba36
+License: GPLv3
+LicenseFiles: COPYING
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 963480
+Filename: samba36-server_3.6.24-1_realtek.ipk
+Size: 950000
+MD5Sum: be197faacd4e4456115651e692230d55
+SHA256sum: 5bdd01364974e05378e431a6f88ad81aafb4775fdcafebeeafd03b3ac13cb317
+Description:  The Samba software suite is a collection of programs that implements the
+ SMB protocol for UNIX systems, allowing you to serve files and printers to
+ Windows, NT, OS/2 and DOS clients. This protocol is sometimes also referred
+ to as the LanManager or Netbios protocol.
+
+Package: swconfig
+Version: 10
+Depends: libc, libuci, libnl-tiny
+Source: package/network/config/swconfig
+Section: base
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 8231
+Filename: swconfig_10_realtek.ipk
+Size: 8791
+MD5Sum: 35ceb4f942a71a720b21aef080293cf7
+SHA256sum: cabfd4805779f9cc07d0834cbd53d9584c607f2c064c7d49dc7fc3191762a144
+Description:  Switch configuration utility
+
+Package: tc
+Version: 3.15.0-1
+Depends: libc, kmod-sched-core
+Source: package/network/utils/iproute2
+Section: net
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: realtek
+Installed-Size: 101434
+Filename: tc_3.15.0-1_realtek.ipk
+Size: 101998
+MD5Sum: 52da42820ee07603949c22bca61f5993
+SHA256sum: ce821ab4369611e5e3ef24963e76e5c84c8caba06b2da0a73da30242a7232544
+Description:  Traffic control utility
+
+Package: tcpdump
+Version: 4.5.1-4
+Depends: libc, libpcap
+Source: package/network/utils/tcpdump
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 298559
+Filename: tcpdump_4.5.1-4_realtek.ipk
+Size: 298116
+MD5Sum: f7861b5020e2759c357cbd4cc543993d
+SHA256sum: 64a643593c9a2334fa471780b409e253a2409a3de626b841e392e646b1de0d80
+Description:  Network monitoring and data acquisition tool
+
+Package: terminfo
+Version: 5.9-1
+Depends: libc
+Source: package/libs/ncurses
+License: FREE
+LicenseFiles: README
+Section: libs
+Architecture: realtek
+Installed-Size: 5799
+Filename: terminfo_5.9-1_realtek.ipk
+Size: 6306
+MD5Sum: 09353119045ef0240a6ffdda81df6892
+SHA256sum: e3c3e95cc8f3b764be7fb9a2ae09b5f4aa059d58b3f81d274cb14901db7da231
+Description:  Terminal Info Database (ncurses)
+
+Package: ubox
+Version: 2014-09-16-5c45b560bc8c9e13682269ed963a8a4a65959518
+Depends: libc, libubox, ubusd, ubus, libubus, libuci
+Source: package/system/ubox
+License: GPLv2
+Section: base
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: realtek
+Installed-Size: 23157
+Filename: ubox_2014-09-16-5c45b560bc8c9e13682269ed963a8a4a65959518_realtek.ipk
+Size: 23633
+MD5Sum: 4db5c47c1d978a1c5908290e1c84f685
+SHA256sum: cf205bfd9039aca876835cebba4561344a8bfef633b5cd816f0eb5ba06be9bdb
+Description:  OpenWrt system helper toolbox
+
+Package: ubus
+Version: 2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3
+Depends: libc, libubus, libblobmsg-json, ubusd
+Source: package/system/ubus
+License: LGPLv2.1
+Section: base
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 4191
+Filename: ubus_2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3_realtek.ipk
+Size: 4788
+MD5Sum: 91eeab419aab6c94bb00397fb4b17f2b
+SHA256sum: c315ab922a9603b8403a576c3ea8647217065f1f35e3834938d5beaadd2448ea
+Description:  OpenWrt RPC client utility
+
+Package: ubusd
+Version: 2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3
+Depends: libc, libubox
+Source: package/system/ubus
+License: LGPLv2.1
+Section: base
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 7554
+Filename: ubusd_2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3_realtek.ipk
+Size: 8201
+MD5Sum: 5b2e617c869e6b0d98ec77f149f0fda5
+SHA256sum: 6e5d408641037027be767146ba94d07d351024dfc3cb7248782b90fedbe81d21
+Description:  OpenWrt RPC daemon
+
+Package: uci
+Version: 2014-04-11.1-1
+Depends: libc, libuci
+Source: package/system/uci
+License: LGPLv2.1 GPLv2
+Section: base
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 7049
+Filename: uci_2014-04-11.1-1_realtek.ipk
+Size: 7665
+MD5Sum: fc575f740009c8ab3d0094dc0db7c18b
+SHA256sum: 3017444f6c403493cdf6bd91a4d3e620fa343b2bf3750fb648ce976108da94e4
+Description:  Utility for the Unified Configuration Interface (UCI)
+
+Package: uclibcxx
+Version: 0.2.4-1
+Depends: libc
+Source: package/libs/uclibc++
+Section: libs
+Architecture: realtek
+Installed-Size: 61918
+Filename: uclibcxx_0.2.4-1_realtek.ipk
+Size: 62182
+MD5Sum: f90f821fa451530d620d868366a83726
+SHA256sum: 8c444ff12627b37eb152fd421cd3e841556b94f37c9b6ea3a559cb2f2bf06322
+Description:  C++ library for embedded systems
+
+Package: udev
+Version: 173-1
+Depends: libc, librt
+Source: package/system/udev
+Section: base
+Maintainer: Geoff Levand <geoff@infradead.org>
+Architecture: realtek
+Installed-Size: 222662
+Filename: udev_173-1_realtek.ipk
+Size: 222427
+MD5Sum: 14608d3e979d9eefe9145ac377535f81
+SHA256sum: 33ec10bc33b953392db3f4ac717041381a2204673182c196dc2f34e2b1a6ea7e
+Description:  udev allows Linux users to have a dynamic /dev directory and it
+ provides the ability to have persistent device names.
+
+Package: uhttpd-mod-ubus
+Version: 2014-08-25-dabd7dea6445aaa0e5b8d9add1872fa7393b3a85
+Depends: libc, uhttpd, libubus, libblobmsg-json
+Source: package/network/services/uhttpd
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 5854
+Filename: uhttpd-mod-ubus_2014-08-25-dabd7dea6445aaa0e5b8d9add1872fa7393b3a85_realtek.ipk
+Size: 6531
+MD5Sum: cbc55e6abcdc0f610e4b46ec079850f7
+SHA256sum: 8c88142edd6ea68dee3d251d294ac1a77d6dd0146f33f1fd63b3cdb0d5f4b34a
+Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
+ session.* namespace and procedures.
+
+Package: uhttpd
+Version: 2014-08-25-dabd7dea6445aaa0e5b8d9add1872fa7393b3a85
+Depends: libc, libubox
+Source: package/network/services/uhttpd
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 21051
+Filename: uhttpd_2014-08-25-dabd7dea6445aaa0e5b8d9add1872fa7393b3a85_realtek.ipk
+Size: 21538
+MD5Sum: ea250ea31f43ac9da9c38534356b8194
+SHA256sum: a028d285f997c59d8de3969d8c02d52cda010c3d6e285c92b08b018c8bbfe8e5
+Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
+ support. It is intended as a drop-in replacement for the Busybox
+ HTTP daemon.
+
+Package: usb-modeswitch
+Version: 2014-07-18-01ecc3b9764d1dd89cf36ede0a2d98f9adb0cd33
+Depends: libc, libubox, libblobmsg-json, libusb-1.0
+Source: package/utils/usbmode
+License: GPLv2
+Section: utils
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 11766
+Filename: usb-modeswitch_2014-07-18-01ecc3b9764d1dd89cf36ede0a2d98f9adb0cd33_realtek.ipk
+Size: 12372
+MD5Sum: 1013da9550d2655ae9151a8e99623a6e
+SHA256sum: 2f071a48c8ce1542b00834f7ca7a5f4ae186ac19fdfe8788653dda8e2433762a
+Description:  USB mode switching utility
+
+Package: usbreset
+Version: 4
+Depends: libc
+Source: package/utils/usbreset
+Section: utils
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: realtek
+Installed-Size: 2861
+Filename: usbreset_4_realtek.ipk
+Size: 3516
+MD5Sum: 3947b848b49039b4a5e55bd89b07da24
+SHA256sum: fa117ecfe7c217022ba8e68493a2b2202eb3673282c91ea7f1ced4c4e9d0ab92
+Description:  This package contains the small usbreset utility which
+ can be used to send a USB port reset to a USB device -
+ useful for debugging or to force re-detection of particular
+ devices.
+
+Package: usbutils
+Version: 007-1
+Depends: libc, libusb-1.0, zlib, librt, libpthread
+Source: package/utils/usbutils
+Section: utils
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 210087
+Filename: usbutils_007-1_realtek.ipk
+Size: 210662
+MD5Sum: c818ed7edabb02559295d60edb21ebc2
+SHA256sum: 26020f18c3eed9e9c8edec4338c0cffaacb64b1c1ce82f5744fca518cfe4f4c9
+Description:  USB devices listing utilities
+
+Package: uuidd
+Version: 2.24.1-1
+Depends: libc, libuuid
+Source: package/utils/util-linux
+License: GPLv2 LGPLv2.1 BSD-3c
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: realtek
+Installed-Size: 9554
+Filename: uuidd_2.24.1-1_realtek.ipk
+Size: 10321
+MD5Sum: bbb8b4ce27aabdc36d65bd17e8c134ff
+SHA256sum: f17065f3bf1e674bebafa72c79f2851f8073c146ad7f605aa8348617a5583951
+Description:  The uuidd daemon is used by the UUID library to generate universally unique
+ identifiers (UUIDs), especially time-based UUIDs, in a secure and
+ guaranteed-unique fashion, even in the face of large numbers of threads
+ running on different CPUs trying to grab UUIDs.
+
+Package: uuidgen
+Version: 2.24.1-1
+Depends: libc, libuuid
+Source: package/utils/util-linux
+License: GPLv2 LGPLv2.1 BSD-3c
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: realtek
+Installed-Size: 2531
+Filename: uuidgen_2.24.1-1_realtek.ipk
+Size: 3296
+MD5Sum: f5c09ca663d474b615a79fee98723d00
+SHA256sum: 08e3848a1ee1bb0bf964498beda7ff56c36421ad7362b124786b09f6ce0bc97a
+Description:  The uuidgen program creates (and prints) a new universally unique identifier
+ (UUID) using the libuuid library. The new UUID can reasonably be considered
+ unique among all UUIDs created on the local system, and among UUIDs created on
+ other systems in the past and in the future.
+
+Package: wireless-tools
+Version: 29-5
+Depends: libc
+Source: package/network/utils/wireless-tools
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: realtek
+Installed-Size: 24966
+Filename: wireless-tools_29-5_realtek.ipk
+Size: 25487
+MD5Sum: 42ebb9c484698482af005eb413fb8504
+SHA256sum: b926299cf416457cdc6959170f8c169db6ae304292ccd3bfce4af69e2a2882b8
+Description:  This package contains a collection of tools for configuring wireless
+ adapters implementing the "Linux Wireless Extensions".
+
+Package: zlib
+Version: 1.2.8-1
+Depends: libc
+Source: package/libs/zlib
+License: ZLIB
+LicenseFiles: README
+Section: libs
+Architecture: realtek
+Installed-Size: 44148
+Filename: zlib_1.2.8-1_realtek.ipk
+Size: 44592
+MD5Sum: 5bcae83eafe33c7d651027008e3e7a75
+SHA256sum: e9d75abcc71f149b0f4ba1e5f2ba3804b25294108d9df9f5b7f376a9a91f76a5
+Description:  Library implementing the deflate compression method
+
+Package: zram-swap
+Version: 1-2
+Depends: libc, kmod-zram, block-mount
+Source: package/system/zram-swap
+Section: utils
+Architecture: all
+Installed-Size: 1119
+Filename: zram-swap_1-2_all.ipk
+Size: 1721
+MD5Sum: 203db7d631b4c5233686bb83225ff664
+SHA256sum: 1e6cfe59c16886e33b5351a7c448daeac32d58e20b104ce1649a637805cdcdc5
+Description:  A script to activate swaping on a compressed zram partition. This 
+ could be used to increase the available memory, by using compressed 
+ memory.
+
