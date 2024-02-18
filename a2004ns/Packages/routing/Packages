@@ -1,0 +1,119 @@
+Package: ahcpd
+Version: 0.53-2
+Depends: libc, kmod-ipv6, ip, librt
+Source: feeds/routing/ahcpd
+Section: net
+Maintainer: Gabriel Kerneis <gabriel@kerneis.info>
+Architecture: realtek
+Installed-Size: 23264
+Filename: ahcpd_0.53-2_realtek.ipk
+Size: 23952
+MD5Sum: b4c912ae60dea7f22ce61f05014c3e4b
+SHA256sum: 9f087c0db46764cab7a0349a113134c3ee2208c490aad937000aad90888bd756
+Description:  Ahcpd is a daemon for configuring an IPv6 network using the Ad-Hoc
+ Configuration Protocol (AHCP).  AHCP is designed for wireless mesh
+ networks, where IPv6 autoconfiguration and DHCPv6 do not work, but may
+ also be used on wired networks.
+
+Package: bmx6
+Version: r2015061604-4
+Depends: libc, kmod-ip6-tunnel, kmod-iptunnel6, kmod-tun
+Source: feeds/routing/bmx6
+Section: net
+Maintainer: Axel Neumann <neumann@cgws.de>
+Architecture: realtek
+Installed-Size: 150336
+Filename: bmx6_r2015061604-4_realtek.ipk
+Size: 150796
+MD5Sum: 4f257d071b685082fde56aa7c98d22cd
+SHA256sum: a2a7c298f16e93594f2369eb2f6b6e817042a673d03f86f3a506c121ba7da002
+Description:  BMX6 layer 3 routing daemon supporting IPv4, IPv6, and IPv4 over IPv6
+
+Package: luci-app-bmx6
+Version: 2
+Depends: libc, luci-lib-json, luci-mod-admin-core, luci-lib-httpclient, bmx6
+Source: feeds/routing/luci-app-bmx6
+Section: luci
+Maintainer: Pau Escrich <p4u@dabax.net>
+Architecture: realtek
+Installed-Size: 95092
+Filename: luci-app-bmx6_2_realtek.ipk
+Size: 95800
+MD5Sum: 78f055889e82a23152979fc765da1b09
+SHA256sum: 53913ac3ce14e26b62cb7ae1c2eabd54f8e262080702f0e286f0426cef7f1518
+Description:  bmx6 web module for LuCi web interface
+
+Package: miniupnpd
+Version: 1.8.20140523-4
+Depends: libc, iptables, libip4tc, libip6tc, ip6tables, libnfnetlink
+Source: feeds/routing/miniupnpd
+Section: net
+Maintainer: Markus Stenberg <fingon@iki.fi>
+Architecture: realtek
+Installed-Size: 56258
+Filename: miniupnpd_1.8.20140523-4_realtek.ipk
+Size: 56771
+MD5Sum: 1acd85d782f43ed74b688bd1b0987232
+SHA256sum: e1cdaa30e9773e15159ec08319b93962cc53e5d62065dfc4d92882fc488731f4
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: olsrd-mod-jsoninfo
+Version: 0.9.0.2-6
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: realtek
+Installed-Size: 14087
+Filename: olsrd-mod-jsoninfo_0.9.0.2-6_realtek.ipk
+Size: 14638
+MD5Sum: cf9515c887f85e21521b5af675e6cf61
+SHA256sum: 91d8a738312d62cfffcf03fce70b31e9312828cc763e81daa957250d7d074eb3
+Description:  Small informative plugin with JSON output
+
+Package: olsrd-mod-nameservice
+Version: 0.9.0.2-6
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: realtek
+Installed-Size: 11324
+Filename: olsrd-mod-nameservice_0.9.0.2-6_realtek.ipk
+Size: 11917
+MD5Sum: bd42844cd28d0e4be5d17d234935a281
+SHA256sum: 077e61c693039089e3a4125a7a4ea8702923657c31eeacd08fd78131061465ce
+Description:  Lightweight hostname resolver plugin
+
+Package: olsrd-mod-txtinfo
+Version: 0.9.0.2-6
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: realtek
+Installed-Size: 7691
+Filename: olsrd-mod-txtinfo_0.9.0.2-6_realtek.ipk
+Size: 8303
+MD5Sum: c43058c470a4b3c7fa322c2d43952f40
+SHA256sum: 4b2b2e359ef6d628b15783777da3efe16a0036b83f7cc13ca57d383796bd6da9
+Description:  Small informative web server plugin
+
+Package: olsrd
+Version: 0.9.0.2-6
+Depends: libc, libpthread
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: realtek
+Installed-Size: 135216
+Filename: olsrd_0.9.0.2-6_realtek.ipk
+Size: 135704
+MD5Sum: 961d4581d67610c5afa0eac488ffaa3c
+SHA256sum: e3675c56ff5694b4cf9ea52ac527f7e659d5f963b82e35d597d4235eac169136
+Description:  OLSR (Optimized Link State Routing) daemon
+
