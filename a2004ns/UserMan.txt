@@ -18,6 +18,6 @@ https://sourceforge.net/projects/rtl8197xd-v2-5-pkg/files/
 src/gz barrier_breaker_base https://github.com/maxandroid/maxandroid.github.io/tree/main/a2004ns/Packages/base
 src/gz barrier_breaker_telephony https://github.com/maxandroid/maxandroid.github.io/tree/main/a2004ns/Packages/telephony
 src/gz barrier_breaker_oldpackages https://github.com/maxandroid/maxandroid.github.io/tree/main/a2004ns/Packages/oldpackages
-src/gz barrier_breaker_packages https://github.com/maxandroid/maxandroid.github.io/tree/main/a2004ns/Packages/Packages
+src/gz barrier_breaker_packages https://github.com/maxandroid/maxandroid.github.io/tree/main/a2004ns/Packages/packages
 src/gz barrier_breaker_routing https://github.com/maxandroid/maxandroid.github.io/tree/main/a2004ns/Packages/routing
 src/gz barrier_breaker_luci https://github.com/maxandroid/maxandroid.github.io/tree/main/a2004ns/Packages/luci
